@@ -27,11 +27,13 @@ public class MineralEssentials
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
     }
+
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
 
     }
+
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
