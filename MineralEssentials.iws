@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2be1759e-379f-4ed2-a113-55927cdc7586" name="Default" comment="Added config setings">
+    <list default="true" id="2be1759e-379f-4ed2-a113-55927cdc7586" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/Copper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlcoksWrap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlocks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItems.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItemsWrap.java" />
+      <change type="DELETED" beforePath="C:\Users\Sam\Desktop\Coding\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\proxy\IProxy.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MineralEssentials.ipr" afterPath="$PROJECT_DIR$/MineralEssentials.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MineralEssentials.iws" afterPath="$PROJECT_DIR$/MineralEssentials.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" />
     </list>
     <ignored path="MineralEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +68,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -67,15 +77,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MineralEssentials.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MineralEssentials.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68292683" vertical-offset="0" max-vertical-offset="697">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-              <folding>
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="799">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reference.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56007755" vertical-offset="0" max-vertical-offset="516">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -642,14 +679,21 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/client/gui/ModGuiConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ServerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/utility/LogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/utility/RegisterHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/handeler/ConfigHandeler.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/handeler/ConfigHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/handler/ConfigHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlcoksWrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItemsWrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/Copper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" />
       </list>
     </option>
   </component>
@@ -730,7 +774,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="io.github.mecorp.mineralessentials" />
+              <option name="myItemId" value="io.github.mecorp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -771,11 +815,11 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Builds" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -784,6 +828,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sam\Desktop\Coding\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\utility" />
       <recent name="C:\Users\Sam\Desktop\Coding\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\proxy" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.mecorp" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
@@ -836,19 +883,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -874,6 +908,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -936,7 +983,7 @@
       <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
       <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M -Djava.library.path=&quot;$PROJECT_DIR$/../MineralEssentials\build\natives&quot; -Dfml.ignoreInvalidMinecraftCertificates=true" />
-      <option name="PROGRAM_PARAMETERS" value="--username sam@untamemadman.pw --password bob123499" />
+      <option name="PROGRAM_PARAMETERS" value="--username sam@untamemadman.pw --password MECorp1999" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -1011,7 +1058,11 @@
       <created>1408988072319</created>
       <updated>1408988072319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Formtting -_-">
+      <created>1408996091181</created>
+      <updated>1408996091181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1028,6 +1079,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827586" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1035,15 +1087,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24861878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24861878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Aquarium" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.9207692" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="892" y="80" width="429" height="725" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1065,7 +1116,8 @@
     <MESSAGE value="Made to work with Java 7 not 8 due to loading issue" />
     <MESSAGE value="Made to work with Java 7 not 8 due to loading issue&#10;Added .gitignore" />
     <MESSAGE value="Added config setings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added config setings" />
+    <MESSAGE value="Formtting -_-" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formtting -_-" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1092,12 +1144,177 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="799">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="799">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/Copper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/Copper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlcoksWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItemsWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,10 +1322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="595">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,10 +1330,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="646">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,15 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.075555556" vertical-offset="0" max-vertical-offset="450">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5288889" vertical-offset="0" max-vertical-offset="450">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,14 +1411,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItemsWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17097701" vertical-offset="0" max-vertical-offset="696">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlcoksWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17097701" vertical-offset="0" max-vertical-offset="696">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/Copper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/CopperItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68292683" vertical-offset="0" max-vertical-offset="697">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="799">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56007755" vertical-offset="0" max-vertical-offset="516">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

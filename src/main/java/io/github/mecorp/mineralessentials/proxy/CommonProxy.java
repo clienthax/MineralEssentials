@@ -1,5 +1,8 @@
 package io.github.mecorp.mineralessentials.proxy;
-public abstract class CommonProxy implements IProxy
+public class CommonProxy
 {
+    public void initCapes()
+    {
 
+    }
 }

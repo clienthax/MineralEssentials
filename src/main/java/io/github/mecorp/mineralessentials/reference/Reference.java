@@ -11,4 +11,8 @@ public class Reference
     public static final String ClientProxyClass = "io.github.mecorp.mineralessentials.proxy.ClientProxy";
     public static final String ServerProxyClass = "io.github.mecorp.mineralessentials.proxy.ServerProxy";
     public static final String GUIFactoryClass = "io.github.mecorp.mineralessentials.client.gui.GuiFactory";
+    public static final String DevCapes = "http://pastebin.com/raw.php?i=5xhGxAt0";
 }
+
+// http://pastebin.com/raw.php?i=5xhGxAt0
+// https://raw.githubusercontent.com/ME-Corp/ME-Capes/master/MineralEssentials/capes.json

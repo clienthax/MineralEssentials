@@ -6,7 +6,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
-import io.github.mecorp.mineralessentials.proxy.IProxy;
+import io.github.mecorp.mineralessentials.proxy.CommonProxy;
 import io.github.mecorp.mineralessentials.reference.Reference;
 
 /**
@@ -20,7 +20,7 @@ public class MineralEssentials
     public static MineralEssentials instances;
 
     @SidedProxy(clientSide = Reference.ClientProxyClass, serverSide = Reference.ServerProxyClass)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -31,7 +31,7 @@ public class MineralEssentials
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
-
+        proxy.initCapes();
     }
 
     @Mod.EventHandler

@@ -200,7 +200,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builds" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: akka-actor_2.11-2.3.3">
