@@ -192,3 +192,19 @@
 [20:24:31] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [20:24:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [20:24:31] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:50:30] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[21:50:30] [main/INFO] [GradleStart]: Extra: []
+[21:50:30] [main/INFO] [GradleStart]: Password found, attempting login
+[21:50:32] [main/INFO] [GradleStart]: Login Succesful!
+[21:50:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@2adaf6a]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[21:50:32] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:50:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:50:32] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:19:42] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[18:19:42] [main/INFO] [GradleStart]: Extra: []
+[18:19:42] [main/INFO] [GradleStart]: Password found, attempting login
+[18:19:44] [main/INFO] [GradleStart]: Login Succesful!
+[18:19:44] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@6b0b8552]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[18:19:44] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:19:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:19:44] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker

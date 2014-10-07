@@ -5,5 +5,5 @@ package io.github.mecorp.mineralessentials.copper;
  */
 public class Copper
 {
-
+    
 }
