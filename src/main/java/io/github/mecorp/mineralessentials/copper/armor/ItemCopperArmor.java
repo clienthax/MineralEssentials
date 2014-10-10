@@ -22,11 +22,11 @@ public class ItemCopperArmor extends ItemArmor
 	{
 		if(stack.getItem()== CopperArmor.CopperHelmet || stack.getItem() == CopperArmor.CopperChestplate || stack.getItem() == CopperArmor.CopperBoots)
 		{
-			return Reference.MODID + ":models/armor/Copper1.png";
+			return Reference.MOD_ID + ":models/armor/Copper1.png";
 		}
 		else if(stack.getItem() == CopperArmor.CopperPants)
 		{
-			return Reference.MODID + ":models/armor/Copper2.png";
+			return Reference.MOD_ID + ":models/armor/Copper2.png";
 		}
 		else
 		{

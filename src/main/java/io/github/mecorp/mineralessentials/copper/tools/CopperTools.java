@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.copper.tools;
 
-import pw.block_breaking_games.mineral_essentials.help.RegisterHelper;
+import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;

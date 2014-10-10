@@ -1,8 +1,8 @@
 package io.github.mecorp.mineralessentials.copper.tools;
 
+import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.item.ItemPickaxe;
-import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
-import pw.block_breaking_games.mineral_essentials.help.Reference;
+//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
 
 public class ItemCopperPickaxe extends ItemPickaxe
 {
@@ -10,7 +10,7 @@ public class ItemCopperPickaxe extends ItemPickaxe
 	{
 		super(material);
 		setUnlocalizedName("CopperPickaxe");
-		setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(ModCreativeTabs.tabMineralEssentials);
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		//setCreativeTab(ModCreativeTabs.tabMineralEssentials);
 	}
 }

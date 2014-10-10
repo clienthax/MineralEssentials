@@ -1,7 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.items;
 
+import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
-import pw.block_breaking_games.mineral_essentials.help.RegisterHelper;
 
 public class CopperItems
 {

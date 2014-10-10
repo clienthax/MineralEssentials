@@ -1,8 +1,8 @@
 package io.github.mecorp.mineralessentials.copper.ore;
 
+import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.block.Block;
 
-import pw.block_breaking_games.mineral_essentials.help.RegisterHelper;
 
 public class CopperOre
 {

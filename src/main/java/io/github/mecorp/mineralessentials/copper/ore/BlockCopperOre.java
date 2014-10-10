@@ -1,9 +1,10 @@
 package io.github.mecorp.mineralessentials.copper.ore;
 
+import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
-import pw.block_breaking_games.mineral_essentials.help.Reference;
+//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
+
 
 public class BlockCopperOre extends Block
 {
@@ -11,8 +12,8 @@ public class BlockCopperOre extends Block
 	{
 		super(Material.rock);
 		setBlockName("CopperOre");
-		setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(ModCreativeTabs.tabMineralEssentials);
+		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		//setCreativeTab(ModCreativeTabs.tabMineralEssentials);
 		setHardness(5.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 3);
