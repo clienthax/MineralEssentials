@@ -5,6 +5,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import io.github.mecorp.mineralessentials.copper.Copper;
 import io.github.mecorp.mineralessentials.copper.blocks.CopperBlocks;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
 import io.github.mecorp.mineralessentials.proxy.CommonProxy;
@@ -27,7 +28,7 @@ public class MineralEssentials
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
-        CopperBlocks.RegisterCopperBlocks();
+        Copper.RegisterCopper();
     }
 
     @Mod.EventHandler

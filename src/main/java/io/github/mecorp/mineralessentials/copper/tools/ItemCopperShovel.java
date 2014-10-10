@@ -1,7 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.tools;
 
-//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
 import io.github.mecorp.mineralessentials.reference.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
 
 public class ItemCopperShovel extends ItemSpade
@@ -11,6 +11,6 @@ public class ItemCopperShovel extends ItemSpade
 		super(material);
 		setUnlocalizedName("CopperShovel");
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		//setCreativeTab(ModCreativeTabs.tabMineralEssentials);
+		setCreativeTab(CreativeTabs.tabAllSearch);
 	}
 }

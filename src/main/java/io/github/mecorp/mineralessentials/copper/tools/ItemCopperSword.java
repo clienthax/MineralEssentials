@@ -1,8 +1,8 @@
 package io.github.mecorp.mineralessentials.copper.tools;
 
 import io.github.mecorp.mineralessentials.reference.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
-//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
 
 public class ItemCopperSword extends ItemSword 
 {
@@ -11,6 +11,6 @@ public class ItemCopperSword extends ItemSword
 		super(material);
 		setUnlocalizedName("CopperSword");
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		//setCreativeTab(ModCreativeTabs.tabMineralEssentials);
+		setCreativeTab(CreativeTabs.tabAllSearch);
 	}
 }

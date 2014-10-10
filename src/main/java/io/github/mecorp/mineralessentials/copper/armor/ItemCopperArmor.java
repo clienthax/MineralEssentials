@@ -1,8 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.armor;
 
 
-//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
-//import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.creativetab.CreativeTabs;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
@@ -34,9 +33,9 @@ public class ItemCopperArmor extends ItemArmor
 		return null;
 		}
 	}
-	/*@Override
+	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return ModCreativeTabs.tabMineralEssentials;
-	}*/
+		return CreativeTabs.tabAllSearch;
+	}
 }

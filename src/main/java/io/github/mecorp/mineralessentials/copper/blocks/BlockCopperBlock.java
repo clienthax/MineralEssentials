@@ -3,7 +3,7 @@ package io.github.mecorp.mineralessentials.copper.blocks;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
+import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockCopperBlock extends Block 
 {
@@ -12,7 +12,7 @@ public class BlockCopperBlock extends Block
 		super(Material.rock);
 		setBlockName("CopperBlock");
 		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		//setCreativeTab(ModCreativeTabs.tabMineralEssentials);
+		setCreativeTab(CreativeTabs.tabAllSearch);
 		setHardness(5.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 3);
