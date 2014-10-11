@@ -1,8 +1,8 @@
-package io.github.mecorp.developercapes.test;
+package io.github.mecorp.mineralessentials.developercapes.test;
 
-import io.github.mecorp.developercapes.DevCapes;
-import io.github.mecorp.developercapes.cape.CapeConfig;
-import io.github.mecorp.developercapes.cape.CapeConfigManager;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeConfig;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeConfigManager;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 

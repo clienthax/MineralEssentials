@@ -1,7 +1,7 @@
-package io.github.mecorp.developercapes.user;
+package io.github.mecorp.mineralessentials.developercapes.user;
 
-import io.github.mecorp.developercapes.DevCapes;
-import io.github.mecorp.developercapes.cape.CapeManager;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

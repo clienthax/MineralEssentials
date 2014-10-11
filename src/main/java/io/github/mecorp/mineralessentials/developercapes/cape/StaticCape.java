@@ -1,6 +1,6 @@
-package io.github.mecorp.developercapes.cape;
+package io.github.mecorp.mineralessentials.developercapes.cape;
 
-import io.github.mecorp.developercapes.HDImageBuffer;
+import io.github.mecorp.mineralessentials.developercapes.HDImageBuffer;
 import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;

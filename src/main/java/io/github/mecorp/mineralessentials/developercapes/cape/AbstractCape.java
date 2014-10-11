@@ -1,4 +1,4 @@
-package io.github.mecorp.developercapes.cape;
+package io.github.mecorp.mineralessentials.developercapes.cape;
 
 import net.minecraft.client.renderer.texture.ITextureObject;
 import net.minecraft.util.ResourceLocation;

@@ -1,8 +1,8 @@
-package io.github.mecorp.developercapes.cape;
+package io.github.mecorp.mineralessentials.developercapes.cape;
 
 import com.google.gson.Gson;
-import io.github.mecorp.developercapes.user.Group;
-import io.github.mecorp.developercapes.user.User;
+import io.github.mecorp.mineralessentials.developercapes.user.Group;
+import io.github.mecorp.mineralessentials.developercapes.user.User;
 
 import java.util.HashMap;
 

@@ -1,6 +1,6 @@
-package io.github.mecorp.developercapes.cape;
+package io.github.mecorp.mineralessentials.developercapes.cape;
 
-import io.github.mecorp.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
 
 import java.net.MalformedURLException;
 import java.net.URL;

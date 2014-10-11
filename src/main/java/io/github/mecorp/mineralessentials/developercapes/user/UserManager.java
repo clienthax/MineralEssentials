@@ -1,8 +1,8 @@
-package io.github.mecorp.developercapes.user;
+package io.github.mecorp.mineralessentials.developercapes.user;
 
-import io.github.mecorp.developercapes.DevCapes;
-import io.github.mecorp.developercapes.cape.CapeManager;
-import io.github.mecorp.developercapes.cape.ICape;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeManager;
+import io.github.mecorp.mineralessentials.developercapes.cape.ICape;
 
 import java.util.HashMap;
 import java.util.Set;

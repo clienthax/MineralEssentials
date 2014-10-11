@@ -1,7 +1,7 @@
 package io.github.mecorp.mineralessentials.proxy;
 
 
-import io.github.mecorp.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import io.github.mecorp.mineralessentials.utility.LogHelper;
 

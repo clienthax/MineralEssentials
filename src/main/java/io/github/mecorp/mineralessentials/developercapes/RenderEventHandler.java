@@ -1,8 +1,8 @@
-package io.github.mecorp.developercapes;
+package io.github.mecorp.mineralessentials.developercapes;
 
-import io.github.mecorp.developercapes.cape.ICape;
-import io.github.mecorp.developercapes.user.User;
-import io.github.mecorp.developercapes.user.UserManager;
+import io.github.mecorp.mineralessentials.developercapes.cape.ICape;
+import io.github.mecorp.mineralessentials.developercapes.user.User;
+import io.github.mecorp.mineralessentials.developercapes.user.UserManager;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraftforge.client.event.RenderPlayerEvent;

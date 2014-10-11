@@ -5,10 +5,10 @@
  * version 4.0.0.x
  */
 
-package io.github.mecorp.developercapes;
+package io.github.mecorp.mineralessentials.developercapes;
 
-import io.github.mecorp.developercapes.cape.CapeConfig;
-import io.github.mecorp.developercapes.cape.CapeConfigManager;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeConfig;
+import io.github.mecorp.mineralessentials.developercapes.cape.CapeConfigManager;
 import net.minecraftforge.common.MinecraftForge;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

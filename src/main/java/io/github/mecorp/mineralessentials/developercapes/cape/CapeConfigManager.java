@@ -1,14 +1,14 @@
-package io.github.mecorp.developercapes.cape;
+package io.github.mecorp.mineralessentials.developercapes.cape;
 
 import com.google.common.collect.HashBiMap;
 import com.google.common.primitives.UnsignedBytes;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import io.github.mecorp.developercapes.DevCapes;
-import io.github.mecorp.developercapes.user.Group;
-import io.github.mecorp.developercapes.user.GroupManager;
-import io.github.mecorp.developercapes.user.User;
-import io.github.mecorp.developercapes.user.UserManager;
+import io.github.mecorp.mineralessentials.developercapes.DevCapes;
+import io.github.mecorp.mineralessentials.developercapes.user.Group;
+import io.github.mecorp.mineralessentials.developercapes.user.GroupManager;
+import io.github.mecorp.mineralessentials.developercapes.user.User;
+import io.github.mecorp.mineralessentials.developercapes.user.UserManager;
 
 import java.io.BufferedReader;
 import java.io.IOException;
