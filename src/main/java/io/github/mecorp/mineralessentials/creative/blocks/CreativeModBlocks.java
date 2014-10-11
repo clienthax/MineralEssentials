@@ -1,0 +1,26 @@
+package io.github.mecorp.mineralessentials.creative.blocks;
+
+import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import net.minecraft.block.Block;
+
+public class CreativeModBlocks
+{
+	public static Block GreenScreen;
+	public static Block BlueScreen;
+	public static Block RedScreen;
+
+	
+	public static void loadCreativeBlocks()
+	{		
+		GreenScreen = new BlockGreenScreen().setBlockName("GreenScreen");
+		RegisterHelper.registerBlock(GreenScreen);
+		
+		BlueScreen = new BlockBlueScreen().setBlockName("BlueScreen");
+		RegisterHelper.registerBlock(BlueScreen);
+		
+		RedScreen = new BlockRedScreen().setBlockName("RedScreen");
+		RegisterHelper.registerBlock(RedScreen);
+		
+	}
+
+}
