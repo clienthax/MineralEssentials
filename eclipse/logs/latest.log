@@ -1,11 +1,86 @@
-[17:27:30] [main/INFO]: Setting user: ForgeDevName
-[17:27:32] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:27:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials
-[17:27:42] [Sound Library Loader/INFO]: Sound engine started
-[17:27:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:27:45] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:27:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials
-[17:27:46] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:27:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:27:48] [Sound Library Loader/INFO]: Sound engine started
-[17:29:23] [Client thread/INFO]: Stopping!
+[10:24:16] [main/INFO]: Setting user: Player500
+[10:24:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:24:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials
+[10:24:29] [Sound Library Loader/INFO]: Sound engine started
+[10:24:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:24:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:24:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials
+[10:24:34] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:24:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:24:35] [Sound Library Loader/INFO]: Sound engine started
+[10:24:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:24:44] [Server thread/INFO]: Generating keypair
+[10:24:45] [Server thread/INFO]: Preparing start region for level 0
+[10:24:46] [Server thread/INFO]: Preparing spawn area: 32%
+[10:24:47] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:24:47] [Server thread/INFO]: Player500[local:E:0f6e2d9a] logged in with entity id 184 at (79.93695376336606, 68.0, 264.9680607865449)
+[10:24:47] [Server thread/INFO]: Player500 joined the game
+[10:24:48] [Server thread/INFO]: Saving and pausing game...
+[10:24:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:24:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:24:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:24:49] [Server thread/INFO]: [@: Game rule has been updated]
+[10:24:49] [Server thread/INFO]: [@: Changing to clear weather]
+[10:24:52] [Server thread/INFO]: [@: Game rule has been updated]
+[10:24:52] [Server thread/INFO]: [@: Changing to clear weather]
+[10:24:55] [Server thread/INFO]: [@: Game rule has been updated]
+[10:24:55] [Server thread/INFO]: [@: Changing to clear weather]
+[10:24:59] [Server thread/INFO]: [@: Game rule has been updated]
+[10:24:59] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:02] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:02] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:05] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:05] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:09] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:09] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:12] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:12] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:15] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:15] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:19] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:19] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:22] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:22] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:25] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:25] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:28] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:28] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:32] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:32] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:35] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:35] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:38] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:38] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:42] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:42] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:45] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:45] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:48] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:48] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:52] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:52] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:55] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:55] [Server thread/INFO]: [@: Changing to clear weather]
+[10:25:57] [Server thread/INFO]: Player500 has just earned the achievement [Taking Inventory]
+[10:25:58] [Client thread/INFO]: [CHAT] Player500 has just earned the achievement [Taking Inventory]
+[10:25:58] [Server thread/INFO]: [@: Game rule has been updated]
+[10:25:58] [Server thread/INFO]: [@: Changing to clear weather]
+[10:26:01] [Server thread/INFO]: [@: Game rule has been updated]
+[10:26:01] [Server thread/INFO]: [@: Changing to clear weather]
+[10:26:05] [Server thread/INFO]: [@: Game rule has been updated]
+[10:26:05] [Server thread/INFO]: [@: Changing to clear weather]
+[10:26:08] [Server thread/INFO]: [@: Game rule has been updated]
+[10:26:08] [Server thread/INFO]: [@: Changing to clear weather]
+[10:26:11] [Server thread/INFO]: [@: Game rule has been updated]
+[10:26:11] [Server thread/INFO]: [@: Changing to clear weather]
+[10:26:13] [Server thread/INFO]: Saving and pausing game...
+[10:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:26:18] [Server thread/INFO]: Stopping server
+[10:26:18] [Server thread/INFO]: Saving players
+[10:26:18] [Server thread/INFO]: Saving worlds
+[10:26:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:26:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:26:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:26:19] [Client thread/INFO]: Stopping!

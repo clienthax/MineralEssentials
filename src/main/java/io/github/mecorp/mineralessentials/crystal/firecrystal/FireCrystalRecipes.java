@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal;
 
+import io.github.mecorp.mineralessentials.crystal.firecrystal.tools.FireCrystalTools;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.items.FireCrystalItems;
@@ -20,6 +21,11 @@ public class FireCrystalRecipes
 			  "XCX",
 			  " X ",
 			  'X', FireCrystalItems.BlazeBlob, 'C', CrystalItems.CrystalCrystal});
-       	
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalSword), new Object[]{
+                " C ",
+                " C ",
+                " X ",
+                'X',Items.stick, 'C', FireCrystalItems.FireCrystalCrystal});
 	}
 }
