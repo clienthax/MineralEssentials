@@ -7,11 +7,41 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
+:extractMcpData UP-TO-DATE
+:getVersionJson
+:extractUserDev
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.1.1225/forge-1.7.10-10.13.1.1225-userdev.jar
+:genSrgs
+:extractNatives
+:getAssetsIndex
+:getAssets
+:makeStartwarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:downloadMcpTools UP-TO-DATE
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:mergeJars SKIPPED
+:deobfuscateJar
+Applying SpecialSource...
+Applying Exceptor...
+:decompile
+:processSources
+Injecting fml files
+Applying fml patches
+Applying forge patches
+:remapJar
+:extractMinecraftSrc
+:recompMinecraftwarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:repackMinecraft
+:setupDecompWorkspace
 
 BUILD SUCCESSFUL
 
-<<<<<<< HEAD
-Total time: 25.234 secs
-=======
-Total time: 11.159 secs
->>>>>>> origin/master
+Total time: 6 mins 17.132 secs
