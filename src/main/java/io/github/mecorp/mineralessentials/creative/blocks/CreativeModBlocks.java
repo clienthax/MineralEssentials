@@ -9,6 +9,7 @@ public class CreativeModBlocks
 	public static Block BlueScreen;
 	public static Block RedScreen;
     public static Block RandomBlock;
+    public static Block Windows;
 
 	
 	public static void loadCreativeBlocks()
@@ -24,7 +25,10 @@ public class CreativeModBlocks
 
         RandomBlock = new BlockRandomBlock().setBlockName("RandomBlock");
         RegisterHelper.registerBlock(RandomBlock);
-		
+
+        Windows = new BlockWindows().setBlockName("Windows");
+        RegisterHelper.registerBlock(Windows);
+
 	}
 
 }

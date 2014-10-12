@@ -402,3 +402,51 @@
 [10:24:10] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [10:24:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [10:24:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[12:41:13] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[12:41:13] [main/INFO] [GradleStart]: Extra: []
+[12:41:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[12:41:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:41:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:41:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[14:27:52] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[14:27:53] [main/INFO] [GradleStart]: Extra: []
+[14:27:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[14:27:53] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:27:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:27:53] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[14:30:19] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[14:30:19] [main/INFO] [GradleStart]: Extra: []
+[14:30:19] [main/INFO] [GradleStart]: Password found, attempting login
+[14:30:20] [main/ERROR] [GradleStart]: -- Login failed!  Invalid credentials. Invalid username or password.
+[14:30:57] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[14:30:57] [main/INFO] [GradleStart]: Extra: []
+[14:30:57] [main/INFO] [GradleStart]: Password found, attempting login
+[14:30:58] [main/INFO] [GradleStart]: Login Succesful!
+[14:30:58] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@2adaf6a]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[14:30:59] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:30:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[14:30:59] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:36] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[16:28:36] [main/INFO] [GradleStart]: Extra: []
+[16:28:36] [main/INFO] [GradleStart]: Password found, attempting login
+[16:28:38] [main/INFO] [GradleStart]: Login Succesful!
+[16:28:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@22365854]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[16:28:38] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:28:38] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:30:34] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[16:30:34] [main/INFO] [GradleStart]: Extra: []
+[16:30:34] [main/INFO] [GradleStart]: Password found, attempting login
+[16:30:36] [main/INFO] [GradleStart]: Login Succesful!
+[16:30:36] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@4fc17c3a]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[16:30:36] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:30:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:30:36] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:51:08] [main/INFO] [GradleStart]: username: sam@untamemadman.pw
+[18:51:08] [main/INFO] [GradleStart]: Extra: []
+[18:51:08] [main/INFO] [GradleStart]: Password found, attempting login
+[18:51:10] [main/INFO] [GradleStart]: Login Succesful!
+[18:51:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@415e0165]}, --username, untamemadman, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[18:51:10] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:51:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:51:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
