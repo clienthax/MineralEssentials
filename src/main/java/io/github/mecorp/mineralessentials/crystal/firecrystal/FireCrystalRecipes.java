@@ -1,6 +1,9 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal;
 
+import io.github.mecorp.mineralessentials.crystal.armor.CrystalArmor;
+import io.github.mecorp.mineralessentials.crystal.firecrystal.armor.FireCrystalArmor;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.tools.FireCrystalTools;
+import io.github.mecorp.mineralessentials.crystal.tools.CrystalTools;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.items.FireCrystalItems;
@@ -22,10 +25,58 @@ public class FireCrystalRecipes
 			  " X ",
 			  'X', FireCrystalItems.BlazeBlob, 'C', CrystalItems.CrystalCrystal});
 
-        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalSword), new Object[]{
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalPickaxe), new Object[]{
+                "XXX",
                 " C ",
                 " C ",
+                'X', FireCrystalItems.FireCrystalCrystal, 'C', Items.stick});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalAxe), new Object[]{
+                "XX ",
+                "XC ",
+                " C ",
+                'X', FireCrystalItems.FireCrystalCrystal, 'C', Items.stick});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalHoe), new Object[]{
+                "XX ",
+                " C ",
+                " C ",
+                'X', FireCrystalItems.FireCrystalCrystal, 'C', Items.stick});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalShovel), new Object[]{
                 " X ",
-                'X',Items.stick, 'C', FireCrystalItems.FireCrystalCrystal});
+                " C ",
+                " C ",
+                'X', FireCrystalItems.FireCrystalCrystal, 'C', Items.stick});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalTools.FireCrystalSword), new Object[]{
+                " X ",
+                " X ",
+                " C ",
+                'X', FireCrystalItems.FireCrystalCrystal, 'C', Items.stick});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalArmor.FireCrystalHelmet), new Object[]{
+                "XXX",
+                "X X",
+                "   ",
+                'X', FireCrystalItems.FireCrystalCrystal});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalArmor.FireCrystalChestplate), new Object[]{
+                "X X",
+                "XXX",
+                "XXX",
+                'X', FireCrystalItems.FireCrystalCrystal});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalArmor.FireCrystalPants), new Object[]{
+                "XXX",
+                "X X",
+                "X X",
+                'X', FireCrystalItems.FireCrystalCrystal});
+
+        GameRegistry.addRecipe(new ItemStack(FireCrystalArmor.FireCrystalBoots), new Object[]{
+                "   ",
+                "X X",
+                "X X",
+                'X', FireCrystalItems.FireCrystalCrystal});
 	}
 }
