@@ -7,13 +7,14 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import io.github.mecorp.mineralessentials.cobalt.Cobalt;
 import io.github.mecorp.mineralessentials.copper.Copper;
-import io.github.mecorp.mineralessentials.copper.blocks.CopperBlocks;
 import io.github.mecorp.mineralessentials.creative.Creative;
 import io.github.mecorp.mineralessentials.crystal.Crystal;
+import io.github.mecorp.mineralessentials.generation.ModGeneration;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
 import io.github.mecorp.mineralessentials.iridium.Iridium;
 import io.github.mecorp.mineralessentials.proxy.CommonProxy;
 import io.github.mecorp.mineralessentials.reference.Reference;
+import io.github.mecorp.mineralessentials.sheep.Sheep;
 import io.github.mecorp.mineralessentials.tin.Tin;
 
 /**
@@ -39,6 +40,8 @@ public class MineralEssentials
         Crystal.RegisterCrystal();
         Tin.RegisterTin();
         Creative.RegisterCreative();
+        Sheep.RegisterSheep();
+        ModGeneration.loadGeneration();
     }
 
     @Mod.EventHandler
