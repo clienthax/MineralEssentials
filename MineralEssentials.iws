@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be1759e-379f-4ed2-a113-55927cdc7586" name="Default" comment="Just some code tidying">
+      <change type="DELETED" beforePath="M:\ME-Corp\MineralEssentials\Builds\MineralEssentials-1.7.10-0.1.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-3.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" />
-      <change type="MODIFICATION" beforePath="M:\ME-Corp\MineralEssentials\src\main\resources\assets\mineralessentials\textures\items\FireCrystalCrystal.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/textures/items/FireCrystalCrystal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New World/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-10-13-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-10-13-7.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/data/Mineshaft.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/data/Mineshaft.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.-1.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/region/r.1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/DIM-1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/DIM1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" afterPath="$PROJECT_DIR$/eclipse/saves/New WorldATEST/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MineralEssentials.iws" afterPath="$PROJECT_DIR$/MineralEssentials.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
-      <change type="MODIFICATION" beforePath="M:\ME-Corp\MineralEssentials\src\main\resources\assets\mineralessentials\lang\en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
     </list>
     <ignored path="MineralEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,11 +90,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MineralEssentials.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MineralEssentials.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57185185" vertical-offset="90" max-vertical-offset="765">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5171103" vertical-offset="51" max-vertical-offset="1173">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -98,8 +113,8 @@
       <file leaf-file-name="en_US.lang" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="1479">
-              <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1479">
+              <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -712,7 +727,6 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/blocks/BlockWindows.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/blocks/CreativeModBlocks.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/tin/TinRecipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystalRecipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/BlockSheepBlock.java" />
@@ -722,6 +736,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -768,7 +783,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -780,27 +795,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MineralEssentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MineralEssentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MineralEssentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -861,6 +855,27 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MineralEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MineralEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MineralEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1180,34 +1195,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="835" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21479374" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2119488" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32188842" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3541963" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3499289" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26618123" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26537216" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30014226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Aquarium" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.9207692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="892" y="80" width="429" height="725" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1286,16 +1301,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/developercapes/cape/ICape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="731">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1377">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1312,7 +1353,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1360,13 +1415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5712" vertical-offset="51" max-vertical-offset="1173">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/tin/TinRecipes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52771616" vertical-offset="323" max-vertical-offset="1479">
@@ -1399,86 +1447,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/BlockSheepBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/Sheep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07544379" vertical-offset="0" max-vertical-offset="676">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/ItemSheepArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71794873" vertical-offset="17" max-vertical-offset="680">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="663">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepRecipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="782">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18318966" vertical-offset="0" max-vertical-offset="464">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6984479" vertical-offset="926" max-vertical-offset="1377">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/ModGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36637932" vertical-offset="0" max-vertical-offset="464">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="1479">
-          <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1479">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1487,14 +1462,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/developercapes/cape/ICape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5281065" vertical-offset="0" max-vertical-offset="676">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57185185" vertical-offset="90" max-vertical-offset="765">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5171103" vertical-offset="51" max-vertical-offset="1173">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
