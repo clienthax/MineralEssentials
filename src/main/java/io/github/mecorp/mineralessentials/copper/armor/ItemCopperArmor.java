@@ -1,6 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.armor;
 
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECopper;
 import net.minecraft.creativetab.CreativeTabs;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.entity.Entity;
@@ -36,6 +37,6 @@ public class ItemCopperArmor extends ItemArmor
 	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return CreativeTabs.tabAllSearch;
+		return CreativeTabMECopper.MECopper;
 	}
 }

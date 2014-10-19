@@ -1,6 +1,7 @@
 package io.github.mecorp.mineralessentials.copper;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import io.github.mecorp.mineralessentials.copper.armor.CopperArmor;
 import io.github.mecorp.mineralessentials.copper.blocks.CopperBlocks;
 import io.github.mecorp.mineralessentials.copper.items.CopperItems;
 import io.github.mecorp.mineralessentials.copper.ore.CopperOre;
@@ -53,7 +54,7 @@ public class CopperRecipes
 			         	
        	GameRegistry.addShapelessRecipe(new ItemStack(CopperItems.CopperIngot), new Object[]{new ItemStack(CopperBlocks.CopperBlock)});
        	
-       /*	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperHelmet), new Object[]{
+       	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperHelmet), new Object[]{
 			  "XXX",
 			  "X X",
 			  "   ",
@@ -75,6 +76,6 @@ public class CopperRecipes
 			  "   ",
 			  "X X",
 			  "X X",
-			  'X', CopperItems.CopperIngot});*/
+			  'X', CopperItems.CopperIngot});
 	}
 }

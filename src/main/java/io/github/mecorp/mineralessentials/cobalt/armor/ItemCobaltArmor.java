@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.cobalt.armor;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECobalt;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -35,6 +36,6 @@ public class ItemCobaltArmor extends ItemArmor {
 	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return CreativeTabs.tabAllSearch;
+		return CreativeTabMECobalt.MECobalt;
 	}
 }

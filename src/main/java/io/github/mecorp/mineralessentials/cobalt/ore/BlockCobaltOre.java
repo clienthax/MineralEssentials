@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.cobalt.ore;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECobalt;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.block.Block;
@@ -12,7 +13,7 @@ public class BlockCobaltOre extends Block
 		super(Material.rock);
 		setBlockName("CobaltOre");
 		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(CreativeTabs.tabAllSearch);
+		setCreativeTab(CreativeTabMECobalt.MECobalt);
 		setHardness(5.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 3);
