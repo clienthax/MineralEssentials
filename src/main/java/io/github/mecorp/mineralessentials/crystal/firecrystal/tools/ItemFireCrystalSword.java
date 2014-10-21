@@ -21,7 +21,6 @@ public class ItemFireCrystalSword extends ItemSword
 	}
     public void onCreated(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
     {
-        par1ItemStack.addEnchantment(Enchantment.fireAspect, 20);
+        par1ItemStack.addEnchantment(Enchantment.fireAspect, 2);
     }
-
 }

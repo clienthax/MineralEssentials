@@ -9,6 +9,7 @@ import io.github.mecorp.mineralessentials.cobalt.Cobalt;
 import io.github.mecorp.mineralessentials.copper.Copper;
 import io.github.mecorp.mineralessentials.creative.Creative;
 import io.github.mecorp.mineralessentials.crystal.Crystal;
+import io.github.mecorp.mineralessentials.fakediamond.FakeDiamond;
 import io.github.mecorp.mineralessentials.generation.ModGeneration;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
 import io.github.mecorp.mineralessentials.iridium.Iridium;
@@ -18,7 +19,7 @@ import io.github.mecorp.mineralessentials.sheep.Sheep;
 import io.github.mecorp.mineralessentials.tin.Tin;
 
 /**
- * Created by Sam on 8/25/2014.
+ * Created by untamemadman on 8/25/2014.
  */
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
@@ -41,6 +42,7 @@ public class MineralEssentials
         Tin.RegisterTin();
         Creative.RegisterCreative();
         Sheep.RegisterSheep();
+        FakeDiamond.RegisterDiamond();
         ModGeneration.loadGeneration();
     }
 

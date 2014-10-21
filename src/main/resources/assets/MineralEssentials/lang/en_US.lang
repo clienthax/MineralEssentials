@@ -80,3 +80,5 @@ item.SheepHelmet.name=Sheep Helmet
 item.SheepChestplate.name=Sheep Chestplate
 item.SheepPants.name=Sheep Pants
 item.SheepBoots.name=Sheep Boots
+item.FakeDiamond.name=Diamond
+tile.FakeDiamondOre.name=Diamond Ore
