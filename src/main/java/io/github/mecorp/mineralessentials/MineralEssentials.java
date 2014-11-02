@@ -11,6 +11,7 @@ import io.github.mecorp.mineralessentials.creative.Creative;
 import io.github.mecorp.mineralessentials.crystal.Crystal;
 import io.github.mecorp.mineralessentials.fakediamond.FakeDiamond;
 import io.github.mecorp.mineralessentials.generation.ModGeneration;
+import io.github.mecorp.mineralessentials.glass.Glass;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
 import io.github.mecorp.mineralessentials.iridium.Iridium;
 import io.github.mecorp.mineralessentials.proxy.CommonProxy;
@@ -43,6 +44,7 @@ public class MineralEssentials
         Creative.RegisterCreative();
         Sheep.RegisterSheep();
         FakeDiamond.RegisterDiamond();
+        Glass.RegisterGlass();
         ModGeneration.loadGeneration();
     }
 
