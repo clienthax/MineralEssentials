@@ -1,278 +1,157 @@
-[16:11:47] [main/INFO]: No arguments specified, assuming client.
-[16:11:47] [main/INFO]: Extra: []
-[16:11:47] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
-[16:11:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:11:47] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:11:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[16:11:47] [main/INFO]: Forge Mod Loader version 7.10.85.1225 for Minecraft 1.7.10 loading
-[16:11:47] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_67, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_67\jre
-[16:11:47] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:11:49] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:11:49] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:11:49] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:11:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:11:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:11:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:11:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:11:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:49] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[16:11:51] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[16:11:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:52] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:52] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:52] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:11:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:11:53] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[16:11:53] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[16:11:53] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:11:57] [main/INFO]: Setting user: Player421
-[16:12:01] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:12:03] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[16:12:03] [Client thread/INFO]: MinecraftForge v10.13.1.1225 Initialized
-[16:12:03] [Client thread/INFO]: Replaced 182 ore recipies
-[16:12:03] [Client thread/INFO]: Completed early MinecraftForge initialization
-[16:12:03] [Client thread/INFO]: Searching M:\ME-Corp\MineralEssentials\eclipse\mods for mods
-[16:12:03] [Client thread/INFO]: Also searching M:\ME-Corp\MineralEssentials\eclipse\mods\1.7.10 for mods
-[16:12:08] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[16:12:08] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[16:12:08] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[16:12:08] [Client thread/WARN]: Mod Translocator is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.1.12
-[16:12:08] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
-[16:12:09] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[16:12:09] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, dct, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, Translocator, Waila] at CLIENT
-[16:12:09] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, dct, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, Translocator, Waila] at SERVER
-[16:12:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
-[16:12:11] [Client thread/INFO]: Processing ObjectHolder annotations
-[16:12:11] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[16:12:11] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[16:12:15] [Client thread/INFO]: Applying holder lookups
-[16:12:15] [Client thread/INFO]: Holder lookups applied
-[16:12:15] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:12:15] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[16:12:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[16:12:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:12:16] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[16:12:16] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:12:16] [Sound Library Loader/INFO]: Sound engine started
-[16:12:21] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[16:12:22] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:12:41] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@7b366502, could not be parsed because it is not a String!
-[16:12:41] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@7b366502
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.net.ConnectException: Connection timed out: connect
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.Socket.connect(Socket.java:579)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.net.Socket.connect(Socket.java:528)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.getStreamForURL(DevCapes.java:50)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:131)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:102)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:88)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.proxy.ClientProxy.initCapes(ClientProxy.java:13)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.MineralEssentials.Init(MineralEssentials.java:54)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:691)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:288)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:931)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.main.Main.main(Main.java:164)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.bounce(GradleStart.java:107)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.startClient(GradleStart.java:100)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.main(GradleStart.java:55)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
-[16:13:05] [Client thread/ERROR]: Can't parse a null input stream!
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.NullPointerException
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.cape.CapeConfigManager.addConfig(CapeConfigManager.java:41)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:134)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:102)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.developercapes.DevCapes.registerConfig(DevCapes.java:88)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.proxy.ClientProxy.initCapes(ClientProxy.java:13)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at io.github.mecorp.mineralessentials.MineralEssentials.Init(MineralEssentials.java:54)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:691)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:288)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:931)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.main.Main.main(Main.java:164)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.bounce(GradleStart.java:107)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.startClient(GradleStart.java:100)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.main(GradleStart.java:55)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
-[16:13:05] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
-[16:13:05] [Client thread/INFO]: Capes Loaded
-[16:13:05] [CodeChicken Update Checker/ERROR]: Failed to check update for Translocator returned: Err: Unknown mod/version
-[16:13:06] [Client thread/WARN]: =============================================================
-[16:13:06] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[16:13:06] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
-[16:13:06] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
-[16:13:06] [Client thread/WARN]: =============================================================
-[16:13:07] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
-[16:13:07] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
-[16:13:07] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
-[16:13:07] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
-[16:13:07] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
-[16:13:07] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
-[16:13:07] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyHandler
-[16:13:07] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
-[16:13:07] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
-[16:13:07] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
-[16:13:07] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
-[16:13:07] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
-[16:13:07] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
-[16:13:07] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
-[16:13:07] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
-[16:13:07] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
-[16:13:07] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
-[16:13:07] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
-[16:13:07] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
-[16:13:07] [Client thread/INFO]: [Statues] Statues mod not found.
-[16:13:07] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
-[16:13:07] [Client thread/INFO]: Forge Multipart found and dedicated handler registered
-[16:13:07] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
-[16:13:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
-[16:13:07] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:13:11] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[16:13:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:13:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[16:13:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[16:13:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:13:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:13:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[16:13:12] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[16:13:12] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:13:12] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[16:13:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:13:12] [Sound Library Loader/INFO]: Sound engine started
-[16:13:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:13:28] [Server thread/INFO]: Generating keypair
-[16:13:28] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[16:13:28] [Server thread/INFO]: Applying holder lookups
-[16:13:28] [Server thread/INFO]: Holder lookups applied
-[16:13:29] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@fd801)
-[16:13:29] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@fd801)
-[16:13:29] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@fd801)
-[16:13:29] [Server thread/INFO]: Preparing start region for level 0
-[16:13:30] [Server thread/INFO]: Preparing spawn area: 53%
-[16:13:31] [Server thread/INFO]: Changing view distance to 16, from 10
-[16:13:31] [Netty Client IO #0/INFO]: Server protocol version 1
-[16:13:31] [Netty IO #1/INFO]: Client protocol version 1
-[16:13:31] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.85.1225,Waila@1.5.5,NotEnoughItems@1.0.3.62,McMultipart@1.1.0.311,dct@na,Forge@10.13.1.1225,CodeChickenCore@1.0.4.29,ForgeMicroblock@1.1.0.311,ForgeMultipart@1.1.0.311,Translocator@1.1.1.12,MineralEssentials@1.7.10-2.0
-[16:13:31] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:13:31] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[16:13:31] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:13:31] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:13:31] [Server thread/INFO]: Player421[local:E:58ae897d] logged in with entity id 152 at (88.24288354347016, 68.0, 268.59424286946705)
-[16:13:31] [Server thread/INFO]: Player421 joined the game
-[16:13:32] [Server thread/INFO]: Player EntityPlayerMP['Player421'/152, l='New World', x=88.24, y=68.00, z=268.59] connected. Sending ping
-[16:13:36] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
-[16:15:56] [Server thread/INFO]: Player421 has just earned the achievement [Taking Inventory]
-[16:15:56] [Client thread/INFO]: [CHAT] Player421 has just earned the achievement [Taking Inventory]
-[16:17:24] [Server thread/INFO]: Saving and pausing game...
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:17:24] [Server thread/INFO]: Stopping server
-[16:17:24] [Server thread/INFO]: Saving players
-[16:17:24] [Server thread/INFO]: Saving worlds
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:17:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:17:25] [Server thread/INFO]: Unloading dimension 0
-[16:17:25] [Server thread/INFO]: Unloading dimension -1
-[16:17:25] [Server thread/INFO]: Unloading dimension 1
-[16:17:25] [Server thread/INFO]: Applying holder lookups
-[16:17:25] [Server thread/INFO]: Holder lookups applied
-[16:17:26] [Client thread/INFO]: Stopping!
-[16:17:26] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:17:26] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[16:17:26] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[16:17:26] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:33:27] [main/INFO]: No arguments specified, assuming client.
+[17:33:27] [main/INFO]: Extra: []
+[17:33:27] [main/INFO]: Running with arguments: [--userProperties, {}, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[17:33:27] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:33:27] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:33:27] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:33:27] [main/INFO]: Forge Mod Loader version 7.10.85.1225 for Minecraft 1.7.10 loading
+[17:33:27] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_67, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_67\jre
+[17:33:27] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:33:29] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:33:29] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:33:29] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:33:29] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:33:29] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:33:29] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:33:29] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:33:29] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:30] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[17:33:32] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[17:33:32] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:32] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:33] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:33] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:33] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:33:33] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:33:34] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[17:33:34] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[17:33:34] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:33:39] [main/INFO]: Setting user: Player359
+[17:33:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:33:43] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[17:33:43] [Client thread/INFO]: MinecraftForge v10.13.1.1225 Initialized
+[17:33:43] [Client thread/INFO]: Replaced 182 ore recipies
+[17:33:43] [Client thread/INFO]: Completed early MinecraftForge initialization
+[17:33:44] [Client thread/INFO]: Searching M:\ME-Corp\MineralEssentials\eclipse\mods for mods
+[17:33:44] [Client thread/INFO]: Also searching M:\ME-Corp\MineralEssentials\eclipse\mods\1.7.10 for mods
+[17:33:49] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[17:33:49] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[17:33:49] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[17:33:49] [Client thread/WARN]: Mod Translocator is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.1.12
+[17:33:49] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
+[17:33:49] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[17:33:49] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, dct, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, Translocator, Waila] at CLIENT
+[17:33:49] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, dct, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, Translocator, Waila] at SERVER
+[17:33:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
+[17:33:51] [Client thread/INFO]: Processing ObjectHolder annotations
+[17:33:51] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[17:33:51] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[17:33:54] [Client thread/INFO]: Applying holder lookups
+[17:33:54] [Client thread/INFO]: Holder lookups applied
+[17:33:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:33:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[17:33:55] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[17:33:55] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:33:55] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[17:33:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:33:55] [Sound Library Loader/INFO]: Sound engine started
+[17:34:02] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[17:34:03] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:34:06] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@3c48b0e1, could not be parsed because it is not a String!
+[17:34:06] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@3c48b0e1
+[17:34:07] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@47c1732e, could not be parsed because it is not a String!
+[17:34:07] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@47c1732e
+[17:34:07] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@47c1732e, could not be parsed because it is not a String!
+[17:34:07] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@47c1732e
+[17:34:07] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@6d70f5cf, could not be parsed because it is not a String!
+[17:34:07] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@6d70f5cf
+[17:34:07] [Client thread/ERROR]: Cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@6d70f5cf, could not be parsed because it is not a String!
+[17:34:07] [Client thread/ERROR]: Error parsing cape, io.github.mecorp.mineralessentials.developercapes.cape.StaticCape@6d70f5cf
+[17:34:07] [Client thread/INFO]: Capes Loaded
+[17:34:07] [CodeChicken Update Checker/ERROR]: Failed to check update for Translocator returned: Err: Unknown mod/version
+[17:34:08] [Client thread/WARN]: =============================================================
+[17:34:08] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[17:34:08] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
+[17:34:08] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[17:34:08] [Client thread/WARN]: =============================================================
+[17:34:08] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[17:34:08] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[17:34:08] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
+[17:34:08] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
+[17:34:08] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
+[17:34:08] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
+[17:34:08] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyHandler
+[17:34:08] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
+[17:34:08] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
+[17:34:08] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
+[17:34:08] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[17:34:08] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[17:34:08] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
+[17:34:08] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
+[17:34:08] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
+[17:34:08] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
+[17:34:09] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
+[17:34:09] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[17:34:09] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
+[17:34:09] [Client thread/INFO]: [Statues] Statues mod not found.
+[17:34:09] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[17:34:09] [Client thread/INFO]: Forge Multipart found and dedicated handler registered
+[17:34:09] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
+[17:34:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:DevCapesOld Test, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
+[17:34:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:34:13] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[17:34:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:34:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[17:34:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[17:34:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:34:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:34:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[17:34:14] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[17:34:14] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:34:14] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[17:34:14] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:34:14] [Sound Library Loader/INFO]: Sound engine started
+[17:34:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:34:27] [Server thread/INFO]: Generating keypair
+[17:34:27] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:34:27] [Server thread/INFO]: Applying holder lookups
+[17:34:27] [Server thread/INFO]: Holder lookups applied
+[17:34:27] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1d2fa517)
+[17:34:27] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1d2fa517)
+[17:34:28] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1d2fa517)
+[17:34:28] [Server thread/INFO]: Preparing start region for level 0
+[17:34:29] [Server thread/INFO]: Preparing spawn area: 42%
+[17:34:29] [Server thread/INFO]: Changing view distance to 16, from 10
+[17:34:30] [Netty Client IO #0/INFO]: Server protocol version 1
+[17:34:30] [Netty IO #1/INFO]: Client protocol version 1
+[17:34:30] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.85.1225,Waila@1.5.5,NotEnoughItems@1.0.3.62,McMultipart@1.1.0.311,dct@na,Forge@10.13.1.1225,CodeChickenCore@1.0.4.29,ForgeMicroblock@1.1.0.311,ForgeMultipart@1.1.0.311,Translocator@1.1.1.12,MineralEssentials@1.7.10-2.0
+[17:34:30] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[17:34:30] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[17:34:30] [Client thread/INFO]: [Client thread] Client side modded connection established
+[17:34:30] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:34:30] [Server thread/INFO]: Player359[local:E:eb31c77f] logged in with entity id 169 at (80.33160901114957, 69.02900517192202, 266.0305752803977)
+[17:34:30] [Server thread/INFO]: Player359 joined the game
+[17:34:31] [Server thread/INFO]: Player EntityPlayerMP['Player359'/169, l='New World', x=80.33, y=69.03, z=266.03] connected. Sending ping
+[17:34:36] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
+[17:35:33] [Server thread/INFO]: Player359 has just earned the achievement [Taking Inventory]
+[17:35:33] [Client thread/INFO]: [CHAT] Player359 has just earned the achievement [Taking Inventory]
+[17:35:56] [Server thread/INFO]: Saving and pausing game...
+[17:35:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:35:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:35:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:35:57] [Server thread/INFO]: Stopping server
+[17:35:57] [Server thread/INFO]: Saving players
+[17:35:57] [Server thread/INFO]: Saving worlds
+[17:35:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:35:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:35:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:35:57] [Server thread/INFO]: Unloading dimension 0
+[17:35:57] [Server thread/INFO]: Unloading dimension -1
+[17:35:57] [Server thread/INFO]: Unloading dimension 1
+[17:35:57] [Server thread/INFO]: Applying holder lookups
+[17:35:57] [Server thread/INFO]: Holder lookups applied
+[17:36:00] [Client thread/INFO]: Stopping!
+[17:36:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[17:36:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[17:36:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[17:36:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

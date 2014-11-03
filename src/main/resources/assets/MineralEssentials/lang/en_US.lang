@@ -1,3 +1,4 @@
+//Cobalt
 tile.CobaltOre.name=Cobalt Ore
 tile.CobaltBlock.name=Cobalt Block
 item.CobaltIngot.name=Cobalt Ingot
@@ -10,6 +11,8 @@ item.CobaltHelmet.name=Cobalt Helmet
 item.CobaltChestplate.name=Cobalt Chestplate
 item.CobaltPants.name=Cobalt Pants
 item.CobaltBoots.name=Cobalt Boots
+
+/Ccopper
 tile.CopperOre.name=Copper Ore
 tile.CopperBlock.name=Copper Block
 item.CopperIngot.name=Copper Ingot
@@ -23,6 +26,8 @@ item.CopperHelmet.name=Copper Helmet
 item.CopperChestplate.name=Copper Chestplate
 item.CopperPants.name=Copper Pants
 item.CopperBoots.name=Copper Boots
+
+//Crystal
 item.BlazeBlob.name=Blaze Blob
 item.CrystalCrystal.name=Crystal
 item.CrystalPickaxe.name=Crystal Pickaxe
@@ -34,6 +39,8 @@ item.CrystalHelmet.name=Crystal Helmet
 item.CrystalChestplate.name=Crystal Chestplate
 item.CrystalPants.name=Crystal Pants
 item.CrystalBoots.name=Crystal Boots
+
+//Fire Crystal
 item.FireCrystalCrystal.name=Fire Crystal
 item.FireCrystalPickaxe.name=Fire Crystal Pickaxe
 item.FireCrystalAxe.name=Fire Crystal Axe
@@ -44,6 +51,8 @@ item.FireCrystalHelmet.name=Fire Crystal Helmet
 item.FireCrystalChestplate.name=Fire Crystal Chestplate
 item.FireCrystalPants.name=Fire Crystal Pants
 item.FireCrystalBoots.name=Fire Crystal Boots
+
+//Tin
 tile.TinBlock.name=Tin Block
 tile.TinOre.name=Tin Ore
 item.TinIngot.name=Tin Ingot
@@ -56,11 +65,8 @@ item.TinHoe.name=Tin Hoe
 item.TinPickaxe.name=Tin Pickaxe
 item.TinAxe.name=Tin Axe
 item.TinShovel.name=Tin Shovel
-item.DarkMatter.name= Dark Matter
-itemGroup.TabMineralEssentials=Mineral Essentials
-tile.GreenScreen.name=Green Screen
-tile.BlueScreen.name=Blue Screen
-tile.RedScreen.name=Red Screen
+
+//Iridium
 tile.IridiumOre.name=Iridium Ore
 tile.IridiumBlock.name=Iridium Block
 item.IridiumIngot.name=Iridium Ingot
@@ -73,13 +79,15 @@ item.IridiumHelmet.name=Iridium Helmet
 item.IridiumChestplate.name=Iridium Chestplate
 item.IridiumPants.name=Iridium Pants
 item.IridiumBoots.name=Iridium Boots
-tile.RandomBlock.name=Random Easter Egg
+
+//Glass
+tile.GlassBlock.name=Clear Glass
 tile.Windows.name=Clear Glass - Windows
-tile.SheepBlock.name=Sheep Block
-item.SheepHelmet.name=Sheep Helmet
-item.SheepChestplate.name=Sheep Chestplate
-item.SheepPants.name=Sheep Pants
-item.SheepBoots.name=Sheep Boots
+
+//Creative
+tile.GreenScreen.name=Green Screen
+tile.BlueScreen.name=Blue Screen
+tile.RedScreen.name=Red Screen
+tile.RandomBlock.name=Random Easter Egg
 item.FakeDiamond.name=Diamond
 tile.FakeDiamondOre.name=Diamond Ore
-tile.GlassBlock.name=Clear Glass

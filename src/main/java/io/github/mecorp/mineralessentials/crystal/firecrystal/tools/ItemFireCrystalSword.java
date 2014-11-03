@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal.tools;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECrystal;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
@@ -17,7 +18,7 @@ public class ItemFireCrystalSword extends ItemSword
 		super(material);
 		setUnlocalizedName("FireCrystalSword");
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(CreativeTabs.tabAllSearch);
+		setCreativeTab(CreativeTabMECrystal.MECrystal);
 	}
     public void onCreated(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
     {

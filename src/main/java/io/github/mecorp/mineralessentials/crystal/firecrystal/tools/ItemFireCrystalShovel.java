@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal.tools;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECrystal;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
@@ -13,7 +14,7 @@ public class ItemFireCrystalShovel extends ItemSpade
 		super(material);
 		setUnlocalizedName("FireCrystalShovel");
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(CreativeTabs.tabAllSearch);
+		setCreativeTab(CreativeTabMECrystal.MECrystal);
 	}
 
 }
