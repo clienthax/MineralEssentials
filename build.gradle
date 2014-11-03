@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-0.2-BETA"
+version = "1.7.10-2.0"
 group= "io.github.mecorp.mineralessentials" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MineralEssentials"
 
 minecraft {
-    version = "1.7.10-10.13.1.1225"
+    version = "1.7.10-10.13.2.1230"
     assetDir = "eclipse/assets"
 }
 

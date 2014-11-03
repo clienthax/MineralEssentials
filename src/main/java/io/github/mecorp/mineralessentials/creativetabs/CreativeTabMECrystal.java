@@ -1,6 +1,5 @@
 package io.github.mecorp.mineralessentials.creativetabs;
 
-import io.github.mecorp.mineralessentials.cobalt.items.CobaltItems;
 import io.github.mecorp.mineralessentials.crystal.items.CrystalItems;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
