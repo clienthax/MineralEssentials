@@ -51,7 +51,7 @@ public class OreGeneration implements IWorldGenerator
 			(new WorldGenMinable(CobaltOres.CobaltOre, 5)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
 		
-		for (int k = 0; k < 30; k++)
+		for (int k = 0; k < 20; k++)
 		{
 			int chunkX = i + random.nextInt(16);
 			int chunkY = random.nextInt(64);
@@ -59,7 +59,7 @@ public class OreGeneration implements IWorldGenerator
 			(new WorldGenMinable(TinOre.TinOre, 10)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
 		
-		for (int k = 0; k < 30      ; k++)
+		for (int k = 0; k < 20; k++)
 		{
 			int chunkX = i + random.nextInt(16);
 			int chunkY = random.nextInt(64);

@@ -4,6 +4,7 @@ import io.github.mecorp.mineralessentials.crystal.armor.CrystalArmor;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.FireCrystal;
 import io.github.mecorp.mineralessentials.crystal.items.CrystalItems;
 import io.github.mecorp.mineralessentials.crystal.tools.CrystalTools;
+import io.github.mecorp.mineralessentials.crystal.watercrystal.WaterCrystal;
 
 public class Crystal
 {
@@ -13,5 +14,6 @@ public class Crystal
 		CrystalArmor.RegisterCrystalArmor();
 		CrystalRecipes.RegisterCrystalRecipes();
 		FireCrystal.RegisterFireCrystal();
+        WaterCrystal.RegisterWaterCrystal();
 	}
 }

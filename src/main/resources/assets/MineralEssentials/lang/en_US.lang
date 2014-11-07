@@ -12,7 +12,7 @@ item.CobaltChestplate.name=Cobalt Chestplate
 item.CobaltPants.name=Cobalt Pants
 item.CobaltBoots.name=Cobalt Boots
 
-/Ccopper
+/Copper
 tile.CopperOre.name=Copper Ore
 tile.CopperBlock.name=Copper Block
 item.CopperIngot.name=Copper Ingot
@@ -51,6 +51,18 @@ item.FireCrystalHelmet.name=Fire Crystal Helmet
 item.FireCrystalChestplate.name=Fire Crystal Chestplate
 item.FireCrystalPants.name=Fire Crystal Pants
 item.FireCrystalBoots.name=Fire Crystal Boots
+
+//Water Crystal
+item.WaterCrystalCrystal.name=Water Crystal
+item.WaterCrystalPickaxe.name=Water Crystal Pickaxe
+item.WaterCrystalAxe.name=Water Crystal Axe
+item.WaterCrystalHoe.name=Water Crystal Hoe
+item.WaterCrystalShovel.name=Water Crystal Shovel
+item.WaterCrystalSword.name=Water Crystal Sword
+item.WaterCrystalHelmet.name=Water Crystal Helmet
+item.WaterCrystalChestplate.name=Water Crystal Chestplate
+item.WaterCrystalPants.name=Water Crystal Pants
+item.WaterCrystalBoots.name=Water Crystal Boots
 
 //Tin
 tile.TinBlock.name=Tin Block
