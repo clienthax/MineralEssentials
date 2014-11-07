@@ -61,16 +61,32 @@ java.io.FileNotFoundException: whitelist.json (The system cannot find the file s
 [22:09:08] [Server thread/INFO]: Preparing spawn area: 86%
 [22:09:09] [Server thread/INFO]: Preparing spawn area: 95%
 [22:09:09] [Server thread/INFO]: Done (13.993s)! For help, type "help" or "?"
-[22:09:26] [main/INFO]: Setting user: Player765
-[22:09:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:09:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mineral Essentials
-[22:09:39] [Sound Library Loader/INFO]: Sound engine started
-[22:09:45] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[22:09:45] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[22:09:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mineral Essentials
-[22:09:46] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[22:09:50] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[22:09:50] [Sound Library Loader/INFO]: Sound engine started
-[22:09:52] [Client thread/INFO]: Stopping!
-[22:11:03] [main/INFO]: Logging in with username & password
-[22:11:21] [main/INFO]: Logging in with username & password
+[22:12:52] [User Authenticator #1/INFO]: UUID of player untamemadman is 481e87fe-0e6b-4867-bfe0-bb027ccb7806
+[22:12:53] [Server thread/INFO]: untamemadman[/127.0.0.1:62790] logged in with entity id 1707 at (-65.5, 67.0, 210.5)
+[22:12:53] [Server thread/INFO]: untamemadman joined the game
+[22:12:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3026ms behind, skipping 60 tick(s)
+[22:13:04] [Server thread/INFO]: untamemadman has just earned the achievement [Taking Inventory]
+[22:13:13] [Server thread/INFO]: Opped untamemadman
+[22:13:19] [Server thread/INFO]: [untamemadman: Set own game mode to Creative Mode]
+[22:13:33] [Server thread/INFO]: untamemadman lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[22:13:33] [Server thread/INFO]: untamemadman left the game
+[22:13:37] [Server thread/INFO]: Stopping server
+[22:13:37] [Server thread/INFO]: Saving players
+[22:13:37] [Server thread/INFO]: Saving worlds
+[22:13:37] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:13:37] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:13:37] [Server thread/INFO]: Saving chunks for level 'world'/The End
+leResourcePack:Minecraft Forge, FMLFileResourcePack:Mineral Essentials
+[22:11:43] [Sound Library Loader/INFO]: Sound engine started
+[22:11:50] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[22:11:51] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:11:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mineral Essentials
+[22:11:52] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:11:56] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[22:11:56] [Sound Library Loader/INFO]: Sound engine started
+[22:12:49] [Client thread/INFO]: Connecting to localhost, 25565
+[22:13:04] [Client thread/INFO]: [CHAT] untamemadman has just earned the achievement [Taking Inventory]
+[22:13:13] [Client thread/INFO]: [CHAT] [Server: Opped untamemadman]
+[22:13:17] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[22:13:19] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[22:13:34] [Client thread/INFO]: Stopping!

@@ -1312,3 +1312,59 @@
 [22:09:54] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [22:10:39] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [22:11:24] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:12:09] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:12:52] [Netty IO #2/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:12:52] [Netty IO #2/INFO] [FML/]: Client protocol version 1
+[22:12:52] [Netty IO #2/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[22:12:52] [Netty IO #2/INFO] [FML/]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.85.1232,Forge@10.13.2.1232,MineralEssentials@1.7.10-2.0
+[22:12:52] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:12:52] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:12:53] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:12:53] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:12:53] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:12:53] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:12:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:13:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[22:13:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[22:13:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[22:13:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[22:13:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[22:13:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[22:13:37] [Server thread/TRACE] [MineralEssentials/MineralEssentials]: Sending event FMLServerStoppingEvent to mod MineralEssentials
+[22:13:37] [Server thread/TRACE] [MineralEssentials/MineralEssentials]: Sent event FMLServerStoppingEvent to mod MineralEssentials
+[22:13:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:13:37] [Server thread/INFO] [FML/]: Unloading dimension 0
+[22:13:37] [Server thread/INFO] [FML/]: Unloading dimension -1
+[22:13:37] [Server thread/INFO] [FML/]: Unloading dimension 1
+[22:13:37] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[22:13:37] [Server thread/INFO] [FML/]: Applying holder lookups
+[22:13:37] [Server thread/INFO] [FML/]: Holder lookups applied
+[22:13:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[22:13:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[22:13:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[22:13:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[22:13:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[22:13:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[22:13:37] [Server thread/TRACE] [MineralEssentials/MineralEssentials]: Sending event FMLServerStoppedEvent to mod MineralEssentials
+[22:13:37] [Server thread/TRACE] [MineralEssentials/MineralEssentials]: Sent event FMLServerStoppedEvent to mod MineralEssentials
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: cpw.mods.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.asm.transformers.TerminalTransformer$ExitVisitor.checkAccess(TerminalTransformer.java:138)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.asm.transformers.TerminalTransformer$ExitVisitor.systemExitCalled(TerminalTransformer.java:109)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.server.gui.MinecraftServerGui$1.windowClosing(MinecraftServerGui.java:83)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Window.processWindowEvent(Window.java:2051)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at javax.swing.JFrame.processWindowEvent(JFrame.java:296)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Window.processEvent(Window.java:2009)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.Component.dispatchEvent(Component.java:4698)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue.access$200(EventQueue.java:103)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue$3.run(EventQueue.java:694)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue$3.run(EventQueue.java:692)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.security.AccessController.doPrivileged(Native Method)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue$4.run(EventQueue.java:708)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.awt.EventQueue$4.run(EventQueue.java:706)
+[22:13:37] [AWT-EventQueue-0/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.security.AccessController.doPrivileged(Native Method)
