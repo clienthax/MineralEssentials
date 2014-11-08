@@ -14,6 +14,6 @@ public class Crystal
 		CrystalArmor.RegisterCrystalArmor();
 		CrystalRecipes.RegisterCrystalRecipes();
 		FireCrystal.RegisterFireCrystal();
-        //WaterCrystal.RegisterWaterCrystal();
+        WaterCrystal.RegisterWaterCrystal();
 	}
 }

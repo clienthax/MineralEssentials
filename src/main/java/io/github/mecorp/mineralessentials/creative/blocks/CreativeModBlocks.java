@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.creative.blocks;
 
+import io.github.mecorp.mineralessentials.glass.blocks.BlockMECorpGlass;
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.block.Block;
 
@@ -9,9 +10,8 @@ public class CreativeModBlocks
 	public static Block BlueScreen;
 	public static Block RedScreen;
     public static Block RandomBlock;
-    public static Block Windows;
 
-	
+
 	public static void loadCreativeBlocks()
 	{		
 		GreenScreen = new BlockGreenScreen().setBlockName("GreenScreen");
@@ -25,9 +25,6 @@ public class CreativeModBlocks
 
         RandomBlock = new BlockRandomBlock().setBlockName("RandomBlock");
         RegisterHelper.registerBlock(RandomBlock);
-
-        Windows = new BlockWindows().setBlockName("Windows");
-        RegisterHelper.registerBlock(Windows);
 
 	}
 

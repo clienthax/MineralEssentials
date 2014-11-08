@@ -1209,8 +1209,8 @@
 [22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_RandomBlock 182 io.github.mecorp.mineralessentials.creative.blocks.BlockRandomBlock@faea2f6 (req. id -1)
 [22:08:54] [Server thread/DEBUG] [FML/MineralEssentials]: Found matching Block io.github.mecorp.mineralessentials.creative.blocks.BlockRandomBlock@faea2f6 for ItemBlock net.minecraft.item.ItemBlock@124ccc85 at id 182, original id requested: -1
 [22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_RandomBlock 182 net.minecraft.item.ItemBlock@124ccc85 (req. id 182)
-[22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_Windows 183 io.github.mecorp.mineralessentials.creative.blocks.BlockWindows@5e9d78d4 (req. id -1)
-[22:08:54] [Server thread/DEBUG] [FML/MineralEssentials]: Found matching Block io.github.mecorp.mineralessentials.creative.blocks.BlockWindows@5e9d78d4 for ItemBlock net.minecraft.item.ItemBlock@3467d6d3 at id 183, original id requested: -1
+[22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_Windows 183 io.github.mecorp.mineralessentials.glass.blocks.BlockMECorpGlass@5e9d78d4 (req. id -1)
+[22:08:54] [Server thread/DEBUG] [FML/MineralEssentials]: Found matching Block io.github.mecorp.mineralessentials.glass.blocks.BlockMECorpGlass@5e9d78d4 for ItemBlock net.minecraft.item.ItemBlock@3467d6d3 at id 183, original id requested: -1
 [22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_Windows 183 net.minecraft.item.ItemBlock@3467d6d3 (req. id 183)
 [22:08:54] [Server thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_SheepBlock 184 io.github.mecorp.mineralessentials.sheep.BlockSheepBlock@508c1e15 (req. id -1)
 [22:08:54] [Server thread/DEBUG] [FML/MineralEssentials]: Found matching Block io.github.mecorp.mineralessentials.sheep.BlockSheepBlock@508c1e15 for ItemBlock net.minecraft.item.ItemBlock@1f0b1e03 at id 184, original id requested: -1

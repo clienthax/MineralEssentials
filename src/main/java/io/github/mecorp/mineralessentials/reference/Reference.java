@@ -12,6 +12,7 @@ public class Reference
     public static final String ServerProxyClass = "io.github.mecorp.mineralessentials.proxy.ServerProxy";
     public static final String GUIFactoryClass = "io.github.mecorp.mineralessentials.client.gui.GuiFactory";
     public static final String DevCapes = "http://pastebin.com/raw.php?i=5xhGxAt0";
+    public static final String Flux = "com.cofh.redstoneflux.api";
 }
 
 // http://pastebin.com/raw.php?i=5xhGxAt0

@@ -51,7 +51,7 @@ public class CobaltRecipes
 			  "XXX",
 			  'X', CobaltItems.CobaltIngot});
 			         	
-       	GameRegistry.addShapelessRecipe(new ItemStack(CobaltItems.CobaltIngot), new Object[]{new ItemStack(CobaltBlocks.CobaltBlock)});
+       	GameRegistry.addShapelessRecipe(new ItemStack(CobaltItems.CobaltIngot, 9), new Object[]{new ItemStack(CobaltBlocks.CobaltBlock)});
        	
        	GameRegistry.addRecipe(new ItemStack(CobaltArmor.CobaltHelmet), new Object[]{
 			  "XXX",

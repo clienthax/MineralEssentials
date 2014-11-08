@@ -94,7 +94,7 @@ item.IridiumBoots.name=Iridium Boots
 
 //Glass
 tile.GlassBlock.name=Clear Glass
-tile.Windows.name=Clear Glass - Windows
+tile.MECorpGlass.name=Clear Glass - ME-Corp
 
 //Creative
 tile.GreenScreen.name=Green Screen
