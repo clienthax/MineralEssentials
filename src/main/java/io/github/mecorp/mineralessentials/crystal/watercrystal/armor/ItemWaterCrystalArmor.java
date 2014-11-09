@@ -22,11 +22,13 @@ public class ItemWaterCrystalArmor extends ItemArmor {
 	{
 		if(stack.getItem()== io.github.mecorp.mineralessentials.crystal.watercrystal.armor.WaterCrystalArmor.WaterCrystalHelmet || stack.getItem() == io.github.mecorp.mineralessentials.crystal.watercrystal.armor.WaterCrystalArmor.WaterCrystalChestplate || stack.getItem() == io.github.mecorp.mineralessentials.crystal.watercrystal.armor.WaterCrystalArmor.WaterCrystalBoots)
 		{
-			return Reference.MOD_ID + ":models/armor/WaterCrystal1.png";
+			return Reference.MOD_ID + ":models/armor/ExoSuit1.png";
+            //WaterCrystal1.png
 		}
 		else if(stack.getItem() == io.github.mecorp.mineralessentials.crystal.watercrystal.armor.WaterCrystalArmor.WaterCrystalPants)
 		{
-			return Reference.MOD_ID + ":models/armor/WaterCrystal2.png";
+			return Reference.MOD_ID + ":models/armor/ExoSuit2.png";
+            //WaterCrystal2.png
 		}
 		else
 		{

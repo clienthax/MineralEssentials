@@ -21,7 +21,7 @@ public class ItemFireCrystalArmor extends ItemArmor {
 	{
 		if(stack.getItem()== FireCrystalArmor.FireCrystalHelmet || stack.getItem() == FireCrystalArmor.FireCrystalChestplate || stack.getItem() == FireCrystalArmor.FireCrystalBoots)
 		{
-			return Reference.MOD_ID + ":models/armor/FireCrystal1.png";
+			return Reference.MOD_ID + ":models/armor/FireCrystal.png";
 		}
 		else if(stack.getItem() == FireCrystalArmor.FireCrystalPants)
 		{
