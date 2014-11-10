@@ -2,6 +2,8 @@ package io.github.mecorp.mineralessentials.crystal.items;
 
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class CrystalItems
 {
@@ -11,6 +13,7 @@ public class CrystalItems
 		{
 			CrystalCrystal = new ItemCrystalCrystal();
 	    	RegisterHelper.registerItem(CrystalCrystal);
+            OreDictionary.registerOre("gemCrystal", new ItemStack(CrystalCrystal));
 	    	
 		}
 }

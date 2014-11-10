@@ -2,6 +2,8 @@ package io.github.mecorp.mineralessentials.cobalt.items;
 
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class CobaltItems
 {
@@ -11,5 +13,6 @@ public class CobaltItems
 	{
 		CobaltIngot = new ItemCobaltIngot();
     	RegisterHelper.registerItem(CobaltIngot);
+        OreDictionary.registerOre("ingotCobalt", new ItemStack(CobaltIngot));
 	}
 }

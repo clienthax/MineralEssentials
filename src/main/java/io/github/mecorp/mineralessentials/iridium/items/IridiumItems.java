@@ -2,6 +2,8 @@ package io.github.mecorp.mineralessentials.iridium.items;
 
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class IridiumItems
 {
@@ -11,5 +13,6 @@ public class IridiumItems
 	{
 		IridiumIngot = new ItemIridiumIngot();
     	RegisterHelper.registerItem(IridiumIngot);
+        OreDictionary.registerOre("ingotIridium", new ItemStack(IridiumIngot));
 	}
 }

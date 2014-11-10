@@ -10,5 +10,6 @@ public class Glass
     public static void RegisterGlass()
     {
         GlassBlock.RegisterGlassBlocks();
+        GlassRecipes.RegisterGlassRecipes();
     }
 }

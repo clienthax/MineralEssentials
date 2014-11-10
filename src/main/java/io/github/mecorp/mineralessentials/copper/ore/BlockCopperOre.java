@@ -4,6 +4,7 @@ import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECopper;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
 
@@ -18,7 +19,6 @@ public class BlockCopperOre extends Block
 		setHardness(5.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 3);
-        OreDictionary.registerOre("oreCopper", CopperOre);
 	}
 
 }

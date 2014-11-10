@@ -2,6 +2,8 @@ package io.github.mecorp.mineralessentials.glass.blocks;
 
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 /**
  * Created by untamemadman on 26/10/2014.
@@ -10,15 +12,17 @@ import net.minecraft.block.Block;
 public class GlassBlock
 {
 
-    public static Block GlassBlock;
-    public static Block MECorpGlass;
+    public static Block ClearGlassBlock;
+    public static Block MECorpClearGlass;
 
     public static void RegisterGlassBlocks()
     {
-        GlassBlock = new BlockGlassBlock().setBlockName("GlassBlock");
-        RegisterHelper.registerBlock(GlassBlock);
+        ClearGlassBlock = new BlockGlassBlock().setBlockName("ClearGlassBlock");
+        RegisterHelper.registerBlock(ClearGlassBlock);
+        OreDictionary.registerOre("blockGlass", new ItemStack(ClearGlassBlock));
 
-        MECorpGlass = new BlockMECorpGlass().setBlockName("MECorpGlass");
-        RegisterHelper.registerBlock(MECorpGlass);
+        MECorpClearGlass = new BlockMECorpGlass().setBlockName("MECorpClearGlass");
+        RegisterHelper.registerBlock(MECorpClearGlass);
+        OreDictionary.registerOre("blockGlass", new ItemStack(MECorpClearGlass));
     }
 }
