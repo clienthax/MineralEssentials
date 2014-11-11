@@ -22,7 +22,7 @@ group= "io.github.mecorp.mineralessentials" // http://maven.apache.org/guides/mi
 archivesBaseName = "MineralEssentials"
 
 minecraft {
-    version = "1.7.10-10.13.2.1232"
+    version = "1.7.10-10.13.2.1236"
     runDir = "eclipse/assets"
 }
 

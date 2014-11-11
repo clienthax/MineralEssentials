@@ -6,8 +6,8 @@ import io.github.mecorp.mineralessentials.copper.blocks.CopperBlocks;
 import io.github.mecorp.mineralessentials.copper.items.CopperItems;
 import io.github.mecorp.mineralessentials.copper.ore.CopperOre;
 import io.github.mecorp.mineralessentials.copper.tools.CopperTools;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 
 public class CopperRecipes
@@ -16,66 +16,66 @@ public class CopperRecipes
 
    		GameRegistry.addSmelting(CopperOre.CopperOre, new ItemStack(CopperItems.CopperIngot, 1), 10);
 
-   	    GameRegistry.addRecipe(new ItemStack(CopperTools.CopperPickaxe), new Object[]{
-   	    	"XXX",
-   	    	" C ",
-   	    	" C ",
-   	    	'X', CopperItems.CopperIngot, 'C', Items.stick});
+   	    GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperTools.CopperPickaxe), new Object[]{
+                "XXX",
+                " C ",
+                " C ",
+                'X', "ingotCopper", 'C', "stickWood"}));
    	  
-        GameRegistry.addRecipe(new ItemStack(CopperTools.CopperAxe), new Object[]{
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperTools.CopperAxe), new Object[]{
 			  "XX ",
 			  "XC ",
 			  " C ",
-			  'X', CopperItems.CopperIngot, 'C', Items.stick});
-        	
-       	GameRegistry.addRecipe(new ItemStack(CopperTools.CopperHoe), new Object[]{
+			  'X', "ingotCopper", 'C', "stickWood"}));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperTools.CopperHoe), new Object[]{
 			  "XX ",
 			  " C ",
 			  " C ",
-			  'X', CopperItems.CopperIngot, 'C', Items.stick});
-       	
-   	    GameRegistry.addRecipe(new ItemStack(CopperTools.CopperShovel), new Object[]{
+			  'X', "ingotCopper", 'C', "stickWood"}));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperTools.CopperShovel), new Object[]{
 			  " X ",
 			  " C ",
 			  " C ",
-			  'X', CopperItems.CopperIngot, 'C', Items.stick});
-   	    
-       	GameRegistry.addRecipe(new ItemStack(CopperTools.CopperSword), new Object[]{
+			  'X', "ingotCopper", 'C', "stickWood"}));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperTools.CopperSword), new Object[]{
 			  " X ",
 			  " X ",
 			  " C ",
-			  'X', CopperItems.CopperIngot, 'C', Items.stick});
-       	
-       	GameRegistry.addRecipe(new ItemStack(CopperBlocks.CopperBlock), new Object[]{
+			  'X', "ingotCopper", 'C', "stickWood"}));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperBlocks.CopperBlock), new Object[]{
 			  "XXX",
 			  "XXX",
 			  "XXX",
-			  'X', CopperItems.CopperIngot});
+			  'X', "ingotCopper"}));
 			         	
-       	GameRegistry.addShapelessRecipe(new ItemStack(CopperItems.CopperIngot), new Object[]{new ItemStack(CopperBlocks.CopperBlock)});
-       	
-       	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperHelmet), new Object[]{
+       	GameRegistry.addShapelessRecipe(new ItemStack(CopperItems.CopperIngot, 9), new Object[]{new ItemStack(CopperBlocks.CopperBlock)});
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperArmor.CopperHelmet), new Object[]{
 			  "XXX",
 			  "X X",
 			  "   ",
-			  'X', CopperItems.CopperIngot});
-       	
-       	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperChestplate), new Object[]{
+			  'X', "ingotCopper"}));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperArmor.CopperChestplate), new Object[]{
 			  "X X",
 			  "XXX",
 			  "XXX",
-			  'X', CopperItems.CopperIngot});
+			  'X', "ingotCopper"}));
        	
-       	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperPants), new Object[]{
+       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperArmor.CopperPants), new Object[]{
 			  "XXX",
 			  "X X",
 			  "X X",
-			  'X', CopperItems.CopperIngot});
+			  'X', "ingotCopper"}));
        	
-       	GameRegistry.addRecipe(new ItemStack(CopperArmor.CopperBoots), new Object[]{
+       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(CopperArmor.CopperBoots), new Object[]{
 			  "   ",
 			  "X X",
 			  "X X",
-			  'X', CopperItems.CopperIngot});
+			  'X', "ingotCopper"}));
 	}
 }

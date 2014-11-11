@@ -93,8 +93,8 @@ item.IridiumPants.name=Iridium Pants
 item.IridiumBoots.name=Iridium Boots
 
 //Glass
-tile.GlassBlock.name=Clear Glass
-tile.MECorpGlass.name=Clear Glass - ME-Corp
+tile.ClearGlassBlock.name=Clear Glass
+tile.MECorpClearGlass.name=Clear Glass - ME-Corp
 
 //Creative
 tile.GreenScreen.name=Green Screen
