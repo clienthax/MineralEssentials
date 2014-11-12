@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -36,6 +37,7 @@ public class MineralEssentials
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigHandler());
         Copper.RegisterCopper();
         Cobalt.RegisterCobalt();
         Iridium.RegisterIridium();
