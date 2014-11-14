@@ -1,7 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.armor;
 
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECopper;
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import net.minecraft.creativetab.CreativeTabs;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.entity.Entity;
@@ -30,13 +30,13 @@ public class ItemCopperArmor extends ItemArmor
 		}
 		else
 		{
-			System.out.println("Invallid Item ItemCopperArmor");
+			System.out.println("Invalid Item ItemCopperArmor");
 		return null;
 		}
 	}
 	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return CreativeTabMECopper.MECopper;
-	}
+		return CreativeTabMECorp.MECorp;
+	};
 }

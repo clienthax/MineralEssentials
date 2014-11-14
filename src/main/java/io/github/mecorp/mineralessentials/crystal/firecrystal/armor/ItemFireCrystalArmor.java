@@ -1,13 +1,14 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal.armor;
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECrystal;
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ItemFireCrystalArmor extends ItemArmor {
+public class ItemFireCrystalArmor extends ItemArmor
+{
 
 	public ItemFireCrystalArmor(ArmorMaterial material, int armorType, String name)
 	{
@@ -21,7 +22,7 @@ public class ItemFireCrystalArmor extends ItemArmor {
 	{
 		if(stack.getItem()== FireCrystalArmor.FireCrystalHelmet || stack.getItem() == FireCrystalArmor.FireCrystalChestplate || stack.getItem() == FireCrystalArmor.FireCrystalBoots)
 		{
-			return Reference.MOD_ID + ":models/armor/FireCrystal.png";
+			return Reference.MOD_ID + ":models/armor/FireCrystal1.png";
 		}
 		else if(stack.getItem() == FireCrystalArmor.FireCrystalPants)
 		{
@@ -36,6 +37,6 @@ public class ItemFireCrystalArmor extends ItemArmor {
 	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return CreativeTabMECrystal.MECrystal;
+		return CreativeTabMECorp.MECorp;
 	}
 }

@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.armor;
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECrystal;
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -36,6 +36,6 @@ public class ItemCrystalArmor extends ItemArmor {
 	@Override
 	public CreativeTabs getCreativeTab()
 	{
-		return CreativeTabMECrystal.MECrystal;
+		return CreativeTabMECorp.MECorp;
 	}
 }

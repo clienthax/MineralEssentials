@@ -1,6 +1,8 @@
 package io.github.mecorp.mineralessentials.sheep;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -31,4 +33,9 @@ public class ItemSheepArmor extends ItemArmor {
 		return null;
 		}
 	}
+    @Override
+    public CreativeTabs getCreativeTab()
+    {
+        return CreativeTabMECorp.MECorp;
+    }
 }

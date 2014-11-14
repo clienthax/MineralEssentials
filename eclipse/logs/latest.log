@@ -1,78 +1,83 @@
-[23:17:42] [main/INFO]: Extra: []
-[23:17:42] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
-[23:17:42] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:17:42] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:17:42] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[23:17:42] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[23:17:42] [main/INFO]: Forge Mod Loader version 7.10.85.1236 for Minecraft 1.7.10 loading
-[23:17:42] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_71, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\jdk1.7.0_71\jre
-[23:17:42] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[23:17:44] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:17:44] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:17:45] [main/WARN]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:17:45] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:17:45] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
-[23:17:45] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[23:17:45] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[23:17:45] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
-[23:17:45] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
-[23:17:45] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
-[23:17:45] [main/INFO]: Injecting location in coremod ic2.core.coremod.IC2core
-[23:17:45] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
-[23:17:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:17:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:17:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:45] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[23:17:47] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[23:17:47] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:47] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:49] [main/INFO]: Loaded library ejml-0.23.jar.
-[23:17:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:17:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:17:50] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[23:17:50] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[23:17:50] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[23:17:55] [main/INFO]: Setting user: Player515
-[23:17:59] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:18:01] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[23:18:01] [Client thread/INFO]: MinecraftForge v10.13.2.1236 Initialized
-[23:18:01] [Client thread/INFO]: Replaced 182 ore recipies
-[23:18:01] [Client thread/INFO]: Completed early MinecraftForge initialization
-[23:18:01] [Client thread/INFO]: Searching M:\ME-Corp\MineralEssentials\eclipse\mods for mods
-[23:18:01] [Client thread/INFO]: Also searching M:\ME-Corp\MineralEssentials\eclipse\mods\1.7.10 for mods
-[23:18:07] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[23:18:07] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[23:18:07] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
-[23:18:08] [Client thread/WARN]: Mod Translocator is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.1.12
-[23:18:08] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
-[23:18:08] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[23:18:09] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, IC2, Translocator, Waila] at CLIENT
-[23:18:09] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, IC2, Translocator, Waila] at SERVER
-[23:18:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
-[23:18:11] [Client thread/INFO]: Processing ObjectHolder annotations
-[23:18:11] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[23:18:11] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[23:18:15] [Client thread/INFO]: Starting pre-init
-[23:18:15] [Client thread/INFO]: Using 32 audio sources.
-[23:18:20] [Client thread/INFO]: Finished pre-init after 5090 ms
-[23:18:20] [Client thread/INFO]: Applying holder lookups
-[23:18:21] [Client thread/INFO]: Holder lookups applied
-[23:18:21] [Client thread/INFO]: IC2 audio starting.
-[23:18:21] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:21] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[23:18:21] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[23:18:21] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:18:21] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[23:18:21] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:21] [Sound Library Loader/INFO]: Sound engine started
-[23:18:21] [IC2 audio init thread/INFO]: IC2 audio ready.
-[23:18:31] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPants.png
+[21:36:49] [main/INFO]: username: sam@untamemadman.pw
+[21:36:49] [main/INFO]: Extra: []
+[21:36:49] [main/INFO]: Password found, attempting login
+[21:36:49] [main/INFO]: Logging in with username & password
+[21:36:52] [main/INFO]: Login Succesful!
+[21:36:52] [main/INFO]: Running with arguments: [--userProperties, {twitch_access_token=[com.mojang.authlib.properties.Property@2e536740]}, --username, untamemadman, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 481e87fe0e6b4867bfe0bb027ccb7806, --assetsDir, C:/Users/untamemadman/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker]
+[21:36:53] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:36:53] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:36:53] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[21:36:53] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:36:53] [main/INFO]: Forge Mod Loader version 7.10.85.1236 for Minecraft 1.7.10 loading
+[21:36:53] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_71, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\jdk1.7.0_71\jre
+[21:36:53] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:36:54] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:36:55] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:36:55] [main/WARN]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:36:55] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:36:55] [main/INFO]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[21:36:55] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[21:36:55] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[21:36:55] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[21:36:55] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[21:36:55] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
+[21:36:55] [main/INFO]: Injecting location in coremod ic2.core.coremod.IC2core
+[21:36:55] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[21:36:55] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:36:55] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:36:55] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:36:55] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:36:55] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:36:56] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:36:58] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:36:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:36:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:36:59] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:36:59] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:36:59] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:37:00] [main/INFO]: Loaded library ejml-0.23.jar.
+[21:37:00] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:37:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:37:01] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:37:01] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:37:01] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:37:06] [main/INFO]: Setting user: untamemadman
+[21:37:10] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:37:12] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:37:12] [Client thread/INFO]: MinecraftForge v10.13.2.1236 Initialized
+[21:37:12] [Client thread/INFO]: Replaced 182 ore recipies
+[21:37:12] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:37:12] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[21:37:12] [Client thread/INFO]: Searching M:\ME-Corp\MineralEssentials\eclipse\mods for mods
+[21:37:12] [Client thread/INFO]: Also searching M:\ME-Corp\MineralEssentials\eclipse\mods\1.7.10 for mods
+[21:37:18] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[21:37:18] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[21:37:18] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0.311
+[21:37:19] [Client thread/WARN]: Mod Translocator is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.1.12
+[21:37:19] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
+[21:37:19] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-dev.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:37:20] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, IC2, Translocator, Waila] at CLIENT
+[21:37:20] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, MineralEssentials, ForgeMicroblock, ForgeMultipart, McMultipart, IC2, Translocator, Waila] at SERVER
+[21:37:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
+[21:37:23] [Client thread/INFO]: Processing ObjectHolder annotations
+[21:37:23] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[21:37:24] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[21:37:28] [Client thread/INFO]: Starting pre-init
+[21:37:28] [Client thread/INFO]: Using 32 audio sources.
+[21:37:33] [Client thread/INFO]: Finished pre-init after 5916 ms
+[21:37:34] [Client thread/INFO]: Applying holder lookups
+[21:37:34] [Client thread/INFO]: Holder lookups applied
+[21:37:35] [Client thread/INFO]: IC2 audio starting.
+[21:37:35] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:35] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:37:35] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:37:35] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:37:35] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:37:35] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:35] [Sound Library Loader/INFO]: Sound engine started
+[21:37:35] [IC2 audio init thread/INFO]: IC2 audio ready.
+[21:37:44] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[21:37:44] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPants.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPants.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -97,7 +102,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPant
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalCrystal.png
+[21:37:44] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalCrystal.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalCrystal.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -122,7 +127,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalCrys
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalShovel.png
+[21:37:44] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalShovel.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalShovel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -147,7 +152,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalShov
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalChestplate.png
+[21:37:44] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalChestplate.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalChestplate.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -172,7 +177,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalChes
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalAxe.png
+[21:37:44] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalAxe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -197,7 +202,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalAxe.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHelmet.png
+[21:37:45] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHelmet.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHelmet.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -222,7 +227,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHelm
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalBoots.png
+[21:37:45] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalBoots.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalBoots.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -247,7 +252,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalBoot
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHoe.png
+[21:37:45] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHoe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -272,7 +277,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHoe.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPickaxe.png
+[21:37:45] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPickaxe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPickaxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -297,7 +302,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPick
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalSword.png
+[21:37:45] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalSword.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -322,50 +327,50 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalSwor
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:31] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[23:18:31] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[23:18:32] [Client thread/ERROR]: The config ID can NOT be negative or 0!
-[23:18:32] [Client thread/INFO]: Capes Loaded
-[23:18:32] [Client thread/INFO]: Starting init
-[23:18:32] [Client thread/INFO]: Finished init after 133 ms
-[23:18:32] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[23:18:32] [CodeChicken Update Checker/ERROR]: Failed to check update for Translocator returned: Err: Unknown mod/version
-[23:18:34] [Client thread/INFO]: Starting post-init
-[23:18:34] [Client thread/INFO]: Loading IC2 submodule: bcIntegration
-[23:18:34] [Client thread/INFO]: Submodule bcIntegration not loaded
-[23:18:34] [Client thread/INFO]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
-[23:18:35] [Client thread/INFO]: 1053 UU recipe transformations fetched after 70 ms.
-[23:18:35] [Client thread/INFO]: Finished post-init after 275 ms
-[23:18:35] [Client thread/WARN]: =============================================================
-[23:18:35] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[23:18:35] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
-[23:18:35] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
-[23:18:35] [Client thread/WARN]: =============================================================
-[23:18:35] [ic2-poolthread-1/INFO]: UU graph built with 864 nodes after 689 ms.
-[23:18:35] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
-[23:18:36] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
-[23:18:36] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
-[23:18:36] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
-[23:18:36] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
-[23:18:36] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
-[23:18:36] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
-[23:18:36] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
-[23:18:36] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
-[23:18:36] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
-[23:18:36] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
-[23:18:36] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
-[23:18:36] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
-[23:18:36] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
-[23:18:36] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
-[23:18:36] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
-[23:18:36] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
-[23:18:36] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
-[23:18:36] [Client thread/INFO]: [Statues] Statues mod not found.
-[23:18:36] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
-[23:18:36] [Client thread/INFO]: Forge Multipart found and dedicated handler registered
-[23:18:36] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
-[23:18:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPants.png
+[21:37:45] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[21:37:45] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[21:37:46] [Client thread/ERROR]: The config ID can NOT be negative or 0!
+[21:37:46] [Client thread/INFO]: Capes Loaded
+[21:37:46] [Client thread/INFO]: Starting init
+[21:37:46] [Client thread/INFO]: Finished init after 136 ms
+[21:37:46] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[21:37:46] [CodeChicken Update Checker/ERROR]: Failed to check update for Translocator returned: Err: Unknown mod/version
+[21:37:46] [Client thread/INFO]: Starting post-init
+[21:37:46] [Client thread/INFO]: Loading IC2 submodule: bcIntegration
+[21:37:46] [Client thread/INFO]: Submodule bcIntegration not loaded
+[21:37:47] [Client thread/INFO]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[21:37:47] [Client thread/INFO]: 1055 UU recipe transformations fetched after 46 ms.
+[21:37:47] [Client thread/INFO]: Finished post-init after 246 ms
+[21:37:47] [Client thread/WARN]: =============================================================
+[21:37:47] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:37:47] [Client thread/WARN]: Offendor: mcp/mobius/waila/gui/truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
+[21:37:47] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[21:37:47] [Client thread/WARN]: =============================================================
+[21:37:47] [ic2-poolthread-1/INFO]: UU graph built with 865 nodes after 586 ms.
+[21:37:47] [Client thread/INFO]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[21:37:48] [Client thread/WARN]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[21:37:48] [Client thread/INFO]: [Thaumcraft] Thaumcraft mod not found.
+[21:37:48] [Client thread/INFO]: [EnderStorage] EnderStorage mod not found.
+[21:37:48] [Client thread/INFO]: [GraveStone] GraveStone mod not found.
+[21:37:48] [Client thread/INFO]: [TwilightForestMod] TwilightForestMod mod not found.
+[21:37:48] [Client thread/WARN]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
+[21:37:48] [Client thread/WARN]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
+[21:37:48] [Client thread/WARN]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
+[21:37:48] [Client thread/WARN]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[21:37:48] [Client thread/INFO]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[21:37:48] [Client thread/INFO]: [EnderIO] EnderIO mod not found.
+[21:37:48] [Client thread/INFO]: [ProjectRed] ProjectRed|Integration mod not found.
+[21:37:48] [Client thread/INFO]: [ExtraUtilities] ExtraUtilities mod not found.
+[21:37:48] [Client thread/INFO]: [OpenBlocks] OpenBlocks mod not found.
+[21:37:48] [Client thread/INFO]: [Railcraft] Railcraft mod not found.
+[21:37:48] [Client thread/INFO]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[21:37:48] [Client thread/INFO]: [MagicalCrops] MagicalCrops mod not found.
+[21:37:48] [Client thread/INFO]: [Statues] Statues mod not found.
+[21:37:48] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[21:37:48] [Client thread/INFO]: Forge Multipart found and dedicated handler registered
+[21:37:48] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
+[21:37:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mineral Essentials, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Translocator, FMLFileResourcePack:Waila
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPants.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPants.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -393,7 +398,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPant
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalCrystal.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalCrystal.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalCrystal.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -421,7 +426,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalCrys
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalShovel.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalShovel.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalShovel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -449,7 +454,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalShov
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalChestplate.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalChestplate.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalChestplate.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -477,7 +482,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalChes
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalAxe.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalAxe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalAxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -505,7 +510,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalAxe.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHelmet.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHelmet.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHelmet.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -533,7 +538,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHelm
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalBoots.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalBoots.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalBoots.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -561,7 +566,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalBoot
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHoe.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalHoe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHoe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -589,7 +594,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalHoe.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPickaxe.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalPickaxe.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPickaxe.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -617,7 +622,7 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalPick
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalSword.png
+[21:37:48] [Client thread/ERROR]: Using missing texture, unable to load mineralessentials:textures/items/WaterCrystalSword.png
 java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -645,23 +650,82 @@ java.io.FileNotFoundException: mineralessentials:textures/items/WaterCrystalSwor
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_71]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_71]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:18:36] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[23:18:43] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
-[23:18:43] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:43] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[23:18:43] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[23:18:43] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:43] [Client thread/INFO]: IC2 audio starting.
-[23:18:43] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:43] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[23:18:43] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[23:18:43] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:18:43] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[23:18:44] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:18:44] [Sound Library Loader/INFO]: Sound engine started
-[23:18:44] [IC2 audio init thread/INFO]: IC2 audio ready.
-[23:19:12] [Client thread/INFO]: Stopping!
-[23:19:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:19:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[23:19:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[23:19:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:48] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[21:37:54] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[21:37:55] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:55] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:37:55] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:37:55] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:55] [Client thread/INFO]: IC2 audio starting.
+[21:37:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:37:55] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:37:55] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:37:55] [Thread-13/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:37:55] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:37:55] [Sound Library Loader/INFO]: Sound engine started
+[21:37:55] [IC2 audio init thread/INFO]: IC2 audio ready.
+[21:38:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:38:02] [Server thread/INFO]: Generating keypair
+[21:38:03] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[21:38:03] [Server thread/INFO]: Applying holder lookups
+[21:38:03] [Server thread/INFO]: Holder lookups applied
+[21:38:03] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7acb29b8)
+[21:38:03] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7acb29b8)
+[21:38:03] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7acb29b8)
+[21:38:03] [Server thread/INFO]: Preparing start region for level 0
+[21:38:04] [Server thread/INFO]: Preparing spawn area: 37%
+[21:38:06] [Server thread/INFO]: Changing view distance to 16, from 10
+[21:38:06] [Netty Client IO #0/INFO]: Server protocol version 1
+[21:38:06] [Netty IO #1/INFO]: Client protocol version 1
+[21:38:06] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.85.1236,Waila@1.5.5,NotEnoughItems@1.0.3.62,McMultipart@1.1.0.311,Forge@10.13.2.1236,CodeChickenCore@1.0.4.29,ForgeMicroblock@1.1.0.311,ForgeMultipart@1.1.0.311,IC2@2.2.600-experimental,Translocator@1.1.1.12,MineralEssentials@1.7.10-3.0
+[21:38:06] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[21:38:06] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[21:38:06] [Server thread/INFO]: [Server thread] Server side modded connection established
+[21:38:06] [Server thread/INFO]: untamemadman[local:E:cb171133] logged in with entity id 165 at (91.90114435735003, 117.62353932640053, 258.54447602062896)
+[21:38:06] [Client thread/INFO]: [Client thread] Client side modded connection established
+[21:38:06] [Server thread/INFO]: untamemadman joined the game
+[21:38:08] [Server thread/INFO]: Player EntityPlayerMP['untamemadman'/165, l='New World', x=91.90, y=117.62, z=258.54] connected. Sending ping
+[21:38:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3503ms behind, skipping 70 tick(s)
+[21:38:15] [Client thread/INFO]: [ic2.neiIntegration.core.NEIIC2Config:loadConfig:21]: IC2 NEI Submodule initialized
+[21:38:15] [Client thread/INFO]: Received server authentication msg. Remote sync will be activated
+[21:39:09] [Server thread/INFO]: [untamemadman: Given [Sheep Pants] * 1 to untamemadman]
+[21:39:09] [Client thread/INFO]: [CHAT] Given [Sheep Pants] * 1 to untamemadman
+[21:39:09] [Server thread/INFO]: [untamemadman: Given [Sheep Boots] * 1 to untamemadman]
+[21:39:09] [Client thread/INFO]: [CHAT] Given [Sheep Boots] * 1 to untamemadman
+[21:39:09] [Server thread/INFO]: [untamemadman: Given [Sheep Helmet] * 1 to untamemadman]
+[21:39:09] [Client thread/INFO]: [CHAT] Given [Sheep Helmet] * 1 to untamemadman
+[21:39:10] [Server thread/INFO]: [untamemadman: Given [Sheep Chestplate] * 1 to untamemadman]
+[21:39:10] [Client thread/INFO]: [CHAT] Given [Sheep Chestplate] * 1 to untamemadman
+[21:39:18] [Server thread/INFO]: [untamemadman: Given [Spawn Sheep] * 1 to untamemadman]
+[21:39:18] [Client thread/INFO]: [CHAT] Given [Spawn Sheep] * 1 to untamemadman
+[21:39:36] [Server thread/INFO]: [untamemadman: Given [Iridium Sword] * 1 to untamemadman]
+[21:39:36] [Client thread/INFO]: [CHAT] Given [Iridium Sword] * 1 to untamemadman
+[21:40:27] [Server thread/INFO]: [untamemadman: Given [Sheep Helmet] * 1 to untamemadman]
+[21:40:27] [Client thread/INFO]: [CHAT] Given [Sheep Helmet] * 1 to untamemadman
+[21:40:27] [Server thread/INFO]: [untamemadman: Given [Sheep Chestplate] * 1 to untamemadman]
+[21:40:27] [Client thread/INFO]: [CHAT] Given [Sheep Chestplate] * 1 to untamemadman
+[21:40:28] [Server thread/INFO]: [untamemadman: Given [Sheep Boots] * 1 to untamemadman]
+[21:40:28] [Client thread/INFO]: [CHAT] Given [Sheep Boots] * 1 to untamemadman
+[21:40:28] [Server thread/INFO]: [untamemadman: Given [Sheep Pants] * 1 to untamemadman]
+[21:40:28] [Client thread/INFO]: [CHAT] Given [Sheep Pants] * 1 to untamemadman
+[21:41:12] [Server thread/INFO]: Saving and pausing game...
+[21:41:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:41:14] [Server thread/INFO]: Stopping server
+[21:41:14] [Server thread/INFO]: Saving players
+[21:41:14] [Server thread/INFO]: Saving worlds
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:41:14] [Server thread/INFO]: Unloading dimension 0
+[21:41:14] [Server thread/INFO]: Unloading dimension -1
+[21:41:14] [Server thread/INFO]: Unloading dimension 1
+[21:41:14] [Server thread/INFO]: Applying holder lookups
+[21:41:14] [Server thread/INFO]: Holder lookups applied
+[21:41:16] [Client thread/INFO]: Stopping!
+[21:41:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:41:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:41:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:41:16] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

@@ -103,9 +103,13 @@ tile.RedScreen.name=Red Screen
 tile.RandomBlock.name=Random Easter Egg
 item.FakeDiamond.name=Diamond
 tile.FakeDiamondOre.name=Diamond Ore
+item.MECorp.name=ME-Corp Logo
 
 //Sheep
 item.SheepHelmet.name=Sheep Helmet
 item.SheepChestplate.name=Sheep Chestplate
 item.SheepPants.name=Sheep Pants
 item.SheepBoots.name=Sheep Boots
+
+//Food
+item.WheatFlour.name=Flour

@@ -1,8 +1,7 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal.tools;
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECrystal;
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemHoe;
 
 public class ItemFireCrystalHoe extends ItemHoe
@@ -13,7 +12,7 @@ public class ItemFireCrystalHoe extends ItemHoe
 		super(material);
 		setUnlocalizedName("FireCrystalHoe");
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(CreativeTabMECrystal.MECrystal);
+		setCreativeTab(CreativeTabMECorp.MECorp);
 	}
 
 }

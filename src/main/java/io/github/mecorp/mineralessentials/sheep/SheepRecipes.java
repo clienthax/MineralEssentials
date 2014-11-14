@@ -12,7 +12,7 @@ public class SheepRecipes
 			  "XXX",
 			  "XXX",
 			  "XXX",
-			  'X', Blocks.wool});   		
+			  'X', Blocks.wool});
        	
        	GameRegistry.addRecipe(new ItemStack(SheepArmor.SheepHelmet), new Object[]{
 			  "XXX",
@@ -38,5 +38,4 @@ public class SheepRecipes
 			  "X X",
 			  'X', Blocks.wool});
 	}
-	
 }

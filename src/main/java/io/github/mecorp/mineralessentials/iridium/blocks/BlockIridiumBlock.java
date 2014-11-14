@@ -1,5 +1,6 @@
 package io.github.mecorp.mineralessentials.iridium.blocks;
 
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.block.Block;
@@ -12,7 +13,7 @@ public class BlockIridiumBlock extends Block
 		super(Material.rock);
 		setBlockName("IridiumBlock");
 		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-		setCreativeTab(CreativeTabs.tabAllSearch);
+		setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 3);

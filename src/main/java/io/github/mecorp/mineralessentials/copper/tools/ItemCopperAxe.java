@@ -1,9 +1,7 @@
 package io.github.mecorp.mineralessentials.copper.tools;
 
-//import pw.block_breaking_games.mineral_essentials.creativetabs.ModCreativeTabs;
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECopper;
+import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
 
 public class ItemCopperAxe extends ItemAxe
@@ -14,7 +12,7 @@ public class ItemCopperAxe extends ItemAxe
 	super(material);
 	setUnlocalizedName("CopperAxe");
 	setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
-	setCreativeTab(CreativeTabMECopper.MECopper);
+	setCreativeTab(CreativeTabMECorp.MECorp);
     }
 
 }

@@ -5,38 +5,7 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:extractMcpData UP-TO-DATE
-:getVersionJson
-:extractUserDev
-Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.2.1236/forge-1.7.10-10.13.2.1236-userdev.jar
-:genSrgs
-:extractNatives UP-TO-DATE
-:copyNativesLegacy
-:getAssetsIndex
-:getAssets
-:makeStart
-:downloadMcpTools SKIPPED
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:mergeJars SKIPPED
-:deobfuscateJar
-Applying SpecialSource...
-Applying Exceptor...
-:decompile
-:processSources
-Injecting fml files
-Applying fml patches
-Applying forge patches
-:remapJar
-:extractMinecraftSrc
-:recompMinecraftNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:repackMinecraft
-:setupDecompWorkspace
 
 BUILD SUCCESSFUL
 
-Total time: 4 mins 57.237 secs
+Total time: 38.995 secs
