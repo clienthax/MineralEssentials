@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a17d1b4-55a7-4962-a2bd-7194178e5a5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/items/CreativeItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creativetabs/CreativeTabMECorp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/Food.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/FoodItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/FoodRecipes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/items/ItemMECorp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/ItemWheatFlour.java" />
-      <change type="DELETED" beforePath="M:\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\creativetabs\CreativeTabMECobalt.java" afterPath="" />
-      <change type="DELETED" beforePath="M:\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\creativetabs\CreativeTabMECopper.java" afterPath="" />
-      <change type="DELETED" beforePath="M:\ME-Corp\MineralEssentials\src\main\java\io\github\mecorp\mineralessentials\creativetabs\CreativeTabMECrystal.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/23d7e7bc-6e91-3bb0-aef5-04f8d5ce94c1.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/23d7e7bc-6e91-3bb0-aef5-04f8d5ce94c1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/481e87fe-0e6b-4867-bfe0-bb027ccb7806.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/data/Mineshaft.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/data/Mineshaft.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/NEI/local/New World/NEI.dat" afterPath="$PROJECT_DIR$/eclipse/saves/NEI/local/New World/NEI.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/New World/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/multipart.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/multipart.dat" />
@@ -32,71 +20,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM-1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/23d7e7bc-6e91-3bb0-aef5-04f8d5ce94c1.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/23d7e7bc-6e91-3bb0-aef5-04f8d5ce94c1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/blocks/BlockCobaltBlock.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/blocks/BlockCobaltBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/ore/BlockCobaltOre.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/ore/BlockCobaltOre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/blocks/BlockCopperBlock.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/blocks/BlockCopperBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/ore/BlockCopperOre.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/ore/BlockCopperOre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/glass/blocks/BlockGlassBlock.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/glass/blocks/BlockGlassBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/blocks/BlockIridiumBlock.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/blocks/BlockIridiumBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/ore/BlockIridiumOre.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/ore/BlockIridiumOre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/glass/blocks/BlockMECorpGlass.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/glass/blocks/BlockMECorpGlass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/BlockSheepBlock.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/BlockSheepBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/Creative.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/creative/Creative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/481e87fe-0e6b-4867-bfe0-bb027ccb7806.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystalRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystalRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/FireCrystalTools.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/FireCrystalTools.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/IC2.ini" afterPath="$PROJECT_DIR$/eclipse/config/IC2.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemBlazeBlob.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemBlazeBlob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/armor/ItemCobaltArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/armor/ItemCobaltArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/items/ItemCobaltIngot.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/items/ItemCobaltIngot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/armor/ItemCopperArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/armor/ItemCopperArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/items/ItemCopperIngot.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/items/ItemCopperIngot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/armor/ItemCrystalArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/armor/ItemCrystalArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/items/ItemCrystalCrystal.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/items/ItemCrystalCrystal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/ItemFireCrystalArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/ItemFireCrystalArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemFireCrystalCrystal.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemFireCrystalCrystal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/armor/ItemIridiumArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/armor/ItemIridiumArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/items/ItemIridiumIngot.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/items/ItemIridiumIngot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/ItemSheepArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/ItemSheepArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/ItemWaterCrystalArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/ItemWaterCrystalArmor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalAxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalAxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/items/ItemWaterCrystalCrystal.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/items/ItemWaterCrystalCrystal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalHoe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalHoe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalPickaxe.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalPickaxe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalShovel.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalShovel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalSword.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalSword.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MineralEssentials.iws" afterPath="$PROJECT_DIR$/MineralEssentials.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepRecipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/New World/stats/ac42e7c5-bf90-3ead-ba50-c551df161044.json" afterPath="$PROJECT_DIR$/eclipse/saves/New World/stats/ac42e7c5-bf90-3ead-ba50-c551df161044.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/WaterCrystalArmor.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/WaterCrystalArmor.java" />
+      <change type="MODIFICATION" beforePath="M:\ME-Corp\MineralEssentials\src\main\resources\assets\mineralessentials\lang\en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-server-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-server-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
     </list>
     <ignored path="MineralEssentials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -146,8 +86,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -158,18 +98,38 @@
       <file leaf-file-name="MineralEssentials.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1207">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1071">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en_US.lang" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Reference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_US.lang" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6839728" vertical-offset="1597" max-vertical-offset="2040">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="883" max-vertical-offset="2448">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -781,40 +741,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/ore/BlockCopperOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperPickaxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperShovel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/copper/tools/ItemCopperSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/armor/ItemCrystalArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/items/ItemCrystalCrystal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalPickaxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalShovel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemFireCrystalCrystal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemBlazeBlob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalShovel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalPickaxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/ItemWaterCrystalArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/items/ItemWaterCrystalCrystal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalPickaxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalShovel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/ItemWheatFlour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/ore/BlockIridiumOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/items/ItemIridiumIngot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/blocks/BlockIridiumBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumShovel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumPickaxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumHoe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/armor/ItemIridiumArmor.java" />
@@ -830,8 +756,42 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltHoe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/tools/ItemCobaltAxe.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepRecipes.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/AirCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/armor/AirCrystalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/armor/ItemAirCrystalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/items/ItemAirCrystalCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/items/AirCrystalItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/AirCrystalTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalAxe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalPickaxe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalHoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalShovel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/items/FireCrystalItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/FireCrystalArmor.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/ItemFireCrystalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/FireCrystalItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/FireCrystalTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystalRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/EarthCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/EarthCrystalRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/EarthCrystalTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalShovel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalPickaxe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalHoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalAxe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/items/ItemEarthCrystalCrystal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/items/EarthCrystalItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/armor/ItemEarthCrystalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/armor/EarthCrystalArmor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/AirCrystalRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java" />
       </list>
     </option>
   </component>
@@ -876,6 +836,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -916,7 +877,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crystal" />
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MineralEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MineralEssentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io.github.mecorp.mineralessentials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -956,7 +935,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -972,7 +950,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SolderCraft" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1022,19 +1000,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1060,6 +1025,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1121,8 +1099,8 @@
     <configuration default="false" name="Minecraft Client" type="Application" factoryName="Application">
       <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
-      <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M" />
-      <option name="PROGRAM_PARAMETERS" value="--username sam@untamemadman.pw --password MECorp1999" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Xmx2048M -Xms1024M" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -1223,13 +1201,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33001423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33001423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1262,347 +1240,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/armor/CrystalArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/armor/ItemCrystalArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07692308" vertical-offset="0" max-vertical-offset="748">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/items/ItemCrystalCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07544379" vertical-offset="0" max-vertical-offset="676">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36447167" vertical-offset="0" max-vertical-offset="653">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05206738" vertical-offset="0" max-vertical-offset="653">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07544379" vertical-offset="0" max-vertical-offset="676">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalShovel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/tools/ItemCrystalSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemFireCrystalCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/ItemBlazeBlob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="676">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07810107" vertical-offset="0" max-vertical-offset="653">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07810107" vertical-offset="0" max-vertical-offset="653">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalShovel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/ItemFireCrystalSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/armor/ItemWaterCrystalArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="748">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/items/ItemWaterCrystalCrystal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalShovel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05206738" vertical-offset="0" max-vertical-offset="653">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/watercrystal/tools/ItemWaterCrystalAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05029586" vertical-offset="0" max-vertical-offset="676">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/ItemWheatFlour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/food/FoodItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17603551" vertical-offset="0" max-vertical-offset="676">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/ore/BlockIridiumOre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/items/ItemIridiumIngot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/blocks/BlockIridiumBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33843797" vertical-offset="0" max-vertical-offset="653">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumShovel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33843797" vertical-offset="0" max-vertical-offset="653">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumPickaxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="676">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="676">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/tools/ItemIridiumAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="676">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/iridium/armor/ItemIridiumArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71794873" vertical-offset="34" max-vertical-offset="714">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#1211#1212#0" expanded="false" />
-            <element signature="e#1249#1250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/ItemSheepArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8717949" vertical-offset="0" max-vertical-offset="714">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102564104" vertical-offset="0" max-vertical-offset="663">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/SheepBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="676">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/sheep/BlockSheepBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="676">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/items/ItemCobaltIngot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4966292" vertical-offset="0" max-vertical-offset="445">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/armor/ItemCobaltArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3935185" vertical-offset="204" max-vertical-offset="799">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1196#1197#0" expanded="false" />
-            <element signature="e#1234#1235#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/blocks/BlockCobaltBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0764045" vertical-offset="0" max-vertical-offset="445">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/cobalt/ore/BlockCobaltOre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0764045" vertical-offset="0" max-vertical-offset="445">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,9 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08056872" vertical-offset="0" max-vertical-offset="425">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1620,9 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08056872" vertical-offset="0" max-vertical-offset="425">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,9 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0764045" vertical-offset="0" max-vertical-offset="445">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1640,9 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03820225" vertical-offset="0" max-vertical-offset="445">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1650,17 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0764045" vertical-offset="0" max-vertical-offset="445">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/FireCrystalArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,24 +1291,332 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3837472" vertical-offset="0" max-vertical-offset="765">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eclipse/logs/fml-client-1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21719457" vertical-offset="25611" max-vertical-offset="39134">
+          <caret line="1515" column="132" selection-start-line="1515" selection-start-column="132" selection-end-line="1515" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/armor/ItemAirCrystalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/armor/AirCrystalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41025642" vertical-offset="0" max-vertical-offset="663">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/items/ItemAirCrystalCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2766272" vertical-offset="0" max-vertical-offset="676">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/items/AirCrystalItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31240427" vertical-offset="0" max-vertical-offset="653">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalPickaxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20826952" vertical-offset="0" max-vertical-offset="653">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalHoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2603369" vertical-offset="0" max-vertical-offset="653">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalShovel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2863706" vertical-offset="0" max-vertical-offset="653">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/ItemAirCrystalSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37721893" vertical-offset="0" max-vertical-offset="676">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/tools/AirCrystalTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25641027" vertical-offset="0" max-vertical-offset="697">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0764045" vertical-offset="0" max-vertical-offset="445">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/AirCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45842695" vertical-offset="0" max-vertical-offset="445">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/FireCrystalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6296296" vertical-offset="0" max-vertical-offset="595">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/armor/ItemFireCrystalArmor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7906977" vertical-offset="153" max-vertical-offset="765">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.38425925" vertical-offset="4" max-vertical-offset="765">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/items/FireCrystalItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53483146" vertical-offset="0" max-vertical-offset="445">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/tools/FireCrystalTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8657407" vertical-offset="0" max-vertical-offset="646">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/firecrystal/FireCrystalRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15349887" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/EarthCrystalRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29733726" vertical-offset="3" max-vertical-offset="1275">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalShovel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalPickaxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31240427" vertical-offset="0" max-vertical-offset="653">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalHoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="676">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/ItemEarthCrystalAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="676">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/tools/EarthCrystalTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="697">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/items/ItemEarthCrystalCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30210015" vertical-offset="0" max-vertical-offset="619">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/armor/ItemEarthCrystalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/armor/EarthCrystalArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="663">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/Crystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/EarthCrystal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30699775" vertical-offset="0" max-vertical-offset="443">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/aircrystal/AirCrystalRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11512415" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/crystal/earthcrystal/items/EarthCrystalItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15349887" vertical-offset="0" max-vertical-offset="443">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/ModGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/untamemadman/Minecraft Mod/TinkersConstruct/src/main/java/tconstruct/world/gen/SurfaceOreGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/untamemadman/Minecraft Mod/TinkersConstruct/src/main/java/tconstruct/world/blocks/TMetalBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4348837" vertical-offset="0" max-vertical-offset="459">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forge-1.7.10-10.13.2.1232-changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21601209" vertical-offset="5994" max-vertical-offset="107984">
+          <caret line="361" column="8" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/untamemadman/Minecraft Mod/TinkersConstruct/src/main/java/tconstruct/plugins/waila/WailaRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/generation/OreGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1496">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://M:/untamemadman/Minecraft Mod/TinkersConstruct/src/main/java/tconstruct/TConstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="4114">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="e#8917#8918#0" expanded="false" />
+            <element signature="e#8971#8972#0" expanded="false" />
+            <element signature="e#9191#9192#0" expanded="false" />
+            <element signature="e#9226#9227#0" expanded="false" />
+            <element signature="e#9284#9285#0" expanded="false" />
+            <element signature="e#9319#9320#0" expanded="false" />
+            <element signature="e#9376#9377#0" expanded="false" />
+            <element signature="e#9414#9415#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/MineralEssentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1071">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/mecorp/mineralessentials/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mineralessentials/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6839728" vertical-offset="1597" max-vertical-offset="2040">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="883" max-vertical-offset="2448">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

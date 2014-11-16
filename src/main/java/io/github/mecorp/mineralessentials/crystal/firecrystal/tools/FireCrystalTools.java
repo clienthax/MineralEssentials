@@ -17,7 +17,7 @@ public class FireCrystalTools {
 	    
 		public static void RegisterFireCrystalTools(){
 			
-			FireCrystalPickaxe = new ItemFireCrystalPickaxe (FireCrystalToolMaterial);
+			FireCrystalPickaxe = new ItemFireCrystalPickaxe(FireCrystalToolMaterial);
 	    	RegisterHelper.registerItem(FireCrystalPickaxe);
 	    	
 	    	FireCrystalAxe = new ItemFireCrystalAxe(FireCrystalToolMaterial);

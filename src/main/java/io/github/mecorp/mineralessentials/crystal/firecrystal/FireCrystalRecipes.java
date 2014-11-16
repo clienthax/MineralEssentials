@@ -1,12 +1,10 @@
 package io.github.mecorp.mineralessentials.crystal.firecrystal;
 
-import io.github.mecorp.mineralessentials.crystal.armor.CrystalArmor;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.armor.FireCrystalArmor;
+import io.github.mecorp.mineralessentials.crystal.firecrystal.items.FireCrystalItems;
 import io.github.mecorp.mineralessentials.crystal.firecrystal.tools.FireCrystalTools;
-import io.github.mecorp.mineralessentials.crystal.tools.CrystalTools;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import io.github.mecorp.mineralessentials.crystal.firecrystal.items.FireCrystalItems;
 import io.github.mecorp.mineralessentials.crystal.items.CrystalItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 

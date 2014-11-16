@@ -1511,17 +1511,17 @@
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_CrystalChestplate 4133 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@634670e3 (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_CrystalPants 4134 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@259d7a00 (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_CrystalBoots 4135 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@5b4a94b (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalCrystal 4136 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemFireCrystalCrystal@70432572 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalCrystal 4136 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemAirCrystalCrystal@70432572 (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_BlazeBlob 4137 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemBlazeBlob@484f98f2 (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4138 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalPickaxe@15039ea6 (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalAxe 4139 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalAxe@20a4af11 (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHoe 4140 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalHoe@1be195d5 (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalShovel 4141 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalShovel@7733e13f (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalSword 4142 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalSword@6f092c3c (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHelmet 4143 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@1ee8fa70 (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalChestplate 4144 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@5191deea (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPants 4145 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@3fc1fe7c (req. id -1)
-[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalBoots 4146 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@592a9f97 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4138 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalPickaxe@15039ea6 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalAxe 4139 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalAxe@20a4af11 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHoe 4140 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalHoe@1be195d5 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalShovel 4141 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalShovel@7733e13f (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalSword 4142 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalSword@6f092c3c (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHelmet 4143 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@1ee8fa70 (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalChestplate 4144 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@5191deea (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPants 4145 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@3fc1fe7c (req. id -1)
+[19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_FireCrystalBoots 4146 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@592a9f97 (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_WaterCrystalCrystal 4147 io.github.mecorp.mineralessentials.crystal.watercrystal.items.ItemWaterCrystalCrystal@38de7bf0 (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_WaterCrystalPickaxe 4148 io.github.mecorp.mineralessentials.crystal.watercrystal.tools.ItemWaterCrystalPickaxe@bf7d93b (req. id -1)
 [19:47:45] [Client thread/TRACE] [FML/MineralEssentials]: Registry add: MineralEssentials:MineralEssentials_WaterCrystalAxe 4149 io.github.mecorp.mineralessentials.crystal.watercrystal.tools.ItemWaterCrystalAxe@3cd6b6a0 (req. id -1)
@@ -2990,17 +2990,17 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalChestplate 4133 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@634670e3
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalPants 4134 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@259d7a00
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalBoots 4135 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@5b4a94b
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalCrystal 4136 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemFireCrystalCrystal@70432572
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalCrystal 4136 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemAirCrystalCrystal@70432572
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_BlazeBlob 4137 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemBlazeBlob@484f98f2
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4138 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalPickaxe@15039ea6
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalAxe 4139 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalAxe@20a4af11
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHoe 4140 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalHoe@1be195d5
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalShovel 4141 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalShovel@7733e13f
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalSword 4142 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalSword@6f092c3c
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHelmet 4143 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@1ee8fa70
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalChestplate 4144 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@5191deea
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPants 4145 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@3fc1fe7c
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalBoots 4146 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@592a9f97
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4138 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalPickaxe@15039ea6
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalAxe 4139 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalAxe@20a4af11
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHoe 4140 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalHoe@1be195d5
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalShovel 4141 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalShovel@7733e13f
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalSword 4142 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalSword@6f092c3c
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHelmet 4143 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@1ee8fa70
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalChestplate 4144 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@5191deea
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPants 4145 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@3fc1fe7c
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalBoots 4146 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@592a9f97
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_WaterCrystalCrystal 4147 io.github.mecorp.mineralessentials.crystal.watercrystal.items.ItemWaterCrystalCrystal@38de7bf0
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_WaterCrystalPickaxe 4148 io.github.mecorp.mineralessentials.crystal.watercrystal.tools.ItemWaterCrystalPickaxe@bf7d93b
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_WaterCrystalAxe 4149 io.github.mecorp.mineralessentials.crystal.watercrystal.tools.ItemWaterCrystalAxe@3cd6b6a0
@@ -3540,7 +3540,7 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemCropSeed 4343 ic2.core.item.ItemCropSeed@7258ee35 (req. id 4343)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:wooden_sword 268 net.minecraft.item.ItemSword@5594773e (req. id 268)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalPants: 4145 (init) -> 4186 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPants 4186 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@3fc1fe7c (req. id 4186)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPants 4186 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@3fc1fe7c (req. id 4186)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHay@2e14ba12 for ItemBlock net.minecraft.item.ItemBlock@21439ae9 at id 170, original id requested: 170
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:hay_block 170 net.minecraft.item.ItemBlock@21439ae9 (req. id 170)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@73396d2 for ItemBlock net.minecraft.item.ItemBlock@11311c42 at id 7, original id requested: 7
@@ -3564,7 +3564,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:reactorVent: 4291 (init) -> 4386 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:reactorVent 4386 ic2.core.item.reactor.ItemReactorVent@6584a9a7 (req. id 4386)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalChestplate: 4144 (init) -> 4211 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalChestplate 4211 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@5191deea (req. id 4211)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalChestplate 4211 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@5191deea (req. id 4211)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemBatCrystal: 4262 (init) -> 4372 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemBatCrystal 4372 ic2.core.item.ItemBattery@1892b718 (req. id 4372)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:leather_chestplate 299 net.minecraft.item.ItemArmor@5b1b8a00 (req. id 299)
@@ -3609,7 +3609,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block io.github.mecorp.mineralessentials.glass.blocks.BlockGlassBlock@1b075931 for ItemBlock net.minecraft.item.ItemBlock@7f70add3 at id 413, original id requested: 413
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_ClearGlassBlock 413 net.minecraft.item.ItemBlock@7f70add3 (req. id 413)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalCrystal: 4136 (init) -> 4160 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalCrystal 4160 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemFireCrystalCrystal@70432572 (req. id 4160)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalCrystal 4160 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemAirCrystalCrystal@70432572 (req. id 4160)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemBarrel 4355 ic2.core.item.block.ItemBarrel@166c5a79 (req. id 4355)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:blockWall: 204 (init) -> 220 (map).
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block ic2.core.block.BlockWall@3b3ebb24 for ItemBlock ic2.core.item.block.ItemBlockIC2@137056df at id 220, original id requested: 220
@@ -3666,7 +3666,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemRecipePart: 4176 (init) -> 4313 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemRecipePart 4313 ic2.core.item.resources.ItemRecipePart@31bfe0e6 (req. id 4313)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalPickaxe: 4138 (init) -> 4190 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4190 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalPickaxe@15039ea6 (req. id 4190)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4190 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalPickaxe@15039ea6 (req. id 4190)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:potion 373 net.minecraft.item.ItemPotion@7fb0aa92 (req. id 373)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_leggings 312 net.minecraft.item.ItemArmor@3078857e (req. id 312)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@45118a2 for ItemBlock net.minecraft.item.ItemBlock@4db5350a at id 14, original id requested: 14
@@ -3890,7 +3890,7 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom 40 net.minecraft.item.ItemBlock@2b88ede8 (req. id 40)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:cooked_beef 364 net.minecraft.item.ItemFood@1493d9b3 (req. id 364)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalAxe: 4139 (init) -> 4172 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalAxe 4172 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalAxe@20a4af11 (req. id 4172)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalAxe 4172 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalAxe@20a4af11 (req. id 4172)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:fluidHotCoolant: 236 (init) -> 239 (map).
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block ic2.core.block.BlockIC2Fluid@550d9e8e for ItemBlock ic2.core.item.block.ItemBlockIC2@7124a841 at id 239, original id requested: 239
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:fluidHotCoolant 239 ic2.core.item.block.ItemBlockIC2@7124a841 (req. id 239)
@@ -4016,7 +4016,7 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:fireworks 401 net.minecraft.item.ItemFirework@4ed4b486 (req. id 401)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:apple 260 net.minecraft.item.ItemFood@22702ecd (req. id 260)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalSword: 4142 (init) -> 4166 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalSword 4166 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalSword@6f092c3c (req. id 4166)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalSword 4166 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalSword@6f092c3c (req. id 4166)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemArmorAdvBatpack: 4253 (init) -> 4344 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemArmorAdvBatpack 4344 ic2.core.item.armor.ItemArmorAdvBatpack@d36a191 (req. id 4344)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemironrotor 4358 ic2.core.item.resources.ItemWindRotor@6c126d9c (req. id 4358)
@@ -4179,7 +4179,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_TinHelmet: 4163 (init) -> 4200 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_TinHelmet 4200 io.github.mecorp.mineralessentials.tin.armor.ItemTinArmor@19647f24 (req. id 4200)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalHoe: 4140 (init) -> 4161 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHoe 4161 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalHoe@1be195d5 (req. id 4161)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHoe 4161 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalHoe@1be195d5 (req. id 4161)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemBatREDischarged 4259 ic2.core.item.ItemBatteryDischarged@8e5bc5 (req. id 4259)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:boat 333 net.minecraft.item.ItemBoat@6638d668 (req. id 333)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStoneSlab@e1836e for ItemBlock net.minecraft.item.ItemSlab@598b619b at id 43, original id requested: 43
@@ -4384,7 +4384,7 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:blockDynamite 251 ic2.core.item.block.ItemBlockIC2@3fd9cc37 (req. id 251)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemCoin 4337 ic2.core.item.ItemIC2@152a1a43 (req. id 4337)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalHelmet: 4143 (init) -> 4187 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHelmet 4187 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@1ee8fa70 (req. id 4187)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalHelmet 4187 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@1ee8fa70 (req. id 4187)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemPartCircuitAdv: 4198 (init) -> 4432 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemPartCircuitAdv 4432 ic2.core.item.ItemIC2@885cb41 (req. id 4432)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPistonBase@22139758 for ItemBlock net.minecraft.item.ItemPiston@763f9c57 at id 33, original id requested: 33
@@ -4418,7 +4418,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch ForgeMicroblock:microblock: 4366 (init) -> 4226 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: ForgeMicroblock:microblock 4226 codechicken.microblock.ItemMicroPart@59b68ec3 (req. id 4226)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalShovel: 4141 (init) -> 4206 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalShovel 4206 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalShovel@7733e13f (req. id 4206)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalShovel 4206 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalShovel@7733e13f (req. id 4206)
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:nether_star 399 net.minecraft.item.ItemSimpleFoiled@723e84b8 (req. id 399)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemFluidCell: 4174 (init) -> 4246 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemFluidCell 4246 ic2.core.item.ItemFluidCell@3321ea56 (req. id 4246)
@@ -4537,7 +4537,7 @@
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@52a1bab6 for ItemBlock net.minecraft.item.ItemBlock@14927a57 at id 42, original id requested: 42
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: minecraft:iron_block 42 net.minecraft.item.ItemBlock@14927a57 (req. id 42)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch MineralEssentials:MineralEssentials_FireCrystalBoots: 4146 (init) -> 4163 (map).
-[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalBoots 4163 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@592a9f97 (req. id 4163)
+[19:48:21] [Server thread/TRACE] [FML/]: Registry add: MineralEssentials:MineralEssentials_FireCrystalBoots 4163 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@592a9f97 (req. id 4163)
 [19:48:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch IC2:itemToolBronzePickaxe: 4206 (init) -> 4254 (map).
 [19:48:21] [Server thread/TRACE] [FML/]: Registry add: IC2:itemToolBronzePickaxe 4254 ic2.core.item.tool.ItemIC2Pickaxe@55d31815 (req. id 4254)
 [19:48:21] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@1dafc862 for ItemBlock net.minecraft.item.ItemBlock@64651002 at id 164, original id requested: 164
@@ -5329,19 +5329,19 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperPants 4157 io.github.mecorp.mineralessentials.copper.armor.ItemCopperArmor@50529e0b
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinHoe 4158 io.github.mecorp.mineralessentials.tin.tools.ItemTinHoe@163ca46
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_IridiumAxe 4159 io.github.mecorp.mineralessentials.iridium.tools.ItemIridiumAxe@2650c3c9
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalCrystal 4160 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemFireCrystalCrystal@70432572
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHoe 4161 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalHoe@1be195d5
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalCrystal 4160 io.github.mecorp.mineralessentials.crystal.firecrystal.items.ItemAirCrystalCrystal@70432572
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHoe 4161 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalHoe@1be195d5
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperChestplate 4162 io.github.mecorp.mineralessentials.copper.armor.ItemCopperArmor@43312863
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalBoots 4163 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@592a9f97
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalBoots 4163 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@592a9f97
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalCrystal 4164 io.github.mecorp.mineralessentials.crystal.items.ItemCrystalCrystal@4827dda7
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinPickaxe 4165 io.github.mecorp.mineralessentials.tin.tools.ItemTinPickaxe@2134b86a
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalSword 4166 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalSword@6f092c3c
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalSword 4166 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalSword@6f092c3c
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperPickaxe 4167 io.github.mecorp.mineralessentials.copper.tools.ItemCopperPickaxe@1bad3a7a
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalPants 4168 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@259d7a00
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltBoots 4169 io.github.mecorp.mineralessentials.cobalt.armor.ItemCobaltArmor@42b887ed
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_IridiumHoe 4170 io.github.mecorp.mineralessentials.iridium.tools.ItemIridiumHoe@65d4c6
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinIngot 4171 io.github.mecorp.mineralessentials.tin.items.ItemTinIngot@2e846e6b
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalAxe 4172 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalAxe@20a4af11
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalAxe 4172 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalAxe@20a4af11
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperHoe 4173 io.github.mecorp.mineralessentials.copper.tools.ItemCopperHoe@52f3aa85
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_IridiumShovel 4174 io.github.mecorp.mineralessentials.iridium.tools.ItemIridiumShovel@1d74135e
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalHoe 4175 io.github.mecorp.mineralessentials.crystal.tools.ItemCrystalHoe@7cde0d8a
@@ -5355,11 +5355,11 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinBoots 4183 io.github.mecorp.mineralessentials.tin.armor.ItemTinArmor@187c4d7
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltIngot 4184 io.github.mecorp.mineralessentials.cobalt.items.ItemCobaltIngot@3ffc470a
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_IridiumPants 4185 io.github.mecorp.mineralessentials.iridium.armor.ItemIridiumArmor@49736934
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPants 4186 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@3fc1fe7c
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHelmet 4187 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@1ee8fa70
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPants 4186 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@3fc1fe7c
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalHelmet 4187 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@1ee8fa70
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltChestplate 4188 io.github.mecorp.mineralessentials.cobalt.armor.ItemCobaltArmor@6d8e4f7e
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalAxe 4189 io.github.mecorp.mineralessentials.crystal.tools.ItemCrystalAxe@47db07d0
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4190 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalPickaxe@15039ea6
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalPickaxe 4190 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalPickaxe@15039ea6
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperSword 4191 io.github.mecorp.mineralessentials.copper.tools.ItemCopperSword@321cf419
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltSword 4192 io.github.mecorp.mineralessentials.cobalt.tools.ItemCobaltSword@54226459
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperIngot 4193 io.github.mecorp.mineralessentials.copper.items.ItemCopperIngot@5c0c6569
@@ -5375,12 +5375,12 @@
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalPickaxe 4203 io.github.mecorp.mineralessentials.crystal.tools.ItemCrystalPickaxe@6adec700
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinSword 4204 io.github.mecorp.mineralessentials.tin.tools.ItemTinSword@617814a8
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperShovel 4205 io.github.mecorp.mineralessentials.copper.tools.ItemCopperShovel@7b402c4e
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalShovel 4206 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemFireCrystalShovel@7733e13f
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalShovel 4206 io.github.mecorp.mineralessentials.crystal.firecrystal.tools.ItemAirCrystalShovel@7733e13f
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_TinAxe 4207 io.github.mecorp.mineralessentials.tin.tools.ItemTinAxe@c37482e
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalChestplate 4208 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@634670e3
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_IridiumSword 4209 io.github.mecorp.mineralessentials.iridium.tools.ItemIridiumSword@2fa38f6d
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CopperHelmet 4210 io.github.mecorp.mineralessentials.copper.armor.ItemCopperArmor@2fd0bd
-[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalChestplate 4211 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor@5191deea
+[19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_FireCrystalChestplate 4211 io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemAirCrystalArmor@5191deea
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CrystalHelmet 4212 io.github.mecorp.mineralessentials.crystal.armor.ItemCrystalArmor@fd04ce
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltHoe 4213 io.github.mecorp.mineralessentials.cobalt.tools.ItemCobaltHoe@9a2b3e8
 [19:48:21] [Server thread/TRACE] [FML/]: Registry: MineralEssentials:MineralEssentials_CobaltPants 4214 io.github.mecorp.mineralessentials.cobalt.armor.ItemCobaltArmor@1a051163

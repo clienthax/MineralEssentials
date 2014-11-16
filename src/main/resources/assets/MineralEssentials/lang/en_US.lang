@@ -64,6 +64,30 @@ item.WaterCrystalChestplate.name=Water Crystal Chestplate
 item.WaterCrystalPants.name=Water Crystal Pants
 item.WaterCrystalBoots.name=Water Crystal Boots
 
+//Air Crystal
+item.AirCrystalCrystal.name=Air Crystal
+item.AirCrystalPickaxe.name=Air Crystal Pickaxe
+item.AirCrystalAxe.name=Air Crystal Axe
+item.AirCrystalHoe.name=Air Crystal Hoe
+item.AirCrystalShovel.name=Air Crystal Shovel
+item.AirCrystalSword.name=Air Crystal Sword
+item.AirCrystalHelmet.name=Air Crystal Helmet
+item.AirCrystalChestplate.name=Air Crystal Chestplate
+item.AirCrystalPants.name=Air Crystal Pants
+item.AirCrystalBoots.name=Air Crystal Boots
+
+//Earth Crystal
+item.EarthCrystalCrystal.name=Earth Crystal
+item.EarthCrystalPickaxe.name=Earth Crystal Pickaxe
+item.EarthCrystalAxe.name=Earth Crystal Axe
+item.EarthCrystalHoe.name=Earth Crystal Hoe
+item.EarthCrystalShovel.name=Earth Crystal Shovel
+item.EarthCrystalSword.name=Earth Crystal Sword
+item.EarthCrystalHelmet.name=Earth Crystal Helmet
+item.EarthCrystalChestplate.name=Earth Crystal Chestplate
+item.EarthCrystalPants.name=Earth Crystal Pants
+item.EarthCrystalBoots.name=Earth Crystal Boots
+
 //Tin
 tile.TinBlock.name=Tin Block
 tile.TinOre.name=Tin Ore

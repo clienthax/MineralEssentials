@@ -1,6 +1,5 @@
 package io.github.mecorp.mineralessentials.crystal.watercrystal.armor;
 
-import io.github.mecorp.mineralessentials.crystal.firecrystal.armor.ItemFireCrystalArmor;
 import io.github.mecorp.mineralessentials.utility.RegisterHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;

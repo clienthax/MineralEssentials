@@ -1,10 +1,8 @@
 package io.github.mecorp.mineralessentials.generation;
 
 import java.util.Random;
-
 import io.github.mecorp.mineralessentials.cobalt.ore.CobaltOres;
 import io.github.mecorp.mineralessentials.copper.ore.CopperOre;
-import io.github.mecorp.mineralessentials.fakediamond.FakeDiamond;
 import io.github.mecorp.mineralessentials.fakediamond.ore.FakeDiamondOre;
 import io.github.mecorp.mineralessentials.iridium.ore.IridiumOres;
 import io.github.mecorp.mineralessentials.tin.ore.TinOre;

@@ -1,6 +1,7 @@
 package io.github.mecorp.mineralessentials;
 
 import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -20,6 +21,8 @@ import io.github.mecorp.mineralessentials.proxy.CommonProxy;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import io.github.mecorp.mineralessentials.sheep.Sheep;
 import io.github.mecorp.mineralessentials.tin.Tin;
+import io.github.mecorp.mineralessentials.utility.LogHelper;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Created by untamemadman on 8/25/2014.
@@ -33,6 +36,20 @@ public class MineralEssentials
 
     @SidedProxy(clientSide = Reference.ClientProxyClass, serverSide = Reference.ServerProxyClass)
     public static CommonProxy proxy;
+
+    public MineralEssentials()
+    {
+        if (Loader.isModLoaded("SolderCraft"))
+        {
+            LogHelper.info("SolderCraft, Are you ready to create some awesome machines?");
+            LogManager.getLogger("SolderCraft").info("MineralEssentials, Lets do this!");
+        }
+        else
+        {
+            LogHelper.info("SolderCraft not found...");
+            LogHelper.info("Preparing to take over the world");
+        }
+    }
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
