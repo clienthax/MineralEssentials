@@ -17,7 +17,7 @@ public class IridiumTools {
 	    
 		public static void RegisterIridiumTools(){
 			
-			IridiumPickaxe = new ItemIridiumPickaxe (IridiumToolMaterial);
+			IridiumPickaxe = new ItemIridiumPickaxe(IridiumToolMaterial);
 	    	RegisterHelper.registerItem(IridiumPickaxe);
 	    	
 	    	IridiumAxe = new ItemIridiumAxe(IridiumToolMaterial);

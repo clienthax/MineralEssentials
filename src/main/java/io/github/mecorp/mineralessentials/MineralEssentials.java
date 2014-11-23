@@ -20,6 +20,7 @@ import io.github.mecorp.mineralessentials.iridium.Iridium;
 import io.github.mecorp.mineralessentials.proxy.CommonProxy;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import io.github.mecorp.mineralessentials.sheep.Sheep;
+import io.github.mecorp.mineralessentials.steel.Steel;
 import io.github.mecorp.mineralessentials.tin.Tin;
 import io.github.mecorp.mineralessentials.utility.LogHelper;
 import org.apache.logging.log4j.LogManager;
@@ -61,6 +62,7 @@ public class MineralEssentials
         Iridium.RegisterIridium();
         Crystal.RegisterCrystal();
         Tin.RegisterTin();
+        Steel.RegisterSteel();
         Creative.RegisterCreative();
         Sheep.RegisterSheep();
         FakeDiamond.RegisterDiamond();

@@ -116,6 +116,20 @@ item.IridiumChestplate.name=Iridium Chestplate
 item.IridiumPants.name=Iridium Pants
 item.IridiumBoots.name=Iridium Boots
 
+//Steel
+tile.SteelOre.name=Steel Ore
+tile.SteelBlock.name=Steel Block
+item.SteelIngot.name=Steel Ingot
+item.SteelPickaxe.name=Steel Pickaxe
+item.SteelAxe.name=Steel Axe
+item.SteelHoe.name=Steel Hoe
+item.SteelShovel.name=Steel Shovel
+item.SteelSword.name=Steel Sword
+item.SteelHelmet.name=Steel Helmet
+item.SteelChestplate.name=Steel Chestplate
+item.SteelPants.name=Steel Pants
+item.SteelBoots.name=Steel Boots
+
 //Glass
 tile.ClearGlassBlock.name=Clear Glass
 tile.MECorpClearGlass.name=Clear Glass - ME-Corp
