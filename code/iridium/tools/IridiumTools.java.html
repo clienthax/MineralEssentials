@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>IridiumTools.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+IridiumTools.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.iridium.tools; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item.ToolMaterial; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.util.EnumHelper; 
+ 
+</span><span class="s0">public class </span><span class="s1">IridiumTools { 
+ 
+        </span><span class="s0">public static </span><span class="s1">Item IridiumPickaxe; 
+        </span><span class="s0">public static </span><span class="s1">Item IridiumAxe; 
+        </span><span class="s0">public static </span><span class="s1">Item IridiumHoe; 
+        </span><span class="s0">public static </span><span class="s1">Item IridiumShovel; 
+        </span><span class="s0">public static </span><span class="s1">Item IridiumSword; 
+        </span><span class="s0">static </span><span class="s1">ToolMaterial IridiumToolMaterial = EnumHelper.addToolMaterial(</span><span class="s2">&quot;IridiumToolMaterial&quot;</span><span class="s1">, </span><span class="s3">4</span><span class="s1">, </span><span class="s3">2000</span><span class="s1">, </span><span class="s3">7.0F</span><span class="s1">, </span><span class="s3">10.0F</span><span class="s1">, </span><span class="s3">50</span><span class="s1">); 
+         
+         
+        </span><span class="s0">public static void </span><span class="s1">RegisterIridiumTools(){ 
+             
+            IridiumPickaxe = </span><span class="s0">new <a href="ItemIridiumPickaxe.java.html">ItemIridiumPickaxe</a></span><span class="s1">(IridiumToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumPickaxe); 
+             
+            IridiumAxe = </span><span class="s0">new <a href="ItemIridiumAxe.java.html">ItemIridiumAxe</a></span><span class="s1">(IridiumToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumAxe); 
+             
+            IridiumHoe = </span><span class="s0">new <a href="ItemIridiumHoe.java.html">ItemIridiumHoe</a></span><span class="s1">(IridiumToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumHoe); 
+             
+            IridiumShovel = </span><span class="s0">new <a href="ItemIridiumShovel.java.html">ItemIridiumShovel</a></span><span class="s1">(IridiumToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumShovel); 
+             
+            IridiumSword = </span><span class="s0">new <a href="ItemIridiumSword.java.html">ItemIridiumSword</a></span><span class="s1">(IridiumToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumSword); 
+        } 
+} 
+</span></pre>
+</body>
+</html>

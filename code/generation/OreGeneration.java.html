@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>OreGeneration.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+OreGeneration.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.generation; 
+ 
+</span><span class="s0">import </span><span class="s1">java.util.Random; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/ore/CobaltOres.java.html">io.github.mecorp.mineralessentials.cobalt.ore.CobaltOres</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/copper/ore/CopperOre.java.html">io.github.mecorp.mineralessentials.copper.ore.CopperOre</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/fakediamond/ore/FakeDiamondOre.java.html">io.github.mecorp.mineralessentials.fakediamond.ore.FakeDiamondOre</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/iridium/ore/IridiumOres.java.html">io.github.mecorp.mineralessentials.iridium.ore.IridiumOres</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/tin/ore/TinOre.java.html">io.github.mecorp.mineralessentials.tin.ore.TinOre</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.world.World; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.world.chunk.IChunkProvider; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.world.gen.feature.WorldGenMinable; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.IWorldGenerator; 
+ 
+</span><span class="s0">public class </span><span class="s1">OreGeneration </span><span class="s0">implements </span><span class="s1">IWorldGenerator 
+{ 
+    </span><span class="s0">public void </span><span class="s1">generate(Random random, </span><span class="s0">int </span><span class="s1">chunkX, </span><span class="s0">int </span><span class="s1">chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) 
+    { 
+        </span><span class="s0">switch</span><span class="s1">(world.provider.dimensionId){ 
+        </span><span class="s0">case </span><span class="s1">-</span><span class="s2">1</span><span class="s1">: 
+            generateNether(world, random, chunkX*</span><span class="s2">16</span><span class="s1">, chunkZ*</span><span class="s2">16</span><span class="s1">); 
+        </span><span class="s0">break</span><span class="s1">; 
+        </span><span class="s0">case </span><span class="s2">0</span><span class="s1">: 
+            generateSurface(world, random, chunkX*</span><span class="s2">16</span><span class="s1">, chunkZ*</span><span class="s2">16</span><span class="s1">); 
+        </span><span class="s0">break</span><span class="s1">; 
+        </span><span class="s0">case </span><span class="s2">1</span><span class="s1">: 
+            generateEnd(world, random, chunkX*</span><span class="s2">16</span><span class="s1">, chunkZ*</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">break</span><span class="s1">; 
+        } 
+    } 
+ 
+    </span><span class="s0">private void </span><span class="s1">generateNether(World world, Random random, </span><span class="s0">int </span><span class="s1">i, </span><span class="s0">int </span><span class="s1">j) 
+    { 
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">k = </span><span class="s2">0</span><span class="s1">; k &lt; </span><span class="s2">50</span><span class="s1">; k++) 
+        { 
+            </span><span class="s0">int </span><span class="s1">chunkX = i + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkY = random.nextInt(</span><span class="s2">100</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkZ = j + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            (</span><span class="s0">new </span><span class="s1">WorldGenMinable(<a href="../../../../../io/github/mecorp/mineralessentials/iridium/ore/IridiumOres.java.html">IridiumOres</a>.IridiumOre, </span><span class="s2">15</span><span class="s1">)).generate(world, random, chunkX, chunkY, chunkZ); 
+        } 
+    } 
+ 
+    </span><span class="s0">private void </span><span class="s1">generateSurface(World world, Random random, </span><span class="s0">int </span><span class="s1">i, </span><span class="s0">int </span><span class="s1">j) 
+    { 
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">k = </span><span class="s2">0</span><span class="s1">; k &lt; </span><span class="s2">3</span><span class="s1">; k++) 
+        { 
+            </span><span class="s0">int </span><span class="s1">chunkX = i + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkY = random.nextInt(</span><span class="s2">14</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkZ = j + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            (</span><span class="s0">new </span><span class="s1">WorldGenMinable(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/ore/CobaltOres.java.html">CobaltOres</a>.CobaltOre, </span><span class="s2">5</span><span class="s1">)).generate(world, random, chunkX, chunkY, chunkZ); 
+        } 
+         
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">k = </span><span class="s2">0</span><span class="s1">; k &lt; </span><span class="s2">20</span><span class="s1">; k++) 
+        { 
+            </span><span class="s0">int </span><span class="s1">chunkX = i + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkY = random.nextInt(</span><span class="s2">64</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkZ = j + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            (</span><span class="s0">new </span><span class="s1">WorldGenMinable(<a href="../../../../../io/github/mecorp/mineralessentials/tin/ore/TinOre.java.html">TinOre</a>.TinOre, </span><span class="s2">10</span><span class="s1">)).generate(world, random, chunkX, chunkY, chunkZ); 
+        } 
+         
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">k = </span><span class="s2">0</span><span class="s1">; k &lt; </span><span class="s2">20</span><span class="s1">; k++) 
+        { 
+            </span><span class="s0">int </span><span class="s1">chunkX = i + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkY = random.nextInt(</span><span class="s2">64</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkZ = j + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            (</span><span class="s0">new </span><span class="s1">WorldGenMinable(<a href="../../../../../io/github/mecorp/mineralessentials/copper/ore/CopperOre.java.html">CopperOre</a>.CopperOre, </span><span class="s2">10</span><span class="s1">)).generate(world, random, chunkX, chunkY, chunkZ); 
+        } 
+ 
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">k = </span><span class="s2">0</span><span class="s1">; k &lt; </span><span class="s2">3</span><span class="s1">; k++) 
+        { 
+            </span><span class="s0">int </span><span class="s1">chunkX = i + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkY = random.nextInt(</span><span class="s2">15</span><span class="s1">); 
+            </span><span class="s0">int </span><span class="s1">chunkZ = j + random.nextInt(</span><span class="s2">16</span><span class="s1">); 
+            (</span><span class="s0">new </span><span class="s1">WorldGenMinable(<a href="../../../../../io/github/mecorp/mineralessentials/fakediamond/ore/FakeDiamondOre.java.html">FakeDiamondOre</a>.FakeDiamondOre, </span><span class="s2">5</span><span class="s1">)).generate(world, random, chunkX, chunkY, chunkZ); 
+        } 
+    } 
+     
+ 
+    </span><span class="s0">private void </span><span class="s1">generateEnd(World world, Random random, </span><span class="s0">int </span><span class="s1">i, </span><span class="s0">int </span><span class="s1">j) 
+    { 
+         
+    } 
+ 
+} 
+</span></pre>
+</body>
+</html>

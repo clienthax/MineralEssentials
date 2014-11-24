@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>GuiFactory.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+GuiFactory.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.client.gui; 
+ 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.client.IModGuiFactory; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.client.Minecraft; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.client.gui.GuiScreen; 
+ 
+</span><span class="s0">import </span><span class="s1">java.util.Set; 
+ 
+</span><span class="s2">/** 
+ * Created by Sam on 8/25/2014. 
+ */</span><span class="s1"> 
+</span><span class="s0">public class </span><span class="s1">GuiFactory </span><span class="s0">implements </span><span class="s1">IModGuiFactory 
+{ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">initialize(Minecraft minecraftInstance) 
+    { 
+    } 
+    @Override 
+    </span><span class="s0">public </span><span class="s1">Class&lt;? </span><span class="s0">extends </span><span class="s1">GuiScreen&gt; mainConfigGuiClass() 
+    { 
+        </span><span class="s0">return <a href="ModGuiConfig.java.html">ModGuiConfig</a></span><span class="s1">.</span><span class="s0">class</span><span class="s1">; 
+    } 
+    @Override 
+    </span><span class="s0">public </span><span class="s1">Set&lt;RuntimeOptionCategoryElement&gt; runtimeGuiCategories() 
+    { 
+        </span><span class="s0">return null</span><span class="s1">; 
+    } 
+ 
+    @Override 
+    </span><span class="s0">public </span><span class="s1">RuntimeOptionGuiHandler getHandlerFor(RuntimeOptionCategoryElement element) 
+    { 
+        </span><span class="s0">return null</span><span class="s1">; 
+    } 
+}</span></pre>
+</body>
+</html>

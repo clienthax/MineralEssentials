@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>CobaltTools.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+CobaltTools.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.cobalt.tools; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item.ToolMaterial; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.util.EnumHelper; 
+ 
+</span><span class="s0">public class </span><span class="s1">CobaltTools { 
+ 
+        </span><span class="s0">public static </span><span class="s1">Item CobaltPickaxe; 
+        </span><span class="s0">public static </span><span class="s1">Item CobaltAxe; 
+        </span><span class="s0">public static </span><span class="s1">Item CobaltHoe; 
+        </span><span class="s0">public static </span><span class="s1">Item CobaltShovel; 
+        </span><span class="s0">public static </span><span class="s1">Item CobaltSword; 
+        </span><span class="s0">static </span><span class="s1">ToolMaterial CobaltToolMaterial = EnumHelper.addToolMaterial(</span><span class="s2">&quot;CobaltToolMaterial&quot;</span><span class="s1">, </span><span class="s3">4</span><span class="s1">, </span><span class="s3">2000</span><span class="s1">, </span><span class="s3">7.0F</span><span class="s1">, </span><span class="s3">10.0F</span><span class="s1">, </span><span class="s3">50</span><span class="s1">); 
+         
+         
+        </span><span class="s0">public static void </span><span class="s1">RegisterCobaltTools(){ 
+             
+            CobaltPickaxe = </span><span class="s0">new <a href="ItemCobaltPickaxe.java.html">ItemCobaltPickaxe</a> </span><span class="s1">(CobaltToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(CobaltPickaxe); 
+             
+            CobaltAxe = </span><span class="s0">new <a href="ItemCobaltAxe.java.html">ItemCobaltAxe</a></span><span class="s1">(CobaltToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(CobaltAxe); 
+             
+            CobaltHoe = </span><span class="s0">new <a href="ItemCobaltHoe.java.html">ItemCobaltHoe</a></span><span class="s1">(CobaltToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(CobaltHoe); 
+             
+            CobaltShovel = </span><span class="s0">new <a href="ItemCobaltShovel.java.html">ItemCobaltShovel</a></span><span class="s1">(CobaltToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(CobaltShovel); 
+             
+            CobaltSword = </span><span class="s0">new <a href="ItemCobaltSword.java.html">ItemCobaltSword</a></span><span class="s1">(CobaltToolMaterial); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(CobaltSword); 
+        } 
+} 
+</span></pre>
+</body>
+</html>

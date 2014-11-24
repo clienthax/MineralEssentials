@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>CobaltRecipes.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,0,255); }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+CobaltRecipes.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.cobalt; 
+ 
+</span><span class="s0">import </span><span class="s1">net.minecraft.init.Items; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.ItemStack; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/armor/CobaltArmor.java.html">io.github.mecorp.mineralessentials.cobalt.armor.CobaltArmor</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/blocks/CobaltBlocks.java.html">io.github.mecorp.mineralessentials.cobalt.blocks.CobaltBlocks</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">io.github.mecorp.mineralessentials.cobalt.items.CobaltItems</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/ore/CobaltOres.java.html">io.github.mecorp.mineralessentials.cobalt.ore.CobaltOres</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">io.github.mecorp.mineralessentials.cobalt.tools.CobaltTools</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.registry.GameRegistry; 
+ 
+</span><span class="s0">public class </span><span class="s1">CobaltRecipes 
+{ 
+    </span><span class="s0">public static void </span><span class="s1">RegisterCobaltRecipes(){ 
+ 
+        GameRegistry.addSmelting(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/ore/CobaltOres.java.html">CobaltOres</a>.CobaltOre, </span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s2">1</span><span class="s1">), </span><span class="s2">10</span><span class="s1">); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">CobaltTools</a>.CobaltPickaxe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+            </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+            </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+            </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+            </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s3">'C'</span><span class="s1">, Items.blaze_rod}); 
+       
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">CobaltTools</a>.CobaltAxe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;XX &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;XC &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s3">'C'</span><span class="s1">, Items.blaze_rod}); 
+             
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">CobaltTools</a>.CobaltHoe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;XX &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s3">'C'</span><span class="s1">, Items.blaze_rod}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">CobaltTools</a>.CobaltShovel), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s3">'C'</span><span class="s1">, Items.blaze_rod}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/tools/CobaltTools.java.html">CobaltTools</a>.CobaltSword), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s3">'C'</span><span class="s1">, Items.blaze_rod}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/blocks/CobaltBlocks.java.html">CobaltBlocks</a>.CobaltBlock), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot}); 
+                         
+        GameRegistry.addShapelessRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot, </span><span class="s2">9</span><span class="s1">), </span><span class="s0">new </span><span class="s1">Object[]{</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/blocks/CobaltBlocks.java.html">CobaltBlocks</a>.CobaltBlock)}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/armor/CobaltArmor.java.html">CobaltArmor</a>.CobaltHelmet), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;   &quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/armor/CobaltArmor.java.html">CobaltArmor</a>.CobaltChestplate), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/armor/CobaltArmor.java.html">CobaltArmor</a>.CobaltPants), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot}); 
+         
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/cobalt/armor/CobaltArmor.java.html">CobaltArmor</a>.CobaltBoots), </span><span class="s0">new </span><span class="s1">Object[]{ 
+              </span><span class="s3">&quot;   &quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+              </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/cobalt/items/CobaltItems.java.html">CobaltItems</a>.CobaltIngot}); 
+    } 
+} 
+</span></pre>
+</body>
+</html>

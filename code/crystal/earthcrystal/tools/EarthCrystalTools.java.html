@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>EarthCrystalTools.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+EarthCrystalTools.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.crystal.earthcrystal.tools; 
+ 
+</span><span class="s0">import <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item.ToolMaterial; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.util.EnumHelper; 
+ 
+</span><span class="s0">public class </span><span class="s1">EarthCrystalTools { 
+ 
+        </span><span class="s0">public static </span><span class="s1">Item EarthCrystalPickaxe; 
+        </span><span class="s0">public static </span><span class="s1">Item EarthCrystalAxe; 
+        </span><span class="s0">public static </span><span class="s1">Item EarthCrystalHoe; 
+        </span><span class="s0">public static </span><span class="s1">Item EarthCrystalShovel; 
+        </span><span class="s0">public static </span><span class="s1">Item EarthCrystalSword; 
+        </span><span class="s0">static </span><span class="s1">ToolMaterial EarthCrystalToolMaterial = EnumHelper.addToolMaterial(</span><span class="s2">&quot;EarthCrystalToolMaterial&quot;</span><span class="s1">, </span><span class="s3">4</span><span class="s1">, </span><span class="s3">1500</span><span class="s1">, </span><span class="s3">8.0F</span><span class="s1">, </span><span class="s3">20.0F</span><span class="s1">, </span><span class="s3">29</span><span class="s1">); 
+         
+         
+        </span><span class="s0">public static void </span><span class="s1">RegisterEarthCrystalTools(){ 
+ 
+            EarthCrystalPickaxe = </span><span class="s0">new <a href="ItemEarthCrystalPickaxe.java.html">ItemEarthCrystalPickaxe</a></span><span class="s1">(EarthCrystalToolMaterial); 
+            <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(EarthCrystalPickaxe); 
+ 
+            EarthCrystalAxe = </span><span class="s0">new <a href="ItemEarthCrystalAxe.java.html">ItemEarthCrystalAxe</a></span><span class="s1">(EarthCrystalToolMaterial); 
+            <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(EarthCrystalAxe); 
+ 
+            EarthCrystalHoe = </span><span class="s0">new <a href="ItemEarthCrystalHoe.java.html">ItemEarthCrystalHoe</a></span><span class="s1">(EarthCrystalToolMaterial); 
+            <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(EarthCrystalHoe); 
+ 
+            EarthCrystalShovel = </span><span class="s0">new <a href="ItemEarthCrystalShovel.java.html">ItemEarthCrystalShovel</a></span><span class="s1">(EarthCrystalToolMaterial); 
+            <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(EarthCrystalShovel); 
+ 
+            EarthCrystalSword = </span><span class="s0">new <a href="ItemEarthCrystalSword.java.html">ItemEarthCrystalSword</a></span><span class="s1">(EarthCrystalToolMaterial); 
+            <a href="../../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(EarthCrystalSword); 
+        } 
+} 
+</span></pre>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>TinArmor.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+TinArmor.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.tin.armor; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.ItemArmor.ArmorMaterial; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.util.EnumHelper; 
+ 
+</span><span class="s0">public class </span><span class="s1">TinArmor 
+{ 
+         
+        </span><span class="s0">static </span><span class="s1">ArmorMaterial TinArmorMaterial = EnumHelper.addArmorMaterial(</span><span class="s2">&quot;TinArmorMaterial&quot;</span><span class="s1">, </span><span class="s3">50</span><span class="s1">, </span><span class="s0">new int</span><span class="s1">[]{</span><span class="s3">5</span><span class="s1">, </span><span class="s3">10</span><span class="s1">, </span><span class="s3">8</span><span class="s1">, </span><span class="s3">5</span><span class="s1">}, </span><span class="s3">50</span><span class="s1">); 
+        </span><span class="s0">public static </span><span class="s1">Item TinHelmet; 
+        </span><span class="s0">public static </span><span class="s1">Item TinChestplate; 
+        </span><span class="s0">public static </span><span class="s1">Item TinPants; 
+        </span><span class="s0">public static </span><span class="s1">Item TinBoots; 
+ 
+        </span><span class="s0">public static void </span><span class="s1">RegisterTinArmor(){ 
+             
+            TinHelmet = </span><span class="s0">new <a href="ItemTinArmor.java.html">ItemTinArmor</a></span><span class="s1">(TinArmorMaterial, </span><span class="s3">0</span><span class="s1">, </span><span class="s2">&quot;TinHelmet&quot;</span><span class="s1">); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(TinHelmet); 
+             
+            TinChestplate = </span><span class="s0">new <a href="ItemTinArmor.java.html">ItemTinArmor</a></span><span class="s1">(TinArmorMaterial, </span><span class="s3">1</span><span class="s1">, </span><span class="s2">&quot;TinChestplate&quot;</span><span class="s1">); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(TinChestplate); 
+             
+            TinPants = </span><span class="s0">new <a href="ItemTinArmor.java.html">ItemTinArmor</a></span><span class="s1">(TinArmorMaterial, </span><span class="s3">2</span><span class="s1">, </span><span class="s2">&quot;TinPants&quot;</span><span class="s1">); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(TinPants); 
+             
+            TinBoots = </span><span class="s0">new <a href="ItemTinArmor.java.html">ItemTinArmor</a></span><span class="s1">(TinArmorMaterial, </span><span class="s3">3</span><span class="s1">, </span><span class="s2">&quot;TinBoots&quot;</span><span class="s1">); 
+            <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(TinBoots); 
+             
+        } 
+ 
+         
+    } 
+ 
+</span></pre>
+</body>
+</html>

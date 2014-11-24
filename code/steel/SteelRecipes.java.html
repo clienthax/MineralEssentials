@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>SteelRecipes.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,0,255); }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+SteelRecipes.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.steel; 
+ 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/steel/armor/SteelArmor.java.html">io.github.mecorp.mineralessentials.steel.armor.SteelArmor</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/steel/blocks/SteelBlocks.java.html">io.github.mecorp.mineralessentials.steel.blocks.SteelBlocks</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">io.github.mecorp.mineralessentials.steel.items.SteelItems</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/steel/ore/SteelOres.java.html">io.github.mecorp.mineralessentials.steel.ore.SteelOres</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">io.github.mecorp.mineralessentials.steel.tools.SteelTools</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.init.Items; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.ItemStack; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.registry.GameRegistry; 
+ 
+</span><span class="s0">public class </span><span class="s1">SteelRecipes 
+{ 
+    </span><span class="s0">public static void </span><span class="s1">RegisterSteelRecipes(){ 
+ 
+        GameRegistry.addSmelting(<a href="../../../../../io/github/mecorp/mineralessentials/steel/ore/SteelOres.java.html">SteelOres</a>.SteelOre, </span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s2">1</span><span class="s1">), </span><span class="s2">10</span><span class="s1">); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">SteelTools</a>.SteelPickaxe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s3">'C'</span><span class="s1">, Items.stick}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">SteelTools</a>.SteelAxe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XX &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;XC &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s3">'C'</span><span class="s1">, Items.stick}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">SteelTools</a>.SteelHoe), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XX &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s3">'C'</span><span class="s1">, Items.stick}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">SteelTools</a>.SteelShovel), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s3">'C'</span><span class="s1">, Items.stick}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/tools/SteelTools.java.html">SteelTools</a>.SteelSword), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; X &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot; C &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot, </span><span class="s3">'C'</span><span class="s1">, Items.stick}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/blocks/SteelBlocks.java.html">SteelBlocks</a>.SteelBlock), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot}); 
+ 
+        GameRegistry.addShapelessRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot), </span><span class="s0">new </span><span class="s1">Object[]{</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/blocks/SteelBlocks.java.html">SteelBlocks</a>.SteelBlock)}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/armor/SteelArmor.java.html">SteelArmor</a>.SteelHelmet), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;   &quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/armor/SteelArmor.java.html">SteelArmor</a>.SteelChestplate), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/armor/SteelArmor.java.html">SteelArmor</a>.SteelPants), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;XXX&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot}); 
+ 
+        GameRegistry.addRecipe(</span><span class="s0">new </span><span class="s1">ItemStack(<a href="../../../../../io/github/mecorp/mineralessentials/steel/armor/SteelArmor.java.html">SteelArmor</a>.SteelBoots), </span><span class="s0">new </span><span class="s1">Object[]{ 
+                </span><span class="s3">&quot;   &quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">&quot;X X&quot;</span><span class="s1">, 
+                </span><span class="s3">'X'</span><span class="s1">, <a href="../../../../../io/github/mecorp/mineralessentials/steel/items/SteelItems.java.html">SteelItems</a>.SteelIngot}); 
+    } 
+} 
+</span></pre>
+</body>
+</html>

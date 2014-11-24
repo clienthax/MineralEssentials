@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>ModGuiConfig.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+ModGuiConfig.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.client.gui; 
+ 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.client.config.GuiConfig; 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">io.github.mecorp.mineralessentials.handler.ConfigHandler</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">io.github.mecorp.mineralessentials.reference.Reference</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.client.gui.GuiScreen; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.config.ConfigElement; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.common.config.Configuration; 
+ 
+</span><span class="s2">/** 
+ * Created by Sam on 8/25/2014. 
+ */</span><span class="s1"> 
+</span><span class="s0">public class </span><span class="s1">ModGuiConfig </span><span class="s0">extends </span><span class="s1">GuiConfig 
+{ 
+    </span><span class="s0">public </span><span class="s1">ModGuiConfig(GuiScreen guiScreen) 
+    { 
+        </span><span class="s0">super</span><span class="s1">(guiScreen, 
+                </span><span class="s0">new </span><span class="s1">ConfigElement(<a href="../../../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">ConfigHandler</a>.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(), 
+                <a href="../../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_ID, 
+                </span><span class="s0">false</span><span class="s1">, 
+                </span><span class="s0">false</span><span class="s1">, 
+                GuiConfig.getAbridgedConfigPath(<a href="../../../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">ConfigHandler</a>.configuration.toString())); 
+    } 
+}</span></pre>
+</body>
+</html>

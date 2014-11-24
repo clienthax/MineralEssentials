@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>BlockIridiumOre.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+BlockIridiumOre.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.iridium.ore; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/creativetabs/CreativeTabMECorp.java.html">io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">io.github.mecorp.mineralessentials.reference.Reference</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.block.Block; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.block.material.Material; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.creativetab.CreativeTabs; 
+ 
+</span><span class="s0">public class </span><span class="s1">BlockIridiumOre </span><span class="s0">extends </span><span class="s1">Block 
+{ 
+    </span><span class="s0">public </span><span class="s1">BlockIridiumOre() 
+    { 
+        </span><span class="s0">super</span><span class="s1">(Material.rock); 
+        setBlockName(</span><span class="s2">&quot;IridiumOre&quot;</span><span class="s1">); 
+        setBlockTextureName(<a href="../../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_ID + </span><span class="s2">&quot;:&quot; </span><span class="s1">+ getUnlocalizedName().substring(</span><span class="s3">5</span><span class="s1">)); 
+        setCreativeTab(<a href="../../../../../../io/github/mecorp/mineralessentials/creativetabs/CreativeTabMECorp.java.html">CreativeTabMECorp</a>.MECorp); 
+        setHardness(</span><span class="s3">5.0F</span><span class="s1">); 
+        setResistance(</span><span class="s3">10.0F</span><span class="s1">); 
+        setHarvestLevel(</span><span class="s2">&quot;pickaxe&quot;</span><span class="s1">, </span><span class="s3">3</span><span class="s1">); 
+    } 
+} 
+</span></pre>
+</body>
+</html>

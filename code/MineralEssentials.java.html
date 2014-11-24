@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>MineralEssentials.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+MineralEssentials.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials; 
+ 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.FMLCommonHandler; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.Loader; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.Mod; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.SidedProxy; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.event.FMLInitializationEvent; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.event.FMLPostInitializationEvent; 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.event.FMLPreInitializationEvent; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/cobalt/Cobalt.java.html">io.github.mecorp.mineralessentials.cobalt.Cobalt</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/copper/Copper.java.html">io.github.mecorp.mineralessentials.copper.Copper</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/creative/Creative.java.html">io.github.mecorp.mineralessentials.creative.Creative</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/crystal/Crystal.java.html">io.github.mecorp.mineralessentials.crystal.Crystal</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/fakediamond/FakeDiamond.java.html">io.github.mecorp.mineralessentials.fakediamond.FakeDiamond</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/food/Food.java.html">io.github.mecorp.mineralessentials.food.Food</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/generation/ModGeneration.java.html">io.github.mecorp.mineralessentials.generation.ModGeneration</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/glass/Glass.java.html">io.github.mecorp.mineralessentials.glass.Glass</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">io.github.mecorp.mineralessentials.handler.ConfigHandler</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/iridium/Iridium.java.html">io.github.mecorp.mineralessentials.iridium.Iridium</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/machines/Machines.java.html">io.github.mecorp.mineralessentials.machines.Machines</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/proxy/CommonProxy.java.html">io.github.mecorp.mineralessentials.proxy.CommonProxy</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">io.github.mecorp.mineralessentials.reference.Reference</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/sheep/Sheep.java.html">io.github.mecorp.mineralessentials.sheep.Sheep</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/steel/Steel.java.html">io.github.mecorp.mineralessentials.steel.Steel</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/tin/Tin.java.html">io.github.mecorp.mineralessentials.tin.Tin</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../io/github/mecorp/mineralessentials/utility/LogHelper.java.html">io.github.mecorp.mineralessentials.utility.LogHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">org.apache.logging.log4j.LogManager; 
+ 
+</span><span class="s2">/** 
+ * Created by untamemadman on 8/25/2014. 
+ */</span><span class="s1"> 
+ 
+@Mod(modid = <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_ID, name = <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_NAME, version = <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.VERSION) 
+</span><span class="s0">public class </span><span class="s1">MineralEssentials 
+{ 
+    @Mod.Instance(<a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_ID) 
+    </span><span class="s0">public static </span><span class="s1">MineralEssentials instances; 
+ 
+    @SidedProxy(clientSide = <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.ClientProxyClass, serverSide = <a href="../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.ServerProxyClass) 
+    </span><span class="s0">public static <a href="../../../../io/github/mecorp/mineralessentials/proxy/CommonProxy.java.html">CommonProxy</a> </span><span class="s1">proxy; 
+ 
+    </span><span class="s0">public </span><span class="s1">MineralEssentials() 
+    { 
+        </span><span class="s0">if </span><span class="s1">(Loader.isModLoaded(</span><span class="s3">&quot;SolderCraft&quot;</span><span class="s1">)) 
+        { 
+            <a href="../../../../io/github/mecorp/mineralessentials/utility/LogHelper.java.html">LogHelper</a>.info(</span><span class="s3">&quot;SolderCraft, Are you ready to create some awesome machines?&quot;</span><span class="s1">); 
+            LogManager.getLogger(</span><span class="s3">&quot;SolderCraft&quot;</span><span class="s1">).info(</span><span class="s3">&quot;MineralEssentials, Lets do this!&quot;</span><span class="s1">); 
+        } 
+        </span><span class="s0">else</span><span class="s1"> 
+        { 
+            <a href="../../../../io/github/mecorp/mineralessentials/utility/LogHelper.java.html">LogHelper</a>.info(</span><span class="s3">&quot;SolderCraft not found...&quot;</span><span class="s1">); 
+            <a href="../../../../io/github/mecorp/mineralessentials/utility/LogHelper.java.html">LogHelper</a>.info(</span><span class="s3">&quot;Preparing to take over the world&quot;</span><span class="s1">); 
+        } 
+    } 
+ 
+    @Mod.EventHandler 
+    </span><span class="s0">public void </span><span class="s1">preInit(FMLPreInitializationEvent event) 
+    { 
+        <a href="../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">ConfigHandler</a>.init(event.getSuggestedConfigurationFile()); 
+        FMLCommonHandler.instance().bus().register(</span><span class="s0">new <a href="../../../../io/github/mecorp/mineralessentials/handler/ConfigHandler.java.html">ConfigHandler</a></span><span class="s1">()); 
+        <a href="../../../../io/github/mecorp/mineralessentials/copper/Copper.java.html">Copper</a>.RegisterCopper(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/cobalt/Cobalt.java.html">Cobalt</a>.RegisterCobalt(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/iridium/Iridium.java.html">Iridium</a>.RegisterIridium(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/crystal/Crystal.java.html">Crystal</a>.RegisterCrystal(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/tin/Tin.java.html">Tin</a>.RegisterTin(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/steel/Steel.java.html">Steel</a>.RegisterSteel(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/creative/Creative.java.html">Creative</a>.RegisterCreative(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/sheep/Sheep.java.html">Sheep</a>.RegisterSheep(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/fakediamond/FakeDiamond.java.html">FakeDiamond</a>.RegisterDiamond(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/glass/Glass.java.html">Glass</a>.RegisterGlass(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/food/Food.java.html">Food</a>.RegisterFood(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/machines/Machines.java.html">Machines</a>.RegisterMachines(); 
+        proxy.registerTileEntities(); 
+        <a href="../../../../io/github/mecorp/mineralessentials/generation/ModGeneration.java.html">ModGeneration</a>.loadGeneration(); 
+    } 
+ 
+    @Mod.EventHandler 
+    </span><span class="s0">public void </span><span class="s1">Init(FMLInitializationEvent event) 
+    { 
+        proxy.initCapes(); 
+    } 
+ 
+    @Mod.EventHandler 
+    </span><span class="s0">public void </span><span class="s1">postInit(FMLPostInitializationEvent event) 
+    { 
+ 
+    } 
+}</span></pre>
+</body>
+</html>

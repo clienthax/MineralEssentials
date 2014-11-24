@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>LogHelper.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+LogHelper.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.utility; 
+ 
+</span><span class="s0">import </span><span class="s1">cpw.mods.fml.common.FMLLog; 
+</span><span class="s0">import <a href="../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">io.github.mecorp.mineralessentials.reference.Reference</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">org.apache.logging.log4j.Level; 
+ 
+</span><span class="s0">public class </span><span class="s1">LogHelper 
+{ 
+    </span><span class="s0">public static void </span><span class="s1">log(Level logLevel, Object object) 
+    { 
+        FMLLog.log(<a href="../../../../../io/github/mecorp/mineralessentials/reference/Reference.java.html">Reference</a>.MOD_ID, logLevel, String.valueOf(object)); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">all(Object object) 
+    { 
+        log(Level.ALL, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">debug(Object object) 
+    { 
+        log(Level.DEBUG, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">error(Object object) 
+    { 
+        log(Level.ERROR, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">fatal(Object object) 
+    { 
+        log(Level.FATAL, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">info(Object object) 
+    { 
+        log(Level.INFO, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">off(Object object) 
+    { 
+        log(Level.OFF, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">trace(Object object) 
+    { 
+        log(Level.TRACE, object); 
+    } 
+    </span><span class="s0">public static void </span><span class="s1">warn(Object object) 
+    { 
+        log(Level.WARN, object); 
+    } 
+}</span></pre>
+</body>
+</html>

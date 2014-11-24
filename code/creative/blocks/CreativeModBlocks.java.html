@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>CreativeModBlocks.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+CreativeModBlocks.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.creative.blocks; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/glass/blocks/BlockMECorpGlass.java.html">io.github.mecorp.mineralessentials.glass.blocks.BlockMECorpGlass</a></span><span class="s1">; 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.block.Block; 
+ 
+</span><span class="s0">public class </span><span class="s1">CreativeModBlocks 
+{ 
+    </span><span class="s0">public static </span><span class="s1">Block GreenScreen; 
+    </span><span class="s0">public static </span><span class="s1">Block BlueScreen; 
+    </span><span class="s0">public static </span><span class="s1">Block RedScreen; 
+    </span><span class="s0">public static </span><span class="s1">Block RandomBlock; 
+ 
+ 
+    </span><span class="s0">public static void </span><span class="s1">loadCreativeBlocks() 
+    {        
+        GreenScreen = </span><span class="s0">new <a href="BlockGreenScreen.java.html">BlockGreenScreen</a></span><span class="s1">().setBlockName(</span><span class="s2">&quot;GreenScreen&quot;</span><span class="s1">); 
+        <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerBlock(GreenScreen); 
+         
+        BlueScreen = </span><span class="s0">new <a href="BlockBlueScreen.java.html">BlockBlueScreen</a></span><span class="s1">().setBlockName(</span><span class="s2">&quot;BlueScreen&quot;</span><span class="s1">); 
+        <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerBlock(BlueScreen); 
+         
+        RedScreen = </span><span class="s0">new <a href="BlockRedScreen.java.html">BlockRedScreen</a></span><span class="s1">().setBlockName(</span><span class="s2">&quot;RedScreen&quot;</span><span class="s1">); 
+        <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerBlock(RedScreen); 
+ 
+        RandomBlock = </span><span class="s0">new <a href="BlockRandomBlock.java.html">BlockRandomBlock</a></span><span class="s1">().setBlockName(</span><span class="s2">&quot;RandomBlock&quot;</span><span class="s1">); 
+        <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerBlock(RandomBlock); 
+ 
+    } 
+ 
+} 
+</span></pre>
+</body>
+</html>

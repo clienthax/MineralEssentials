@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>IridiumItems.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+IridiumItems.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">io.github.mecorp.mineralessentials.iridium.items; 
+ 
+</span><span class="s0">import <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">io.github.mecorp.mineralessentials.utility.RegisterHelper</a></span><span class="s1">; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.Item; 
+</span><span class="s0">import </span><span class="s1">net.minecraft.item.ItemStack; 
+</span><span class="s0">import </span><span class="s1">net.minecraftforge.oredict.OreDictionary; 
+ 
+</span><span class="s0">public class </span><span class="s1">IridiumItems 
+{ 
+    </span><span class="s0">public static </span><span class="s1">Item IridiumIngot; 
+     
+    </span><span class="s0">public static void </span><span class="s1">RegisterIridiumItems() 
+    { 
+        IridiumIngot = </span><span class="s0">new <a href="ItemIridiumIngot.java.html">ItemIridiumIngot</a></span><span class="s1">(); 
+        <a href="../../../../../../io/github/mecorp/mineralessentials/utility/RegisterHelper.java.html">RegisterHelper</a>.registerItem(IridiumIngot); 
+        OreDictionary.registerOre(</span><span class="s2">&quot;ingotIridium&quot;</span><span class="s1">, </span><span class="s0">new </span><span class="s1">ItemStack(IridiumIngot)); 
+    } 
+} 
+</span></pre>
+</body>
+</html>
