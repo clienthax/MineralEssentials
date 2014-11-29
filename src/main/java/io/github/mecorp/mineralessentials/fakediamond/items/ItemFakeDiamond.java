@@ -1,6 +1,5 @@
 package io.github.mecorp.mineralessentials.fakediamond.items;
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECopper;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.item.Item;
 

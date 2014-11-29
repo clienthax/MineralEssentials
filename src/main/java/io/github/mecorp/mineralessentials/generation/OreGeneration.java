@@ -64,6 +64,7 @@ public class OreGeneration implements IWorldGenerator
 			int chunkZ = j + random.nextInt(16);
 			(new WorldGenMinable(CopperOre.CopperOre, 10)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
+
         for (int k = 0; k < 3; k++)
         {
             int chunkX = i + random.nextInt(16);
