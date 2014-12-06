@@ -1,7 +1,6 @@
 package io.github.mecorp.mineralessentials.creative.blocks;
 
-import io.github.mecorp.mineralessentials.glass.blocks.BlockMECorpGlass;
-import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.block.Block;
 
 public class CreativeModBlocks

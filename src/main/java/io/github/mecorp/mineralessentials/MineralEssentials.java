@@ -7,6 +7,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import io.github.mecorp.mineralessentials.cobalt.Cobalt;
 import io.github.mecorp.mineralessentials.copper.Copper;
 import io.github.mecorp.mineralessentials.creative.Creative;
@@ -16,14 +17,13 @@ import io.github.mecorp.mineralessentials.food.Food;
 import io.github.mecorp.mineralessentials.generation.ModGeneration;
 import io.github.mecorp.mineralessentials.glass.Glass;
 import io.github.mecorp.mineralessentials.handler.ConfigHandler;
+import io.github.mecorp.mineralessentials.client.gui.GuiHandeler;
 import io.github.mecorp.mineralessentials.iridium.Iridium;
 import io.github.mecorp.mineralessentials.machines.Machines;
 import io.github.mecorp.mineralessentials.proxy.CommonProxy;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import io.github.mecorp.mineralessentials.sheep.Sheep;
 import io.github.mecorp.mineralessentials.steel.Steel;
-import io.github.mecorp.mineralessentials.tin.Tin;
-import io.github.mecorp.mineralessentials.utility.LogHelper;
+import io.github.mecorp.mineralessentials.helper.LogHelper;
 import org.apache.logging.log4j.LogManager;
 
 /**
@@ -58,14 +58,13 @@ public class MineralEssentials
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
+        NetworkRegistry.INSTANCE.registerGuiHandler(instances, new GuiHandeler());
         Copper.RegisterCopper();
         Cobalt.RegisterCobalt();
         Iridium.RegisterIridium();
         Crystal.RegisterCrystal();
-        Tin.RegisterTin();
         Steel.RegisterSteel();
         Creative.RegisterCreative();
-        Sheep.RegisterSheep();
         FakeDiamond.RegisterDiamond();
         Glass.RegisterGlass();
         Food.RegisterFood();

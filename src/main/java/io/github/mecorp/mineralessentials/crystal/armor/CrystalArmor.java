@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.armor;
 
-import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;

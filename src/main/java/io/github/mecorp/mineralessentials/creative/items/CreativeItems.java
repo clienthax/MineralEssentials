@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.creative.items;
 
-import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.item.Item;
 
 /**

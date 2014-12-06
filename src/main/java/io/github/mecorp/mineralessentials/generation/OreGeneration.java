@@ -5,7 +5,7 @@ import io.github.mecorp.mineralessentials.cobalt.ore.CobaltOres;
 import io.github.mecorp.mineralessentials.copper.ore.CopperOre;
 import io.github.mecorp.mineralessentials.fakediamond.ore.FakeDiamondOre;
 import io.github.mecorp.mineralessentials.iridium.ore.IridiumOres;
-import io.github.mecorp.mineralessentials.tin.ore.TinOre;
+//import io.github.mecorp.mineralessentials.tin.ore.TinOre;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
@@ -49,13 +49,14 @@ public class OreGeneration implements IWorldGenerator
 			(new WorldGenMinable(CobaltOres.CobaltOre, 5)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
 		
-		for (int k = 0; k < 20; k++)
+		/*for (int k = 0; k < 20; k++)
 		{
 			int chunkX = i + random.nextInt(16);
 			int chunkY = random.nextInt(64);
 			int chunkZ = j + random.nextInt(16);
 			(new WorldGenMinable(TinOre.TinOre, 10)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
+		*/
 		
 		for (int k = 0; k < 20; k++)
 		{

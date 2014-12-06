@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.machines.furnaces;
 
-import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.block.Block;
 
 /**

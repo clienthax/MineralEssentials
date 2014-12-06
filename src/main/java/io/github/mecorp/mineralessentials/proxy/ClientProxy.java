@@ -3,7 +3,7 @@ package io.github.mecorp.mineralessentials.proxy;
 
 import com.jadarstudios.developercapes.DevCapes;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import io.github.mecorp.mineralessentials.utility.LogHelper;
+import io.github.mecorp.mineralessentials.helper.LogHelper;
 
 public class ClientProxy extends CommonProxy
 {

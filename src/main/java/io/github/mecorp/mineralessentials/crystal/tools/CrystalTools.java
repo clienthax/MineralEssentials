@@ -1,6 +1,6 @@
 package io.github.mecorp.mineralessentials.crystal.tools;
 
-import io.github.mecorp.mineralessentials.utility.RegisterHelper;
+import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
