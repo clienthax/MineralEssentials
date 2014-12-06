@@ -6,8 +6,5 @@ import io.github.mecorp.mineralessentials.machines.furnaces.TileEntityMultiSmelt
 
 public class ServerProxy extends CommonProxy
 {
-    public void registerTileEntities()
-    {
-        GameRegistry.registerTileEntity(TileEntityMultiSmelterBlock.class, TileEntityMultiSmelterBlock.publicName);
-    }
+
 }

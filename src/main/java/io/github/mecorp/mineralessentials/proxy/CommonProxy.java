@@ -12,7 +12,7 @@ public class CommonProxy
 
     public void registerTileEntities()
     {
-       
+        GameRegistry.registerTileEntity(TileEntityMultiSmelterBlock.class, TileEntityMultiSmelterBlock.publicName);
     }
 }
 ;
