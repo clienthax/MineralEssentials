@@ -10,8 +10,8 @@ public class BlockBlueScreen  extends Block
 	public BlockBlueScreen()
 	{
 		super(Material.rock);
-		setBlockName("BlueScreen");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("BlueScreen");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabs.tabAllSearch);
 		setLightLevel(1.0F);
 		setBlockUnbreakable();

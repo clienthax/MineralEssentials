@@ -10,8 +10,8 @@ public class BlockRedScreen  extends Block
 	public BlockRedScreen()
 	{
 		super(Material.rock);
-		setBlockName("RedScreen");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("RedScreen");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabs.tabAllSearch);
 		setLightLevel(1.0F);
 		setBlockUnbreakable();

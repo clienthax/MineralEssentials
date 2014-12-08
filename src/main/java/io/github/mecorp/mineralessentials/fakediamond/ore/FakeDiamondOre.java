@@ -10,7 +10,7 @@ public class FakeDiamondOre
 		public static Block FakeDiamondOre;
 		public static void RegisterFakeDiamondOres()
 		{
-            FakeDiamondOre = new BlockFakeDiamondOre().setBlockName("FakeDiamondOre");
+            FakeDiamondOre = new BlockFakeDiamondOre().setUnlocalizedName("FakeDiamondOre");
 			RegisterHelper.registerBlock(FakeDiamondOre);
 		}
 

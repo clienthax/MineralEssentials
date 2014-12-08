@@ -10,8 +10,8 @@ public class BlockCobaltBlock extends Block
 	public BlockCobaltBlock()
 	{
 		super(Material.rock);
-		setBlockName("CobaltBlock");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("CobaltBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
         setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);

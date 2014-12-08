@@ -12,7 +12,7 @@ public class FurnaceBlocks
 
     public static void RegisterFurnaceBlocks()
     {
-        MultiSmelterBlock = new BlockMultiSmelter().setBlockName("MultiSmelterBlock");
+        MultiSmelterBlock = new BlockMultiSmelter().setUnlocalizedName("MultiSmelterBlock");
         RegisterHelper.registerBlock(MultiSmelterBlock);
     }
 }

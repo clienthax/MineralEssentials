@@ -9,7 +9,7 @@ public class CobaltBlocks
 
 	public static void RegisterCobaltBlocks()
 	{
-		CobaltBlock = new BlockCobaltBlock().setBlockName("CobaltBlock");
+		CobaltBlock = new BlockCobaltBlock().setUnlocalizedName("CobaltBlock");
 		RegisterHelper.registerBlock(CobaltBlock);
 	}
 }

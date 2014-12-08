@@ -11,8 +11,8 @@ public class BlockSteelOre extends Block
 	public BlockSteelOre()
 	{
 		super(Material.rock);
-		setBlockName("SteelOre");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("SteelOre");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);

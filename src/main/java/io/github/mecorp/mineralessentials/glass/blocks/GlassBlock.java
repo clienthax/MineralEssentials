@@ -17,11 +17,11 @@ public class GlassBlock
 
     public static void RegisterGlassBlocks()
     {
-        ClearGlassBlock = new BlockGlassBlock().setBlockName("ClearGlassBlock");
+        ClearGlassBlock = new BlockGlassBlock().setUnlocalizedName("ClearGlassBlock");
         RegisterHelper.registerBlock(ClearGlassBlock);
         OreDictionary.registerOre("blockGlass", new ItemStack(ClearGlassBlock));
 
-        MECorpClearGlass = new BlockMECorpGlass().setBlockName("MECorpClearGlass");
+        MECorpClearGlass = new BlockMECorpGlass().setUnlocalizedName("MECorpClearGlass");
         RegisterHelper.registerBlock(MECorpClearGlass);
         OreDictionary.registerOre("blockGlass", new ItemStack(MECorpClearGlass));
     }

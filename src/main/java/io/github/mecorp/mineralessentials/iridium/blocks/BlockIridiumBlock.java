@@ -11,8 +11,8 @@ public class BlockIridiumBlock extends Block
 	public BlockIridiumBlock()
 	{
 		super(Material.rock);
-		setBlockName("IridiumBlock");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("IridiumBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);

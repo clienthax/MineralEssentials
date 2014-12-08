@@ -15,8 +15,8 @@ public class BlockGlassBlock extends Block
     public BlockGlassBlock()
     {
         super(Material.glass);
-        setBlockName("GlassBlock");
-        setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("GlassBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
         setCreativeTab(CreativeTabMECorp.MECorp);
         setStepSound(soundTypeGlass);
         setHardness(5.0F);

@@ -11,8 +11,8 @@ public class BlockCopperBlock extends Block
 	public BlockCopperBlock()
 	{
 		super(Material.rock);
-		setBlockName("CopperBlock");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("CopperBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);

@@ -13,16 +13,16 @@ public class CreativeModBlocks
 
 	public static void loadCreativeBlocks()
 	{		
-		GreenScreen = new BlockGreenScreen().setBlockName("GreenScreen");
+		GreenScreen = new BlockGreenScreen().setUnlocalizedName("GreenScreen");
 		RegisterHelper.registerBlock(GreenScreen);
 		
-		BlueScreen = new BlockBlueScreen().setBlockName("BlueScreen");
+		BlueScreen = new BlockBlueScreen().setUnlocalizedName("BlueScreen");
 		RegisterHelper.registerBlock(BlueScreen);
 		
-		RedScreen = new BlockRedScreen().setBlockName("RedScreen");
+		RedScreen = new BlockRedScreen().setUnlocalizedName("RedScreen");
 		RegisterHelper.registerBlock(RedScreen);
 
-        RandomBlock = new BlockRandomBlock().setBlockName("RandomBlock");
+        RandomBlock = new BlockRandomBlock().setUnlocalizedName("RandomBlock");
         RegisterHelper.registerBlock(RandomBlock);
 
 	}

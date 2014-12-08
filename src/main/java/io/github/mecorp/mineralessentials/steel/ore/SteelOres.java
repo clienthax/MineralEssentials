@@ -9,7 +9,7 @@ public class SteelOres {
 	public static Block SteelOre;
 	public static void RegisterSteelOres()
 	{
-		SteelOre = new BlockSteelOre().setBlockName("SteelOre");
+		SteelOre = new BlockSteelOre().setUnlocalizedName("SteelOre");
 		RegisterHelper.registerBlock(SteelOre);
         OreDictionary.registerOre("oreSteel", new ItemStack(SteelOre));
 	}

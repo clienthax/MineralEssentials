@@ -17,8 +17,8 @@ public class BlockMultiSmelter extends Block implements ITileEntityProvider
     public BlockMultiSmelter()
     {
         super(Material.rock);
-        setBlockName("MultiSmelterBlock");
-        setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("MultiSmelterBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
         setCreativeTab(CreativeTabMECorp.MECorp);
         setStepSound(soundTypePiston);
         setHardness(3.5F);

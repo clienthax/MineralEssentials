@@ -15,8 +15,8 @@ public class BlockMECorpGlass extends Block
     public BlockMECorpGlass()
     {
         super(Material.rock);
-        setBlockName("MECorpGlass");
-        setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+        setUnlocalizedName("MECorpGlass");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
         setCreativeTab(CreativeTabMECorp.MECorp);
         setLightLevel(1.0F);
         setBlockUnbreakable();

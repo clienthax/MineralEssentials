@@ -9,7 +9,7 @@ public class IridiumBlocks
 
 	public static void RegisterIridiumBlocks()
 	{
-		IridiumBlock = new BlockIridiumBlock().setBlockName("IridiumBlock");
+		IridiumBlock = new BlockIridiumBlock().setUnlocalizedName("IridiumBlock");
 		RegisterHelper.registerBlock(IridiumBlock);
 	}
 }

@@ -12,7 +12,7 @@ public class CopperOre
 		public static Block CopperOre;
 		public static void RegisterCopperOres()
 		{
-			CopperOre = new BlockCopperOre().setBlockName("CopperOre");
+			CopperOre = new BlockCopperOre().setUnlocalizedName("CopperOre");
 			RegisterHelper.registerBlock(CopperOre);
             OreDictionary.registerOre("oreCopper", new ItemStack(CopperOre));
 		}

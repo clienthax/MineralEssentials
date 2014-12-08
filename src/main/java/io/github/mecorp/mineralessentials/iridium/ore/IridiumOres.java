@@ -9,7 +9,7 @@ public class IridiumOres {
 	public static Block IridiumOre;
 	public static void RegisterIridiumOres()
 	{
-		IridiumOre = new BlockIridiumOre().setBlockName("IridiumOre");
+		IridiumOre = new BlockIridiumOre().setUnlocalizedName("IridiumOre");
 		RegisterHelper.registerBlock(IridiumOre);
         OreDictionary.registerOre("oreIridium", new ItemStack(IridiumOre));
 	}

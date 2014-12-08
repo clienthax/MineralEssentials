@@ -9,7 +9,7 @@ public class CobaltOres {
 	public static Block CobaltOre;
 	public static void RegisterCobaltOres()
 	{
-		CobaltOre = new BlockCobaltOre().setBlockName("CobaltOre");
+		CobaltOre = new BlockCobaltOre().setUnlocalizedName("CobaltOre");
 		RegisterHelper.registerBlock(CobaltOre);
         OreDictionary.registerOre("oreCobalt", new ItemStack(CobaltOre));
 	}

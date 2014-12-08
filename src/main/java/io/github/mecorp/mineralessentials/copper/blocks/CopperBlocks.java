@@ -10,7 +10,7 @@ public class CopperBlocks
 
 		public static void RegisterCopperBlocks()
 		{
-			CopperBlock = new BlockCopperBlock().setBlockName("CopperBlock");
+			CopperBlock = new BlockCopperBlock().setUnlocalizedName("CopperBlock");
 			RegisterHelper.registerBlock(CopperBlock);
 		}
 }

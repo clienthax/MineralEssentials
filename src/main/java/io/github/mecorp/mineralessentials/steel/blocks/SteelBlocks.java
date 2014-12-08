@@ -9,7 +9,7 @@ public class SteelBlocks
 
 	public static void RegisterSteelBlocks()
 	{
-		SteelBlock = new BlockSteelBlock().setBlockName("SteelBlock");
+		SteelBlock = new BlockSteelBlock().setUnlocalizedName("SteelBlock");
 		RegisterHelper.registerBlock(SteelBlock);
 	}
 }

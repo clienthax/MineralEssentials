@@ -11,8 +11,8 @@ public class BlockGreenScreen extends Block
 	public BlockGreenScreen()
 	{
 		super(Material.rock);
-		setBlockName("GreenScreen");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("GreenScreen");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabs.tabAllSearch);
 		setLightLevel(1.0F);
 		setBlockUnbreakable();

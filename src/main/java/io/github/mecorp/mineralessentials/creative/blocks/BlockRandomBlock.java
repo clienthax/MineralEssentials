@@ -10,8 +10,8 @@ public class BlockRandomBlock  extends Block
     public BlockRandomBlock()
     {
         super(Material.rock);
-        setBlockName("RandomBlock");
-        setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("RandomBlock");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
         setCreativeTab(CreativeTabs.tabAllSearch);
         setLightLevel(1.0F);
         setBlockUnbreakable();

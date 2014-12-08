@@ -11,8 +11,8 @@ public class BlockCopperOre extends Block
 	public BlockCopperOre()
 	{
 		super(Material.rock);
-		setBlockName("CopperOre");
-		setBlockTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
+		setUnlocalizedName("CopperOre");
+		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabMECorp.MECorp);
 		setHardness(5.0F);
 		setResistance(10.0F);
