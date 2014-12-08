@@ -38,5 +38,5 @@ public class ItemCopperArmor extends ItemArmor
 	public CreativeTabs getCreativeTab()
 	{
 		return CreativeTabMECorp.MECorp;
-	};
+	}
 }

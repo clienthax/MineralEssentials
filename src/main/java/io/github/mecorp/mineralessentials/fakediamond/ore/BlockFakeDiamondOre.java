@@ -4,8 +4,6 @@ import io.github.mecorp.mineralessentials.fakediamond.items.FakeDiamondItems;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 import java.util.Random;

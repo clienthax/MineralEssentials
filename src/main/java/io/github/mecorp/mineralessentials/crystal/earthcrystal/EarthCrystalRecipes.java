@@ -13,64 +13,54 @@ public class EarthCrystalRecipes
 {
 	public static void RegisterEarthCrystalRecipes(){
 
-       	GameRegistry.addRecipe(new ItemStack(EarthCrystalItems.EarthCrystalCrystal), new Object[]{
-			  " X ",
-			  "XCX",
-			  " X ",
-			  'X', Blocks.dirt, 'C', CrystalItems.CrystalCrystal});
+       	GameRegistry.addRecipe(new ItemStack(EarthCrystalItems.EarthCrystalCrystal), " X ",
+				"XCX",
+				" X ",
+				'X', Blocks.dirt, 'C', CrystalItems.CrystalCrystal);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalPickaxe), new Object[]{
-                "XXX",
-                " C ",
-                " C ",
-                'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalPickaxe), "XXX",
+				" C ",
+				" C ",
+				'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalAxe), new Object[]{
-                "XX ",
-                "XC ",
-                " C ",
-                'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalAxe), "XX ",
+				"XC ",
+				" C ",
+				'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalHoe), new Object[]{
-                "XX ",
-                " C ",
-                " C ",
-                'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalHoe), "XX ",
+				" C ",
+				" C ",
+				'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalShovel), new Object[]{
-                " X ",
-                " C ",
-                " C ",
-                'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalShovel), " X ",
+				" C ",
+				" C ",
+				'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalSword), new Object[]{
-                " X ",
-                " X ",
-                " C ",
-                'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalTools.EarthCrystalSword), " X ",
+				" X ",
+				" C ",
+				'X', EarthCrystalItems.EarthCrystalCrystal, 'C', Items.stick);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalHelmet), new Object[]{
-                "XXX",
-                "X X",
-                "   ",
-                'X', EarthCrystalItems.EarthCrystalCrystal});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalHelmet), "XXX",
+				"X X",
+				"   ",
+				'X', EarthCrystalItems.EarthCrystalCrystal);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalChestplate), new Object[]{
-                "X X",
-                "XXX",
-                "XXX",
-                'X', EarthCrystalItems.EarthCrystalCrystal});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalChestplate), "X X",
+				"XXX",
+				"XXX",
+				'X', EarthCrystalItems.EarthCrystalCrystal);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalPants), new Object[]{
-                "XXX",
-                "X X",
-                "X X",
-                'X', EarthCrystalItems.EarthCrystalCrystal});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalPants), "XXX",
+				"X X",
+				"X X",
+				'X', EarthCrystalItems.EarthCrystalCrystal);
 
-        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalBoots), new Object[]{
-                "   ",
-                "X X",
-                "X X",
-                'X', EarthCrystalItems.EarthCrystalCrystal});
+        GameRegistry.addRecipe(new ItemStack(EarthCrystalArmor.EarthCrystalBoots), "   ",
+				"X X",
+				"X X",
+				'X', EarthCrystalItems.EarthCrystalCrystal);
 	}
 }

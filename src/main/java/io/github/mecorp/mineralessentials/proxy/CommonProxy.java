@@ -15,4 +15,3 @@ public class CommonProxy
         GameRegistry.registerTileEntity(TileEntityMultiSmelterBlock.class, TileEntityMultiSmelterBlock.publicName);
     }
 }
-;

@@ -4,7 +4,6 @@ import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockCopperBlock extends Block 
 {

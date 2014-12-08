@@ -2,11 +2,7 @@ package io.github.mecorp.mineralessentials.crystal.aircrystal.tools;
 
 import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
-import net.minecraft.world.World;
 
 
 public class ItemAirCrystalSword extends ItemSword

@@ -2,7 +2,6 @@ package io.github.mecorp.mineralessentials.steel.tools;
 
 import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
 import io.github.mecorp.mineralessentials.reference.Reference;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
 
 public class ItemSteelAxe extends ItemAxe

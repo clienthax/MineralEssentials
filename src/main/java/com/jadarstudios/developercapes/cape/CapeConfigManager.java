@@ -78,7 +78,7 @@ public class CapeConfigManager {
     }
 
     public int getIdForConfig(CapeConfig config) {
-        return this.configs.inverse().get(config).intValue();
+        return this.configs.inverse().get(config);
     }
 
     public static int getUniqueId() {
@@ -109,7 +109,7 @@ public class CapeConfigManager {
         CapeConfig instance = new CapeConfig();
 
         try {
-            Map<String, Object> entries = new Gson().fromJson(config, Map.class);
+            @SuppressWarnings("unchecked") Map<String, Object> entries = new Gson().fromJson(config, Map.class);
 
             for (Map.Entry<String, Object> entry : entries.entrySet()) {
                 final String nodeName = entry.getKey();
@@ -129,7 +129,7 @@ public class CapeConfigManager {
     }
     
     protected void parseGroup(CapeConfig config, String node, Map group){
-        Group g = GroupManager.getInstance().parse(node, group);
+        @SuppressWarnings("unchecked") Group g = GroupManager.getInstance().parse(node, group);
         if (g != null) {
         	config.groups.put(g.name, g);
         }

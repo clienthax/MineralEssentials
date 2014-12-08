@@ -55,7 +55,7 @@ public class UserManager {
     }
 
     public User newUser(String username) {
-        User user = null;
+        User user;
         if (this.users.containsKey(username)) {
             user = this.getUser(username);
         } else {
